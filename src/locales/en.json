@@ -188,97 +188,139 @@
     },
     "allFiringCharactersGuide": {
       "title": "All Firing Characters Guide",
-      "intro": "Review launch characters by role and combat function to build a balanced three-character lineup.",
+      "intro": "Meet the launch companions by affinity and role so you can build clearer three-character teams for story progression and boss stages.",
       "items": [
         {
           "name": "Rozeul",
-          "role": "Thunder Main DPS"
-        },
-        {
-          "name": "Sion",
-          "role": "Wind Support / Sub DPS"
-        },
-        {
-          "name": "Felgia",
-          "role": "Wind Sustained DPS"
+          "role": "Thunder Main DPS / Tactical Intel"
         },
         {
           "name": "Kirika",
-          "role": "Fire DPS"
+          "role": "Fire DPS / Vanguard"
+        },
+        {
+          "name": "Nayeh",
+          "role": "Ice Support / Striker"
+        },
+        {
+          "name": "Herfwin",
+          "role": "Dark Tank / Bruiser"
+        },
+        {
+          "name": "Felgia",
+          "role": "Wind Sustained DPS / Utility"
+        },
+        {
+          "name": "Sion",
+          "role": "Wind Sub DPS / Support"
         },
         {
           "name": "Ilscha",
           "role": "Ice Burst DPS"
         },
         {
-          "name": "Nayeh",
-          "role": "Ice Support"
+          "name": "Lyra",
+          "role": "Wind Scholar / Researcher"
         }
       ]
     },
     "allFiringTeamBuildingGuide": {
       "title": "All Firing Team Building Guide",
-      "intro": "Build teams around role balance, switch rhythm, and element coverage instead of single-unit focus.",
+      "intro": "Use role balance, switch rhythm, and element coverage to make your three-character lineup stable across story, bosses, and event fights.",
       "items": [
         {
-          "name": "Balanced Story Team",
-          "description": "Main DPS + sub DPS + support for stable daily clears."
+          "name": "Basic Three-Character Core",
+          "description": "Main DPS plus support or sub DPS and a flexible third slot for utility or survivability."
         },
         {
-          "name": "Boss Damage Team",
-          "description": "Burst carry plus debuff support for short damage windows."
+          "name": "Rozeul + Sion Starter Core",
+          "description": "Use Rozeul for primary Thunder damage and Sion to maintain pressure between swaps."
         },
         {
-          "name": "Safe Progress Team",
-          "description": "Sustained DPS with defensive utility for low-risk progression."
+          "name": "Dual-Wind Progression Setup",
+          "description": "Pair Felgia and Sion for steady Wind pressure, then add a carry for stage-specific damage."
+        },
+        {
+          "name": "Ice Burst Setup",
+          "description": "Ilscha plus Nayeh provides stronger burst windows when investing into Ice-focused builds."
+        },
+        {
+          "name": "Fire Coverage Flex",
+          "description": "Kirika can slot into mixed teams whenever Fire coverage is needed for a stage."
+        },
+        {
+          "name": "Survival-Friendly Lineup",
+          "description": "Add Herfwin as the third slot when you need safer clears and stronger frontline stability."
         }
       ]
     },
     "allFiringCombatGuide": {
       "title": "All Firing Combat Guide",
-      "intro": "Master switch timing, skill chaining, and target control to clear encounters with fewer resets.",
+      "intro": "Learn the core battle flow: positioning, attack chaining, real-time switching, and ultimate timing for cleaner clears.",
       "steps": [
         {
-          "title": "Open with control or setup skill",
-          "description": "Start each encounter by creating a safe action window."
+          "title": "Enter with a Balanced Team",
+          "description": "Start with one damage dealer, one support slot, and one flexible safety slot for smoother early clears."
         },
         {
-          "title": "Rotate into burst damage quickly",
-          "description": "Use switch timing to convert setup into efficient damage cycles."
+          "title": "Use Movement Before Long Combos",
+          "description": "Position first with movement and jumps, then commit to attack strings once the lane is safe."
         },
         {
-          "title": "Preserve dodge windows",
-          "description": "Avoid over-committing during long boss telegraphs."
+          "title": "Chain Normal Attacks into Skills",
+          "description": "Use normal attacks to maintain pressure, then convert into skills for stronger burst windows."
         },
         {
-          "title": "Reset to support utility between waves",
-          "description": "Rebuild buffs and cooldown flow before committing again."
+          "title": "Switch Characters in Real Time",
+          "description": "Swap between teammates to keep combo flow, avoid bad matchups, and bring in the right role."
+        },
+        {
+          "title": "Read Enemy Attack Patterns",
+          "description": "Watch telegraphs, move early, and avoid standing still after skill use to reduce avoidable damage."
+        },
+        {
+          "title": "Save Ultimates for Hard Moments",
+          "description": "Use ultimate skills for bosses or dangerous waves instead of spending them on weak enemies."
+        },
+        {
+          "title": "Explore Stage Routes While Clearing",
+          "description": "Check side paths, puzzle objects, and hidden spots for extra rewards that accelerate progression."
         }
       ]
     },
     "allFiringDownloadLaunchGuide": {
       "title": "All Firing Download and Launch Guide",
-      "intro": "Use official channels for install, account setup, and launch-event tracking across supported platforms.",
+      "intro": "Use official store pages and channels for downloads, compatibility checks, and launch update tracking.",
       "rows": [
         {
-          "platform": "Official Website",
-          "note": "News, events, and announcement hub",
-          "url": "https://allfiring.genmugame.com/"
-        },
-        {
-          "platform": "Google Play",
-          "note": "Android download page",
+          "platform": "Android",
+          "note": "Download from Google Play and confirm device compatibility before install.",
           "url": "https://play.google.com/store/apps/details?id=com.genmugame.prometheus"
         },
         {
-          "platform": "App Store",
-          "note": "iOS download page",
+          "platform": "iPhone and iPad",
+          "note": "Install from the App Store; iOS 12.0 or later and iPadOS 12.0 or later are required.",
           "url": "https://apps.apple.com/us/app/allfiring/id6759645105"
         },
         {
-          "platform": "Official Discord",
-          "note": "Community updates and discussion",
-          "url": "https://discord.gg/Bps5JRkSgQ"
+          "platform": "Mac",
+          "note": "App Store compatibility supports macOS 11.0 or later on Apple Silicon devices.",
+          "url": "https://apps.apple.com/us/app/allfiring/id6759645105"
+        },
+        {
+          "platform": "PC or Mac Emulator",
+          "note": "Use MuMuPlayer and install All Firing through Google Play inside the emulator.",
+          "url": "https://www.mumuplayer.com/blog/allfiring-beginner-guide.html"
+        },
+        {
+          "platform": "Launch Timing",
+          "note": "All Firing launched globally on May 14, 2026 for Android and iOS.",
+          "url": "https://game8.co/articles/release-dates/allfiring-release-date-and-time"
+        },
+        {
+          "platform": "Official Updates",
+          "note": "Follow the official website and communities for events, support, and patch notices.",
+          "url": "https://allfiring.genmugame.com/"
         }
       ]
     }
