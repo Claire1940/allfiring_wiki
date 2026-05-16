@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Anime Side-Scroller Action RPG",
+    "title": "All Firing Wiki",
+    "description": "Explore All Firing guides for codes, reroll targets, character tier lists, team builds, launch events, voxel exploration, hidden paths, and boss combat.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnMobileCTA": "Play on iOS & Android",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "May 14, 2026",
+        "label": "Global Launch"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "iOS / Android",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3",
+        "label": "Launch Events"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "3-Character",
+        "label": "Team Switching"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Join All Firing?",
+    "description": "Follow official All Firing channels for events, updates, and community discussions.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Visit Official Website"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "All Firing Wiki",
+    "description": "Your complete resource hub for All Firing codes, tier lists, reroll guides, team builds, and event updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "facebook": "Facebook",
+    "officialWebsite": "Official Website",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 All Firing Wiki. Not affiliated with the developers of ALLfiring.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
