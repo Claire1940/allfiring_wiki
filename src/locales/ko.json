@@ -1,12 +1,549 @@
 {
+  "seo": {
+    "home": {
+      "title": "All Firing 위키 - 코드, 티어 목록 및 초보자 가이드",
+      "description": "All Firing 위키는 iOS 및 Android 플레이어를 위한 코드, 티어 목록, 리롤 대상, 캐릭터, 팀 빌드, 전투 팁 및 다운로드 링크를 다룹니다.",
+      "keywords": "All Firing, allfiring, 코드, 티어 목록, 리롤, 캐릭터, 팀 빌딩, 전투 가이드",
+      "ogTitle": "All Firing 위키 - 코드, 티어 목록 및 초보자 가이드",
+      "ogDescription": "All Firing 위키는 iOS 및 Android 플레이어를 위한 코드, 티어 목록, 리롤 대상, 캐릭터, 팀 빌드, 전투 팁 및 다운로드 링크를 다룹니다.",
+      "twitterTitle": "All Firing 위키 - 코드, 티어 목록 및 초보자 가이드",
+      "twitterDescription": "활성 코드, 초보자 팁, 리롤 우선순위 및 캐릭터 팀 가이드가 포함된 All Firing 위키."
+    }
+  },
   "nav": {
-    "guide": "Guide",
-    "codes": "Codes",
-    "release": "Release",
-    "platforms": "Platforms",
-    "gacha": "Gacha",
-    "reroll": "Reroll",
-    "tier": "Tier",
-    "characters": "Characters"
+    "guide": "가이드",
+    "codes": "코드",
+    "release": "출시",
+    "platforms": "플랫폼",
+    "gacha": "가챠",
+    "reroll": "리롤",
+    "tier": "티어",
+    "characters": "캐릭터"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "Steam에서 플레이",
+    "switchLanguage": "언어 전환",
+    "switchTheme": "테마 전환",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 기사",
+    "readMore": "더 읽기",
+    "articlesComingSoon": "기사가 곧 제공됩니다"
+  },
+  "hero": {
+    "badge": "애니메이션 횡스크롤 액션 RPG",
+    "title": "All Firing 위키",
+    "description": "활성 코드, 초보자 진행, 리롤 대상, 캐릭터 팀 및 전투 경로에 대한 All Firing 가이드를 탐색하십시오.",
+    "getFreeCodesCTA": "무료 코드 받기",
+    "playOnMobileCTA": "iOS 및 Android에서 플레이",
+    "stats": {
+      "stat1": {
+        "value": "2026년 5월 14일",
+        "label": "글로벌 출시"
+      },
+      "stat2": {
+        "value": "iOS / Android",
+        "label": "플랫폼"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "출시 이벤트"
+      },
+      "stat4": {
+        "value": "3-캐릭터",
+        "label": "팀 전환"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "All Firing 게임플레이",
+    "description": "Steam에서 즐기는 이 몽환적인 복셀 샌드박스 게임에서 초현실적인 생태계를 탐험하고, Apotheosis로 아이템을 융합하며, 기이한 생명체들 사이에서 살아남으세요."
+  },
+  "tools": {
+    "title": "All Firing",
+    "titleHighlight": "네비게이션",
+    "subtitle": "클릭 한 번으로 모든 핵심 All Firing 모듈로 이동하세요",
+    "cards": [
+      {
+        "title": "All Firing 쿠폰 코드",
+        "description": "활성 리딤 코드 및 보상 참고 사항"
+      },
+      {
+        "title": "All Firing 초보자 가이드",
+        "description": "첫날 진행 방식 및 자원 우선순위"
+      },
+      {
+        "title": "All Firing 티어 리스트",
+        "description": "가장 먼저 육성해야 할 최고의 초반 캐릭터"
+      },
+      {
+        "title": "All Firing 리세마라 가이드",
+        "description": "최고의 스타터 목표 및 리세마라 흐름"
+      },
+      {
+        "title": "All Firing 캐릭터 가이드",
+        "description": "역할, 속성 및 로스터 개요"
+      },
+      {
+        "title": "All Firing 팀 편성 가이드",
+        "description": "3인 캐릭터 라인업 및 역할 밸런스"
+      },
+      {
+        "title": "All Firing 전투 가이드",
+        "description": "교체 타이밍, 버스트 구간 및 클리어 방법"
+      },
+      {
+        "title": "All Firing 다운로드 및 실행 가이드",
+        "description": "공식 링크 및 출시 플랫폼 참고 사항"
+      }
+    ]
+  },
+  "modules": {
+    "allFiringCodes": {
+      "title": "All Firing 쿠폰 코드",
+      "intro": "활성 All Firing 리딤 코드를 사용하여 출시 자원을 수령하고, 유료 재화를 사용하기 전에 우편함 보상을 확인하세요.",
+      "items": [
+        {
+          "code": "allfiring0515",
+          "reward": "출시 기념 인게임 보상",
+          "note": "초반 계정 성장을 위한 공식 출시 코드입니다."
+        },
+        {
+          "code": "vip777",
+          "reward": "무한의 스타더스트 x10",
+          "note": "초반 소환 계획에 유용합니다."
+        },
+        {
+          "code": "dc0515",
+          "reward": "무료 출시 보상",
+          "note": "리딤 코드를 입력하고 우편함을 통해 수령하세요."
+        },
+        {
+          "code": "Expired Codes",
+          "reward": "현재 목록에 없음",
+          "note": "만료된 코드는 이쪽으로 옮겨주세요."
+        }
+      ]
+    },
+    "allFiringBeginnerGuide": {
+      "title": "All Firing 초보자 가이드",
+      "intro": "튜토리얼 완료, 안정적인 팀 구성, 그리고 초반 재료 낭비를 피하기 위한 집중적인 업그레이드로 시작하세요.",
+      "steps": [
+        {
+          "title": "튜토리얼을 완료하고 보상을 받으세요",
+          "description": "메뉴를 잠금 해제하고, 출시 메일을 수집하고, 사용 가능한 코드를 교환하세요."
+        },
+        {
+          "title": "세 명으로 구성된 하나의 주요 팀을 만드세요",
+          "description": "하나의 캐리, 하나의 서브 딜러, 하나의 서포터를 사용하여 전투 흐름을 일관되게 유지하세요."
+        },
+        {
+          "title": "핵심 트리오에만 재료를 사용하세요",
+          "description": "초반 세션에서는 전체 로스터에 업그레이드를 분산하지 마세요."
+        },
+        {
+          "title": "각 맵의 사이드 경로를 탐험하세요",
+          "description": "숨겨진 경로와 퍼즐 노드는 추가 진행 자원을 제공합니다."
+        }
+      ]
+    },
+    "allFiringTierList": {
+      "title": "All Firing 티어 목록",
+      "intro": "이 출시 순위는 초반 진행 가치, 팀 적합성, 스토리 및 보스 클리어에서의 안정성에 중점을 둡니다.",
+      "tiers": [
+        {
+          "tier": "T0",
+          "name": "Rozeul",
+          "description": "강력한 초반 피해와 낮은 설정 요구 사항을 가진 신뢰할 수 있는 캐리입니다."
+        },
+        {
+          "tier": "T1",
+          "name": "Sion",
+          "description": "다양한 팀 스타일에 걸쳐 일관된 가치를 제공하는 유연한 서포터입니다."
+        },
+        {
+          "tier": "T1",
+          "name": "Felgia",
+          "description": "긴 전투에서 좋은 성능을 보이는 꾸준한 지속 딜러입니다."
+        }
+      ]
+    },
+    "allFiringRerollGuide": {
+      "title": "All Firing 리세마라 가이드",
+      "intro": "빠른 초반 진행과 안전한 스토리 클리어를 통해 더 강력한 출시 계정을 원할 때 리세마라를 하세요.",
+      "steps": [
+        {
+          "title": "튜토리얼을 완료하고 소환을 여세요",
+          "description": "리세마라를 결정하기 전에 메일, 이벤트, 소환 접근 권한에 도달하세요."
+        },
+        {
+          "title": "뽑기 전에 출시 보상을 받으세요",
+          "description": "모든 무료 티켓과 보상 화폐를 한 번에 사용하세요."
+        },
+        {
+          "title": "Rozeul과 서포트 가치를 목표로 하세요",
+          "description": "Rozeul과 Sion은 대부분의 계정에 실용적인 시작을 제공합니다."
+        },
+        {
+          "title": "안정적인 팀 방향으로 진행을 유지하세요",
+          "description": "하나의 좁은 높은 결과보다는 계정의 일관성을 우선시하세요."
+        }
+      ]
+    },
+    "allFiringCharactersGuide": {
+      "title": "All Firing 캐릭터 가이드",
+      "intro": "친화도와 역할별로 출시 동료들을 만나 스토리 진행 및 보스 스테이지를 위한 명확한 세 캐릭터 팀을 구성할 수 있습니다.",
+      "items": [
+        {
+          "name": "Rozeul",
+          "role": "번개 메인 딜러 / 전술 정보"
+        },
+        {
+          "name": "Kirika",
+          "role": "불 딜러 / 선봉"
+        },
+        {
+          "name": "Nayeh",
+          "role": "얼음 서포터 / 스트라이커"
+        },
+        {
+          "name": "Herfwin",
+          "role": "어둠 탱커 / 브루저"
+        },
+        {
+          "name": "Felgia",
+          "role": "바람 지속 딜러 / 유틸리티"
+        },
+        {
+          "name": "Sion",
+          "role": "바람 서브 딜러 / 서포터"
+        },
+        {
+          "name": "Ilscha",
+          "role": "얼음 버스트 딜러"
+        },
+        {
+          "name": "Lyra",
+          "role": "바람 학자 / 연구원"
+        }
+      ]
+    },
+    "allFiringTeamBuildingGuide": {
+      "title": "All Firing 팀 빌딩 가이드",
+      "intro": "역할 균형, 교체 리듬, 원소 커버리지를 활용하여 스토리, 보스, 이벤트 전투에서 안정적인 3인 라인업을 만드세요.",
+      "items": [
+        {
+          "name": "기본 3인 핵심",
+          "description": "메인 DPS와 서포터 또는 서브 DPS, 그리고 유틸리티 또는 생존력을 위한 유연한 세 번째 슬롯."
+        },
+        {
+          "name": "로젤 + 시온 스타터 핵심",
+          "description": "로젤을 주 번개 피해로 사용하고 시온을 사용하여 교체 사이에 압력을 유지하세요."
+        },
+        {
+          "name": "이중 바람 진행 설정",
+          "description": "펠기아와 시온을 짝지어 꾸준한 바람 압력을 가한 다음, 스테이지별 피해를 위해 캐리를 추가하세요."
+        },
+        {
+          "name": "얼음 폭발 설정",
+          "description": "일샤와 나예는 얼음 중심 빌드에 투자할 때 더 강력한 폭발 구간을 제공합니다."
+        },
+        {
+          "name": "불 커버리지 유연성",
+          "description": "키리카는 스테이지에 불 커버리지가 필요할 때마다 혼합 팀에 배치할 수 있습니다."
+        },
+        {
+          "name": "생존 친화적인 라인업",
+          "description": "더 안전한 클리어와 더 강력한 전선 안정성이 필요할 때 허프윈을 세 번째 슬롯에 추가하세요."
+        }
+      ]
+    },
+    "allFiringCombatGuide": {
+      "title": "All Firing 전투 가이드",
+      "intro": "핵심 전투 흐름을 배우세요: 포지셔닝, 공격 연쇄, 실시간 교체, 그리고 더 깔끔한 클리어를 위한 궁극기 타이밍.",
+      "steps": [
+        {
+          "title": "균형 잡힌 팀으로 입장",
+          "description": "더 부드러운 초기 클리어를 위해 한 명의 딜러, 한 명의 서포터 슬롯, 그리고 한 명의 유연한 안전 슬롯으로 시작하세요."
+        },
+        {
+          "title": "긴 콤보 전에 이동 사용",
+          "description": "이동과 점프로 먼저 위치를 잡은 다음, 레인이 안전해지면 공격 연쇄를 시작하세요."
+        },
+        {
+          "title": "일반 공격을 스킬로 연쇄",
+          "description": "일반 공격으로 압력을 유지한 다음, 스킬로 전환하여 더 강력한 폭발 구간을 만드세요."
+        },
+        {
+          "title": "실시간으로 캐릭터 교체",
+          "description": "팀원 간에 교체하여 콤보 흐름을 유지하고, 불리한 매치업을 피하고, 적절한 역할을 가져오세요."
+        },
+        {
+          "title": "적 공격 패턴 읽기",
+          "description": "예고를 주시하고, 일찍 움직이고, 스킬 사용 후 가만히 서 있지 않아 피할 수 있는 피해를 줄이세요."
+        },
+        {
+          "title": "어려운 순간을 위해 궁극기 아껴두기",
+          "description": "약한 적에게 궁극기를 사용하는 대신 보스나 위험한 웨이브를 위해 궁극기 스킬을 사용하세요."
+        },
+        {
+          "title": "클리어하면서 스테이지 경로 탐색",
+          "description": "진행을 가속화하는 추가 보상을 위해 옆길, 퍼즐 오브젝트, 숨겨진 장소를 확인하세요."
+        }
+      ]
+    },
+    "allFiringDownloadLaunchGuide": {
+      "title": "All Firing 다운로드 및 실행 가이드",
+      "intro": "다운로드, 호환성 확인, 출시 업데이트 추적을 위해 공식 스토어 페이지 및 채널을 사용하세요.",
+      "rows": [
+        {
+          "platform": "Android",
+          "note": "Google Play에서 다운로드하고 설치 전에 기기 호환성을 확인하세요.",
+          "url": "https://play.google.com/store/apps/details?id=com.genmugame.prometheus"
+        },
+        {
+          "platform": "iPhone 및 iPad",
+          "note": "App Store에서 설치하세요. iOS 12.0 이상 및 iPadOS 12.0 이상이 필요합니다.",
+          "url": "https://apps.apple.com/us/app/allfiring/id6759645105"
+        },
+        {
+          "platform": "Mac",
+          "note": "App Store 호환성은 Apple Silicon 기기에서 macOS 11.0 이상을 지원합니다.",
+          "url": "https://apps.apple.com/us/app/allfiring/id6759645105"
+        },
+        {
+          "platform": "PC 또는 Mac 에뮬레이터",
+          "note": "MuMuPlayer를 사용하고 에뮬레이터 내 Google Play를 통해 All Firing을 설치하세요.",
+          "url": "https://www.mumuplayer.com/blog/allfiring-beginner-guide.html"
+        },
+        {
+          "platform": "출시 시기",
+          "note": "All Firing은 2026년 5월 14일 Android 및 iOS용으로 전 세계에 출시되었습니다.",
+          "url": "https://game8.co/articles/release-dates/allfiring-release-date-and-time"
+        },
+        {
+          "platform": "공식 업데이트",
+          "note": "이벤트, 지원 및 패치 공지를 위해 공식 웹사이트 및 커뮤니티를 팔로우하세요.",
+          "url": "https://allfiring.genmugame.com/"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "All Firing 자주 묻는",
+    "titleHighlight": "질문",
+    "subtitle": "출시 초기 진행 중인 All Firing 플레이어를 위한 핵심 답변",
+    "questions": [
+      {
+        "question": "All Firing은 iOS와 안드로이드에서 이용 가능한가요?",
+        "answer": "네. All Firing은 공식 스토어를 통해 iOS와 안드로이드 모두에서 이용 가능합니다."
+      },
+      {
+        "question": "All Firing 코드는 어떻게 사용하나요?",
+        "answer": "설정을 열고 계정으로 이동하여 코드 사용을 선택한 후, 우편함에서 보상을 받으세요."
+      },
+      {
+        "question": "All Firing에서 리세마라가 필수인가요?",
+        "answer": "아니요. 리세마라는 선택 사항이지만, 더 강력하게 시작하고 싶다면 도움이 됩니다."
+      },
+      {
+        "question": "가장 좋은 첫 All Firing 팀 구성은 무엇인가요?",
+        "answer": "초반 클리어를 안정적으로 유지하려면 메인 딜러 1명, 서브 딜러 1명, 서포터 1명을 사용하세요."
+      },
+      {
+        "question": "All Firing 업데이트 소식은 어디서 확인할 수 있나요?",
+        "answer": "이벤트 및 패치 소식은 공식 웹사이트, 디스코드, 소셜 채널을 확인하세요."
+      }
+    ]
+  },
+  "cta": {
+    "title": "All Firing에 참여할 준비가 되셨나요?",
+    "description": "이벤트, 업데이트, 커뮤니티 토론을 위해 All Firing 공식 채널을 팔로우하세요.",
+    "joinCommunity": "공식 디스코드 참여하기",
+    "joinGame": "공식 웹사이트 방문하기"
+  },
+  "footer": {
+    "title": "All Firing 위키",
+    "description": "All Firing 코드, 티어표, 리세마라 가이드, 팀 빌드 및 이벤트 업데이트를 위한 종합 리소스 허브입니다.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "discord": "디스코드",
+    "twitter": "X / 트위터",
+    "facebook": "페이스북",
+    "officialWebsite": "공식 웹사이트",
+    "about": "소개",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 All Firing 위키. ALLfiring 개발사와 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 리소스 웹사이트입니다."
+  },
+  "pages": {
+    "guide": {
+      "title": "All Firing 가이드",
+      "description": "게임 플레이 기초, 진행 속도 조절, 출시 주간 우선순위에 대한 All Firing 가이드입니다.",
+      "metaTitle": "All Firing 가이드 - 초보자 팁, 진행 및 출시 기초",
+      "metaDescription": "초보자 흐름, 진행 체크포인트, 실질적인 출시 주간 조언을 위해 All Firing 가이드 허브를 읽어보세요.",
+      "categoryLabel": "가이드",
+      "whatIs": "가이드 카테고리는 무엇인가요?",
+      "whatIsDescription": "가이드 카테고리는 첫 세션 설정부터 꾸준한 진행 습관, 스테이지 경로 결정에 이르기까지 실질적인 All Firing 공략 콘텐츠를 정리합니다.",
+      "why": "왜 이 가이드 허브를 읽어야 하나요?",
+      "whySteps": {
+        "step1Title": "깔끔한 진행 계획으로 시작하세요",
+        "step1Description": "초반 스태미나, 강화 리소스, 잠금 해제 요소들을 효율적으로 사용할 수 있도록 체계적인 단계를 따르세요.",
+        "step2Title": "시행착오 시간 단축",
+        "step2Description": "검증된 경로와 전투 조언을 활용하여 막힘없이 핵심 콘텐츠를 더 빠르게 클리어하세요.",
+        "step3Title": "지속 가능한 계정 습관 형성",
+        "step3Description": "출시 후 일일 및 주간 진행을 안정적으로 유지하는 반복 가능한 루틴을 적용하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 가이드 기사"
+    },
+    "codes": {
+      "title": "All Firing 코드",
+      "description": "출시 보상, 청구 기간 및 교환 참고 사항에 대한 활성 All Firing 코드를 추적합니다.",
+      "metaTitle": "All Firing 코드 - 활성 보상 및 청구 참고 사항",
+      "metaDescription": "더 빠른 초기 계정 성장을 위해 활성 All Firing 코드, 교환 지침 및 보상 세부 정보를 찾으십시오.",
+      "categoryLabel": "코드",
+      "whatIs": "All Firing 코드는 무엇입니까?",
+      "whatIsDescription": "All Firing 코드는 통화, 업그레이드 아이템 또는 이벤트 리소스와 같은 무료 보상을 제공하는 공식 채널을 통해 출시되는 교환 가능한 프로모션 문자열입니다.",
+      "why": "코드를 정기적으로 확인해야 하는 이유는 무엇입니까?",
+      "whySteps": {
+        "step1Title": "시간 제한 보상을 빠르게 청구하세요",
+        "step1Description": "많은 출시 코드에는 짧은 기간이 있으므로 자주 확인하면 놓치는 무료 가치를 방지할 수 있습니다.",
+        "step2Title": "초기 진행 가속화",
+        "step2Description": "코드 보상은 첫 주 동안 소환, 업그레이드 및 스태미나 계획을 가속화할 수 있습니다.",
+        "step3Title": "만료되거나 중복된 청구 방지",
+        "step3Description": "중앙 집중식 추적은 유효하고 청구되지 않은 교환 항목에만 집중하는 데 도움이 됩니다."
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 코드"
+    },
+    "release": {
+      "title": "All Firing 출시",
+      "description": "All Firing 출시 시기 참조, 출시 기간 및 지역별 가용성 참고 사항.",
+      "metaTitle": "All Firing 출시 - 출시 날짜, 시간 및 지역 참고 사항",
+      "metaDescription": "시작 계획을 위해 All Firing 출시 시기, 출시 기간 및 지역 기반 출시 컨텍스트를 검토하십시오.",
+      "categoryLabel": "출시",
+      "whatIs": "출시 카테고리는 무엇입니까?",
+      "whatIsDescription": "출시 카테고리는 플레이어가 주요 출시 이정표를 중심으로 계정 시작을 계획할 수 있도록 출시 날짜 컨텍스트, 시기 참조 및 가용성 업데이트를 추적합니다.",
+      "why": "출시 업데이트를 따라야 하는 이유는 무엇입니까?",
+      "whySteps": {
+        "step1Title": "첫 로그인 기간 계획",
+        "step1Description": "출시 시기를 알면 리롤, 이벤트 시작 및 첫날 진행 상황을 계획하는 데 도움이 됩니다.",
+        "step2Title": "출시 차이 추적",
+        "step2Description": "지역 또는 플랫폼 시기 차이는 콘텐츠 또는 액세스 개방 시기에 영향을 미칠 수 있습니다.",
+        "step3Title": "출시 이벤트 준비",
+        "step3Description": "출시 범위는 이벤트 참가 및 초기 보상 수집의 우선 순위를 정하는 데 도움이 됩니다."
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 출시 기사"
+    },
+    "platforms": {
+      "title": "All Firing 플랫폼",
+      "description": "Android, iOS 및 호환 가능한 플레이 경로에 대한 All Firing 플랫폼 및 다운로드 지침.",
+      "metaTitle": "All Firing 플랫폼 - 다운로드 및 장치 액세스 가이드",
+      "metaDescription": "All Firing 플랫폼 옵션, 공식 다운로드 경로 및 장치 호환성 지침을 확인하십시오.",
+      "categoryLabel": "플랫폼",
+      "whatIs": "플랫폼 카테고리는 무엇입니까?",
+      "whatIsDescription": "플랫폼 카테고리는 All Firing을 설치할 수 있는 위치, 지원되는 장치 및 공식 다운로드 채널에 안전하게 액세스하는 방법을 다룹니다.",
+      "why": "플랫폼 가이드를 사용해야 하는 이유는 무엇입습니까?",
+      "whySteps": {
+        "step1Title": "올바른 설치 경로 선택",
+        "step1Description": "깨끗한 설치 및 계정 설정을 위해 플랫폼별 지침을 사용하십시오.",
+        "step2Title": "초기에 호환성 확인",
+        "step2Description": "장치 및 OS 검사는 출시 당일 설치 실패 또는 성능 문제를 줄입니다.",
+        "step3Title": "플레이 옵션 비교",
+        "step3Description": "플랫폼 범위는 모바일 기본 또는 에뮬레이터 기반 플레이 워크플로 중에서 결정하는 데 도움이 됩니다."
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 플랫폼 기사"
+    },
+    "gacha": {
+      "title": "All Firing 가챠",
+      "description": "배너, 소환 통화, 픽업 행동 및 보상 계획에 대한 All Firing 가챠 참조.",
+      "metaTitle": "All Firing 가챠 - 배너, 픽업 및 소환 계획",
+      "metaDescription": "All Firing 가챠 시스템, 배너 주기, 픽업 행동 및 소환 통화 우선순위를 이해합니다.",
+      "categoryLabel": "가챠",
+      "whatIs": "가챠 카테고리란 무엇인가요?",
+      "whatIsDescription": "가챠 카테고리는 All Firing 소환 시스템, 배너 가치 및 통화 사용 패턴을 설명하여 더 강력한 뽑기 계획을 세울 수 있도록 돕습니다.",
+      "why": "가챠 계획을 왜 연구해야 하나요?",
+      "whySteps": {
+        "step1Title": "프리미엄 통화 보호",
+        "step1Description": "시스템 지식은 비효율적인 뽑기를 피하고 우선순위 목표를 위한 자원을 보존하는 데 도움이 됩니다.",
+        "step2Title": "목표에 맞춰 배너 시기 조절",
+        "step2Description": "배너 및 픽업 맥락은 로스터 성장 및 역할 커버리지에 대한 의사 결정을 개선합니다.",
+        "step3Title": "장기적인 계정 가치 향상",
+        "step3Description": "구조화된 소환 계획은 출시 주간 이후에도 꾸준한 진행을 지원합니다."
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 가챠 기사"
+    },
+    "reroll": {
+      "title": "All Firing 리세마라",
+      "description": "빠른 리셋 흐름, 목표 우선순위 및 출시 계정 선택을 위한 All Firing 리세마라 정보.",
+      "metaTitle": "All Firing 리세마라 - 빠른 경로 및 최고의 목표",
+      "metaDescription": "효율적인 리셋 흐름, 목표 우선순위 및 계정 유지 기준을 위해 이 All Firing 리세마라 허브를 사용하세요.",
+      "categoryLabel": "리세마라",
+      "whatIs": "리세마라 카테고리란 무엇인가요?",
+      "whatIsDescription": "리세마라 카테고리는 All Firing에서 빠른 설정 루프, 목표 단축 목록 및 유지 또는 리셋 규칙을 포함한 초기 계정 리셋 전략에 중점을 둡니다.",
+      "why": "리세마라 가이드를 왜 사용해야 하나요?",
+      "whySteps": {
+        "step1Title": "리세마라 주기당 시간 절약",
+        "step1Description": "최적화된 경로는 반복되는 설정 단계를 줄이고 실행을 일관되게 유지합니다.",
+        "step2Title": "영향력 있는 시작 우선순위 지정",
+        "step2Description": "목표 지침은 추측을 줄여 더 강력한 초기 팀을 확보하는 데 도움이 됩니다.",
+        "step3Title": "명확한 유지 기준 설정",
+        "step3Description": "정의된 임계값은 과도한 리세마라를 방지하고 최종 계정 선택을 가속화합니다."
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 리세마라 기사"
+    },
+    "tier": {
+      "title": "All Firing 티어",
+      "description": "출시 메타, 역할 가치 및 실용적인 팀 적합성 순위에 대한 All Firing 티어 평가.",
+      "metaTitle": "All Firing 티어 - 캐릭터 가치 및 메타 순위",
+      "metaDescription": "출시 메타, 역할 영향 및 진행 중심 순위에 대한 All Firing 티어 통찰력을 찾아보세요.",
+      "categoryLabel": "티어",
+      "whatIs": "티어 카테고리란 무엇인가요?",
+      "whatIsDescription": "티어 카테고리는 All Firing 캐릭터 및 로스터 가치를 실용적인 진행 영향, 팀 유연성 및 출시 기간 성능별로 순위를 매깁니다.",
+      "why": "티어 분석을 왜 검토해야 하나요?",
+      "whySteps": {
+        "step1Title": "효율적인 빌드 목표 식별",
+        "step1Description": "티어 맥락은 설정 비용이 낮으면서 즉각적인 가치를 제공하는 유닛을 강조합니다.",
+        "step2Title": "순위를 로스터에 맞추기",
+        "step2Description": "역할 기반 비교를 사용하여 현재 계정 경로에 맞는 업그레이드를 선택하세요.",
+        "step3Title": "스테이지 요구 사항에 맞게 조정",
+        "step3Description": "티어 참조는 콘텐츠 압력이나 적 프로필이 변경될 때 팀을 조정하는 데 도움이 됩니다."
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 티어 기사"
+    },
+    "characters": {
+      "title": "All Firing Characters",
+      "description": "역할 정체성, 원소 적합성 및 라인업 시너지 계획을 위한 All Firing 캐릭터 범위.",
+      "metaTitle": "All Firing 캐릭터 - 역할, 원소 및 팀 적합성",
+      "metaDescription": "역할, 원소 및 팀 시너지를 통해 All Firing 캐릭터를 탐색하여 더 깔끔한 진행 라인업을 계획하세요.",
+      "categoryLabel": "캐릭터",
+      "whatIs": "캐릭터 카테고리란 무엇인가요?",
+      "whatIsDescription": "캐릭터 카테고리는 All Firing 로스터 옵션을 프로파일링하여 역할 행동, 원소 정렬 및 팀 구성의 실제 사용 사례를 보여줍니다.",
+      "why": "캐릭터 프로필을 비교하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "더 나은 역할 균형 구축",
+        "step1Description": "캐릭터 프로필은 누가 캐리, 서포트 또는 유틸리티 책임을 맡는지 명확히 합니다.",
+        "step2Title": "팀 시너지 선택 개선",
+        "step2Description": "원소 및 키트 컨텍스트는 더 강력한 스왑 및 버스트 흐름으로 유닛을 짝짓는 데 도움이 됩니다.",
+        "step3Title": "업그레이드 투자 계획",
+        "step3Description": "우선순위 비교는 제한된 재료를 가장 유용한 핵심 유닛에 집중시킵니다."
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 캐릭터 기사"
+    }
   }
 }

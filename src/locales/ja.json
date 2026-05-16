@@ -1,24 +1,24 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "All Firing Wiki - コード、ティアリスト、初心者ガイド",
+      "description": "All Firing Wikiでは、コード、ティアリスト、リロールターゲット、キャラクター、チームビルド、戦闘のヒント、iOSおよびAndroidプレイヤー向けのダウンロードリンクを網羅しています。",
+      "keywords": "All Firing, allfiring, コード, ティアリスト, リロール, キャラクター, チームビルディング, 戦闘ガイド",
+      "ogTitle": "All Firing Wiki - コード、ティアリスト、初心者ガイド",
+      "ogDescription": "All Firing Wikiでは、コード、ティアリスト、リロールターゲット、キャラクター、チームビルド、戦闘のヒント、iOSおよびAndroidプレイヤー向けのダウンロードリンクを網羅しています。",
+      "twitterTitle": "All Firing Wiki - コード、ティアリスト、初心者ガイド",
+      "twitterDescription": "アクティブなコード、初心者向けのヒント、リロールの優先順位、キャラクターチームガイドを含むAll Firing Wiki。"
     }
   },
   "nav": {
-    "guide": "Guide",
-    "codes": "Codes",
-    "release": "Release",
-    "platforms": "Platforms",
-    "gacha": "Gacha",
-    "reroll": "Reroll",
-    "tier": "Tier",
-    "characters": "Characters"
+    "guide": "ガイド",
+    "codes": "コード",
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "gacha": "ガチャ",
+    "reroll": "リロール",
+    "tier": "ティア",
+    "characters": "キャラクター"
   },
   "common": {
     "home": "ホーム",
@@ -33,902 +33,517 @@
     "backToHome": "ホームに戻る",
     "relatedArticles": "関連記事",
     "readMore": "続きを読む",
-    "articlesComingSoon": "記事は近日公開予定です"
+    "articlesComingSoon": "記事は近日公開予定"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "アニメ横スクロールアクションRPG",
+    "title": "All Firing Wiki",
+    "description": "アクティブなコード、初心者向けの進行、リロールターゲット、キャラクターチーム、戦闘ルートに関するAll Firingガイドをご覧ください。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnMobileCTA": "iOS＆Androidでプレイ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "2026年5月14日",
+        "label": "グローバルローンチ"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "iOS / Android",
+        "label": "プラットフォーム"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "3",
+        "label": "ローンチイベント"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "3キャラクター",
+        "label": "チーム切り替え"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "All Firing ゲームプレイ",
+    "description": "Steamで配信中の夢のようなボクセルサンドボックスで、超現実的なバイオームを探索し、Apotheosisでアイテムを融合させ、奇妙なクリーチャーから生き延びましょう。"
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "title": "All Firing",
+    "titleHighlight": "ナビゲーション",
+    "subtitle": "ワンクリックでAll Firingのすべての主要モジュールへ移動",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
+        "title": "All Firing コード",
+        "description": "有効な引き換えコードと報酬に関するメモ"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
+        "title": "All Firing 初心者ガイド",
+        "description": "初日の進め方とリソースの優先順位"
       },
       {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
+        "title": "All Firing 最強キャラランキング",
+        "description": "序盤に優先して育成すべき最強キャラクター"
       },
       {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
+        "title": "All Firing リセマラガイド",
+        "description": "リセマラの当たりキャラと手順"
       },
       {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
+        "title": "All Firing キャラクターガイド",
+        "description": "役割、属性、キャラクター一覧の概要"
       },
       {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
+        "title": "All Firing チーム編成ガイド",
+        "description": "3人編成のラインナップと役割のバランス"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
+        "title": "All Firing 戦闘ガイド",
+        "description": "交代のタイミング、バースト期間、クリアのコツ"
       },
       {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
-      },
-      {
-        "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
-      },
-      {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
-      },
-      {
-        "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
-      },
-      {
-        "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
+        "title": "All Firing ダウンロード＆起動ガイド",
+        "description": "公式リンクと配信プラットフォームに関する注意点"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
-      "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
-      "steps": [
-        {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
-        },
-        {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
-        },
-        {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
-        },
-        {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
-        }
-      ],
-      "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
-      "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
-      "cards": [
-        {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
-        },
-        {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
-        },
-        {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
-        },
-        {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
-        }
-      ],
-      "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
+    "allFiringCodes": {
+      "title": "All Firing コード",
+      "intro": "有効なAll Firing引き換えコードを使用してリリース記念リソースを受け取り、課金通貨を消費する前にメールボックスの報酬を確認しましょう。",
       "items": [
         {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
+          "code": "allfiring0515",
+          "reward": "リリース記念ゲーム内報酬",
+          "note": "序盤のアカウント育成に役立つ公式リリース記念コード。"
         },
         {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
+          "code": "vip777",
+          "reward": "無限のスターダスト x10",
+          "note": "序盤のガチャ計画に役立ちます。"
         },
         {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
+          "code": "dc0515",
+          "reward": "無料リリース報酬",
+          "note": "コードを引き換えてメールボックスから受け取ってください。"
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
+          "code": "Expired Codes",
+          "reward": "現在のセットにはありません",
+          "note": "期限が切れた古いコードはここに移動してください。"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
-      "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
-      "solutions": [
-        {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
-        },
-        {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
-        },
-        {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
-        },
-        {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
-        }
-      ],
-      "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
-      "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
-      "cards": [
-        {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
-        },
-        {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
-        },
-        {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
-        },
-        {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
-        }
-      ],
-      "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
-        },
-        {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
-        },
-        {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
-        },
-        {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
-      "creatures": [
-        {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
-        },
-        {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
-        },
-        {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
-        },
-        {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
-      "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
-        }
-      ],
-      "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
-      "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
-      "sections": [
-        {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
-        },
-        {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
-        },
-        {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
-        },
-        {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
-        }
-      ],
-      "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
-      "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
-      "priorities": [
-        {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
-        },
-        {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
-        },
-        {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
-      "groups": [
-        {
-          "name": "探索",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
-            }
-          ]
-        },
-        {
-          "name": "クラフトと召喚",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
-            },
-            {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
-            }
-          ]
-        },
-        {
-          "name": "移動とユーティリティ",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
-            },
-            {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
-            },
-            {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
-            },
-            {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
-            }
-          ]
-        },
-        {
-          "name": "戦闘とクリーチャー",
-          "achievements": [
-            {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
-            },
-            {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
-            },
-            {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
-            }
-          ]
-        },
-        {
-          "name": "成長と農業",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
-            },
-            {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
-            },
-            {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
-      "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
-        },
-        {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
-        },
-        {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
-        },
-        {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
-        },
-        {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
-        },
-        {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
-        {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
-        },
-        {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
-        },
-        {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
-        },
-        {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
-        {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
-        },
-        {
-          "title": "起動時のクラッシュに関する小規模パッチ",
-          "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
-        },
-        {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
-      "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
+    "allFiringBeginnerGuide": {
+      "title": "All Firing 初心者ガイド",
+      "intro": "チュートリアルの完了、1つの安定したチーム編成、そして序盤の素材の浪費を避けるための集中した強化から始めましょう。",
       "steps": [
         {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
+          "title": "チュートリアルを完了して報酬を受け取る",
+          "description": "メニューを解放し、リリース記念メールを回収して、利用可能なコードを引き換えます。"
         },
         {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
+          "title": "3人のメインチームを1つ編成する",
+          "description": "戦闘の流れを安定させるために、アタッカー1人、サブDPS1人、サポート1人を使用します。"
         },
         {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
+          "title": "主要な3人のみに素材を費やす",
+          "description": "序盤のプレイでは、全キャラクターに強化を分散させないようにしましょう。"
         },
         {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
+          "title": "各マップの脇道を探索する",
+          "description": "隠しルートやパズルノードから、追加の進行リソースを入手できます。"
+        }
+      ]
+    },
+    "allFiringTierList": {
+      "title": "All Firing 最強キャラランキング",
+      "intro": "このリリース時のランキングは、序盤の進行価値、チームへの適合性、そしてストーリーやボス攻略における安定性に焦点を当てています。",
+      "tiers": [
+        {
+          "tier": "T0",
+          "name": "ロゼウル",
+          "description": "序盤の火力が強力で、準備の手間が少ない信頼できるアタッカー。"
         },
         {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
+          "tier": "T1",
+          "name": "シオン",
+          "description": "チームスタイルを問わず一貫した価値を提供する、柔軟なサポーター。"
+        },
+        {
+          "tier": "T1",
+          "name": "フェルギア",
+          "description": "長期戦で優れたパフォーマンスを発揮する、安定した継続DPS。"
+        }
+      ]
+    },
+    "allFiringRerollGuide": {
+      "title": "All Firing リセマラガイド",
+      "intro": "序盤の進行を早め、より安全にストーリーを攻略するために、強力なアカウントで始めたい場合はリセマラを行いましょう。",
+      "steps": [
+        {
+          "title": "チュートリアルを完了してガチャを解放する",
+          "description": "リセマラを判断する前に、メール、イベント、ガチャへのアクセス権を確保します。"
+        },
+        {
+          "title": "ガチャを引く前にリリース報酬を受け取る",
+          "description": "すべての無料チケットと報酬通貨を一度に使い切ります。"
+        },
+        {
+          "title": "ロゼウルと有用なサポーターを狙う",
+          "description": "ロゼウルとシオンの組み合わせは、ほとんどのアカウントにとって実用的なスタートとなります。"
+        },
+        {
+          "title": "安定したチーム構成が組める結果で終了する",
+          "description": "一点狙いの神引きよりも、アカウント全体の安定性を優先しましょう。"
+        }
+      ]
+    },
+    "allFiringCharactersGuide": {
+      "title": "All Firing キャラクターガイド",
+      "intro": "ストーリー進行やボスステージに向けて、より明確な3人チームを編成できるよう、属性や役割ごとにリリース時の仲間たちを確認しましょう。",
+      "items": [
+        {
+          "name": "ロゼウル",
+          "role": "雷属性メインDPS / 戦術情報"
+        },
+        {
+          "name": "キリカ",
+          "role": "火属性DPS / ヴァンガード"
+        },
+        {
+          "name": "ナエ",
+          "role": "氷属性サポート / ストライカー"
+        },
+        {
+          "name": "ヘルフウィン",
+          "role": "闇属性タンク / ブルイザー"
+        },
+        {
+          "name": "フェルギア",
+          "role": "風属性継続DPS / ユーティリティ"
+        },
+        {
+          "name": "シオン",
+          "role": "風属性サブDPS / サポート"
+        },
+        {
+          "name": "イルシャ",
+          "role": "氷属性バーストDPS"
+        },
+        {
+          "name": "ライラ",
+          "role": "風属性学者 / 研究員"
+        }
+      ]
+    },
+    "allFiringTeamBuildingGuide": {
+      "title": "All Firing Team Building Guide",
+      "intro": "役割のバランス、交代のリズム、属性のカバーを考慮して、ストーリー、ボス、イベント戦で安定した3人編成を作りましょう。",
+      "items": [
+        {
+          "name": "基本的な3人編成の核",
+          "description": "メインDPSとサポートまたはサブDPS、そしてユーティリティまたは生存性のための柔軟な3番目のスロット。"
+        },
+        {
+          "name": "ロゼウル＋シオンのスターターコア",
+          "description": "ロゼウルで主要な雷ダメージを与え、シオンで交代の間にプレッシャーを維持します。"
+        },
+        {
+          "name": "デュアルウィンド進行セットアップ",
+          "description": "フェルギアとシオンを組み合わせて安定した風のプレッシャーを与え、その後、ステージ固有のダメージのためにキャリーを追加します。"
+        },
+        {
+          "name": "アイスバーストセットアップ",
+          "description": "イルシャとナエを組み合わせることで、氷に特化したビルドに投資する際に、より強力なバーストウィンドウを提供します。"
+        },
+        {
+          "name": "火属性カバーフレックス",
+          "description": "ステージで火属性のカバーが必要な場合、キリカを混合チームに組み込むことができます。"
+        },
+        {
+          "name": "生存重視の編成",
+          "description": "より安全なクリアとより強力な前線安定性が必要な場合、ヘルウィンを3番目のスロットに追加します。"
+        }
+      ]
+    },
+    "allFiringCombatGuide": {
+      "title": "All Firing Combat Guide",
+      "intro": "コアとなる戦闘の流れを学びましょう：ポジショニング、攻撃の連鎖、リアルタイムの切り替え、そしてよりクリーンなクリアのためのアルティメットのタイミング。",
+      "steps": [
+        {
+          "title": "バランスの取れたチームで入場する",
+          "description": "序盤のクリアをスムーズにするために、1人のダメージディーラー、1人のサポートスロット、1人の柔軟な安全スロットで始めましょう。"
+        },
+        {
+          "title": "長いコンボの前に移動を使う",
+          "description": "まず移動とジャンプで位置取りし、レーンが安全になったら攻撃の連鎖に入りましょう。"
+        },
+        {
+          "title": "通常攻撃をスキルに繋げる",
+          "description": "通常攻撃でプレッシャーを維持し、その後スキルに繋げてより強力なバーストウィンドウを作りましょう。"
+        },
+        {
+          "title": "リアルタイムでキャラクターを切り替える",
+          "description": "チームメイト間で切り替えて、コンボの流れを維持し、不利なマッチアップを避け、適切な役割を投入しましょう。"
+        },
+        {
+          "title": "敵の攻撃パターンを読む",
+          "description": "予兆を見て、早めに動き、スキル使用後に立ち止まらないことで、回避可能なダメージを減らしましょう。"
+        },
+        {
+          "title": "アルティメットは困難な瞬間のために温存する",
+          "description": "弱い敵に使うのではなく、ボスや危険なウェーブのためにアルティメットスキルを使いましょう。"
+        },
+        {
+          "title": "クリア中にステージルートを探索する",
+          "description": "進行を加速させる追加報酬のために、脇道、パズルオブジェクト、隠された場所をチェックしましょう。"
+        }
+      ]
+    },
+    "allFiringDownloadLaunchGuide": {
+      "title": "All Firing ダウンロードと起動ガイド",
+      "intro": "ダウンロード、互換性チェック、起動アップデートの追跡には、公式ストアページとチャンネルを利用してください。",
+      "rows": [
+        {
+          "platform": "Android",
+          "note": "Google Playからダウンロードし、インストール前にデバイスの互換性を確認してください。",
+          "url": "https://play.google.com/store/apps/details?id=com.genmugame.prometheus"
+        },
+        {
+          "platform": "iPhoneおよびiPad",
+          "note": "App Storeからインストールしてください。iOS 12.0以降およびiPadOS 12.0以降が必要です。",
+          "url": "https://apps.apple.com/us/app/allfiring/id6759645105"
+        },
+        {
+          "platform": "Mac",
+          "note": "App Storeの互換性は、Apple Siliconデバイス上のmacOS 11.0以降をサポートしています。",
+          "url": "https://apps.apple.com/us/app/allfiring/id6759645105"
+        },
+        {
+          "platform": "PCまたはMacエミュレータ",
+          "note": "MuMuPlayerを使用し、エミュレータ内のGoogle Playを通じてAll Firingをインストールしてください。",
+          "url": "https://www.mumuplayer.com/blog/allfiring-beginner-guide.html"
+        },
+        {
+          "platform": "起動タイミング",
+          "note": "All Firingは2026年5月14日にAndroidとiOS向けにグローバルでリリースされました。",
+          "url": "https://game8.co/articles/release-dates/allfiring-release-date-and-time"
+        },
+        {
+          "platform": "公式アップデート",
+          "note": "イベント、サポート、パッチ通知については、公式ウェブサイトとコミュニティをフォローしてください。",
+          "url": "https://allfiring.genmugame.com/"
         }
       ]
     }
   },
   "faq": {
-    "title": "よくある",
+    "title": "All Firing よくある",
     "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
+    "subtitle": "ローンチ進行中のAll Firingプレイヤー向けの主要な回答",
     "questions": [
       {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
+        "question": "All FiringはiOSとAndroidで利用できますか？",
+        "answer": "はい。All Firingは公式ストアを通じてiOSとAndroidの両方で利用できます。"
       },
       {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
+        "question": "All Firingのコードを引き換えるにはどうすればよいですか？",
+        "answer": "設定を開き、アカウントに移動し、コードを引き換えを選択し、メールボックスから報酬を受け取ります。"
       },
       {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
+        "question": "All Firingでのリロールは必須ですか？",
+        "answer": "いいえ。リロールは任意ですが、より強力なスタートを切りたい場合に役立ちます。"
       },
       {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
+        "question": "最高の最初のAll Firingチーム編成は何ですか？",
+        "answer": "メインDPS1人、サブDPS1人、サポート1人を使用して、序盤のクリアを安定させましょう。"
       },
       {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
-      },
-      {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+        "question": "All Firingのアップデートはどこで確認できますか？",
+        "answer": "イベントやパッチのニュースについては、公式サイト、Discord、ソーシャルチャンネルをご利用ください。"
       }
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "All Firingに参加する準備はできましたか？",
+    "description": "イベント、アップデート、コミュニティの議論については、All Firingの公式チャンネルをフォローしてください。",
+    "joinCommunity": "公式Discordに参加する",
+    "joinGame": "公式サイトにアクセスする"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "All Firing Wiki",
+    "description": "All Firingのコード、ティアリスト、リロールガイド、チームビルド、イベントアップデートに関する完全な情報ハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
-    "legal": "法的情報",
+    "legal": "法律",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "facebook": "Facebook",
+    "officialWebsite": "公式サイト",
+    "about": "について",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 All Firing Wiki. ALLfiringの開発者とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイト。"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks 攻略ガイド",
-      "description": "初心者向けの基本から、高度な Apotheosis 戦略まで網羅した完全攻略ガイド。サバイバルとクラフトを極めましょう。",
-      "metaTitle": "Lucid Blocks 攻略ガイド - 初心者から上級者向けの戦略",
-      "metaDescription": "初心者向けのヒント、Apotheosis システム、サバイバル戦略、そしてシュールなサンドボックスの世界を攻略するための専門的な戦術を網羅した Lucid Blocks 完全ガイド。",
-      "categoryLabel": "ゲームガイド",
-      "whatIs": "ガイドとは？",
-      "whatIsDescription": "ゲームの仕組み、サバイバル戦略、Apotheosis クラフトシステムを網羅した包括的なガイド。最初の一歩から高度なテクニックまで、すべてを学びましょう。",
-      "why": "なぜガイドを読むのか？",
+    "guide": {
+      "title": "All Firing ガイド",
+      "description": "ゲームプレイの基本、進行ペース、ローンチ週の優先事項に関するAll Firingガイドの網羅。",
+      "metaTitle": "All Firing ガイド - 初心者向けヒント、進行、ローンチの基本",
+      "metaDescription": "初心者向けのフロー、進行のチェックポイント、ローンチ週の実用的なアドバイスについては、All Firingガイドハブをお読みください。",
+      "categoryLabel": "ガイド",
+      "whatIs": "ガイドカテゴリとは？",
+      "whatIsDescription": "ガイドカテゴリは、最初のセッション設定から安定した進行習慣、ステージルーティングの決定まで、実用的なAll Firingウォークスルーコンテンツを整理します。",
+      "why": "なぜこのガイドハブを読むべきですか？",
       "whySteps": {
-        "step1Title": "基本システムを学ぶ",
-        "step1Description": "Apotheosis システムを理解し、初心者が陥りやすいミスを回避しましょう",
-        "step2Title": "素早い進行",
-        "step2Description": "シュールな世界で生き残り、繁栄するための実証済みの道筋を辿りましょう",
-        "step3Title": "戦略を極める",
-        "step3Description": "探索とクラフトのための高度な戦術を身につけましょう"
+        "step1Title": "クリーンな進行計画から始める",
+        "step1Description": "構造化された手順に従って、初期のスタミナ、アップグレードリソース、アンロックを効率的に使用します。",
+        "step2Title": "試行錯誤の時間を短縮する",
+        "step2Description": "実績のあるルートと戦闘アドバイスを使用して、行き詰まることなくコアコンテンツをより速くクリアします。",
+        "step3Title": "再利用可能なアカウント習慣を構築する",
+        "step3Description": "ローンチ後も毎日および毎週の進行を安定させる反復可能なルーチンを適用します。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのガイド"
+      "featured": "注目＆必須",
+      "all": "すべてのガイド記事"
     },
-    "crafting": {
-      "title": "Lucid Blocks クラフト",
-      "description": "エッセンスの仕組み、レシピ、強力なアイテムを作るためのクラフト戦略など、Apotheosis 合成システムをマスターしましょう。",
-      "metaTitle": "Lucid Blocks クラフト - Apotheosis システムとレシピ",
-      "metaDescription": "Lucid Blocks の Apotheosis クラフトシステムを極める。エッセンスの仕組み、合成レシピ、強力な道具や武器を作るための戦略を学びましょう。",
-      "categoryLabel": "クラフトシステム",
-      "whatIs": "クラフトとは？",
-      "whatIsDescription": "Apotheosis システムは、最大6つのアイテムを組み合わせて新しいレシピを発見する、独自のエッセンス駆動型合成メカニズムです。固定されたクラフトメニューはなく、実験が鍵となります。",
-      "why": "なぜクラフトを極めるのか？",
+    "codes": {
+      "title": "All Firing コード",
+      "description": "ローンチ報酬、請求期間、引き換えメモに関するアクティブな All Firing コードを追跡します。",
+      "metaTitle": "All Firing コード - アクティブな報酬と請求メモ",
+      "metaDescription": "アクティブな All Firing コード、引き換え手順、報酬の詳細を見つけて、早期のアカウント成長を加速させましょう。",
+      "categoryLabel": "コード",
+      "whatIs": "All Firing コードとは何ですか？",
+      "whatIsDescription": "All Firing コードは、公式チャンネルを通じてリリースされる引き換え可能なプロモーション文字列で、通貨、アップグレードアイテム、イベントリソースなどの無料報酬が付与されます。",
+      "why": "なぜ定期的にコードを確認するのですか？",
       "whySteps": {
-        "step1Title": "強力なアイテムをアンロック",
-        "step1Description": "合成を通じて、不可欠な道具、武器、移動用装備を発見しましょう",
-        "step2Title": "エッセンスを理解する",
-        "step2Description": "アイテムのエッセンスがどのように組み合わさり、予測可能な結果を生み出すかを学びましょう",
-        "step3Title": "リソースを最適化",
-        "step3Description": "希釈メカニズムを使用して、安価な材料から出力を最大化しましょう"
+        "step1Title": "期間限定の報酬を素早く請求する",
+        "step1Description": "多くのローンチコードには短い期間があるため、頻繁に確認することで無料の価値を見逃すことを防ぎます。",
+        "step2Title": "早期の進行を促進する",
+        "step2Description": "コード報酬は、最初の週の召喚、アップグレード、スタミナ計画を加速させることができます。",
+        "step3Title": "期限切れまたは重複した請求を避ける",
+        "step3Description": "一元化された追跡により、有効で未請求の引き換えエントリのみに集中できます。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのクラフトガイド"
+      "featured": "注目と必須",
+      "all": "すべてのコード"
     },
-    "items": {
-      "title": "Lucid Blocks アイテム",
-      "description": "道具、武器、移動用装備、収納ソリューションを網羅した詳細なアイテムガイド。クラフトレシピや使い方のヒントも掲載。",
-      "metaTitle": "Lucid Blocks アイテム - 道具、武器、装備ガイド",
-      "metaDescription": "道具、武器、移動用装備、収納を含む Lucid Blocks の完全アイテムデータベース。各アイテムを効果的に作り、使用する方法を学びましょう。",
-      "categoryLabel": "アイテム＆装備",
-      "whatIs": "アイテムとは？",
-      "whatIsDescription": "道具、武器、移動用装備、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
-      "why": "なぜアイテムガイドをチェックするのか？",
+    "release": {
+      "title": "All Firing リリース",
+      "description": "All Firing のリリース時期の参照、ローンチ期間、地域別の利用可能性に関するメモ。",
+      "metaTitle": "All Firing リリース - 発売日、時間、地域に関するメモ",
+      "metaDescription": "All Firing のリリース時期、ローンチ期間、地域に基づいた展開状況を確認して、開始計画を立てましょう。",
+      "categoryLabel": "リリース",
+      "whatIs": "リリース カテゴリとは何ですか？",
+      "whatIsDescription": "リリース カテゴリは、ローンチ日の状況、時期の参照、利用可能性の更新を追跡し、プレイヤーが主要な展開マイルストーンに合わせてアカウントの開始を計画できるようにします。",
+      "why": "なぜリリース更新をフォローするのですか？",
       "whySteps": {
-        "step1Title": "クラフトレシピを学ぶ",
-        "step1Description": "Apotheosis を使用して、不可欠な道具や武器をクラフトする方法を発見しましょう",
-        "step2Title": "装備を最適化",
-        "step2Description": "プレイスタイルや進行状況に合わせて最適なアイテムを選びましょう",
-        "step3Title": "生存率を高める",
-        "step3Description": "移動用装備や武器を装備して、危険な世界を探索しましょう"
+        "step1Title": "最初のログイン期間を計画する",
+        "step1Description": "ローンチ時期を知ることで、リロール、イベント開始、初日の進行をスケジュールするのに役立ちます。",
+        "step2Title": "展開の違いを追跡する",
+        "step2Description": "地域やプラットフォームの時期の違いは、コンテンツやアクセスがいつ開始されるかに影響を与える可能性があります。",
+        "step3Title": "ローンチイベントに備える",
+        "step3Description": "リリース情報により、イベントへの参加や早期の報酬収集を優先できます。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのアイテム"
+      "featured": "注目と必須",
+      "all": "すべてのリリース記事"
     },
-    "biomes": {
-      "title": "Lucid Blocks バイオーム",
-      "description": "世界の各地域、環境の特徴、リソースの場所、各バイオームでのサバイバルのヒントを探索しましょう。",
-      "metaTitle": "Lucid Blocks バイオーム - 世界の地域と探索",
-      "metaDescription": "ティアマナ・レイライン、Fog Meadow、シュールな地域を含む Lucid Blocks のバイオームを探索。リソースを見つけ、危険を回避し、無限の世界を旅しましょう。",
-      "categoryLabel": "世界の地域",
-      "whatIs": "バイオームとは？",
-      "whatIsDescription": "世界のさまざまな地域、環境の特徴、リソースの分布、危険地帯に関するガイド。各エリアで何が待ち受けているか、どのように準備すべきかを学びましょう。",
-      "why": "なぜバイオームを探索するのか？",
+    "platforms": {
+      "title": "All Firing プラットフォーム",
+      "description": "Android、iOS、および互換性のあるプレイ経路に関する All Firing プラットフォームとダウンロードのガイダンス。",
+      "metaTitle": "All Firing プラットフォーム - ダウンロードとデバイスアクセスガイド",
+      "metaDescription": "All Firing のプラットフォームオプション、公式ダウンロード経路、デバイス互換性ガイダンスを確認してください。",
+      "categoryLabel": "プラットフォーム",
+      "whatIs": "プラットフォーム カテゴリとは何ですか？",
+      "whatIsDescription": "プラットフォーム カテゴリは、All Firing をどこにインストールできるか、どのデバイスがサポートされているか、公式ダウンロードチャネルに安全にアクセスする方法をカバーしています。",
+      "why": "なぜプラットフォームガイドを使用するのですか？",
       "whySteps": {
-        "step1Title": "リソースを見つける",
-        "step1Description": "各地域特有の希少な材料やエッセンスの場所を特定しましょう",
-        "step2Title": "危険を回避",
-        "step2Description": "環境の危険や敵対的な生物について理解しましょう",
-        "step3Title": "探索を計画",
-        "step3Description": "各バイオームのタイプに合わせて、適切な道具と装備を準備しましょう"
+        "step1Title": "適切なインストール経路を選択する",
+        "step1Description": "クリーンインストールとアカウント設定には、プラットフォーム固有の手順を使用してください。",
+        "step2Title": "早期に互換性を確認する",
+        "step2Description": "デバイスとOSのチェックにより、ローンチ日のインストール失敗やパフォーマンスの問題を軽減します。",
+        "step3Title": "プレイオプションを比較する",
+        "step3Description": "プラットフォーム情報により、モバイルネイティブまたはエミュレータベースのプレイワークフローのどちらにするかを決定できます。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのバイオーム"
+      "featured": "注目と必須",
+      "all": "すべてのプラットフォーム記事"
     },
-    "building": {
-      "title": "Lucid Blocks 建築",
-      "description": "クオリア個人次元、拠点建築、収納管理、クリエイティブな建設テクニックをマスターしましょう。",
-      "metaTitle": "Lucid Blocks 建築 - クオリアと拠点建設",
-      "metaDescription": "クオリア個人次元、拠点建設、収納ソリューション、クリエイティブな建築テクニックなど、Lucid Blocks の建築を極めましょう。",
-      "categoryLabel": "建築＆拠点",
-      "whatIs": "建築とは？",
-      "whatIsDescription": "クオリア個人次元システム、拠点建設、収納管理、クリエイティブな建築に関するガイド。シュールな世界の中に自分だけの安息の地を作る方法を学びましょう。",
-      "why": "なぜ拠点を建てるのか？",
+    "gacha": {
+      "title": "All Firing ガチャ",
+      "description": "バナー、召喚通貨、ピティの挙動、報酬計画に関するAll Firingガチャのリファレンス。",
+      "metaTitle": "All Firing ガチャ - バナー、ピティ、召喚計画",
+      "metaDescription": "All Firingのガチャシステム、バナーサイクル、ピティの挙動、召喚通貨の優先順位を理解する。",
+      "categoryLabel": "ガチャ",
+      "whatIs": "ガチャカテゴリとは？",
+      "whatIsDescription": "ガチャカテゴリでは、All Firingの召喚システム、バナーの価値、通貨の使用パターンを説明し、より強力なプル計画を立てるのに役立ちます。",
+      "why": "なぜガチャ計画を学ぶのか？",
       "whySteps": {
-        "step1Title": "安全な場所を作る",
-        "step1Description": "収納やクラフト作業のための安全な拠点を確立しましょう",
-        "step2Title": "リソースを管理",
-        "step2Description": "収納ソリューションを使用して、材料を効率的に整理しましょう",
-        "step3Title": "クオリアをアンロック",
-        "step3Description": "究極の利便性を備えた個人のポケット次元にアクセスしましょう"
+        "step1Title": "プレミアム通貨を保護する",
+        "step1Description": "システム知識は、非効率なプルを避け、優先ターゲットのためにリソースを温存するのに役立ちます。",
+        "step2Title": "目標に合わせてバナーのタイミングを計る",
+        "step2Description": "バナーとピティのコンテキストは、ロスターの成長と役割のカバーに関する意思決定を改善します。",
+        "step3Title": "長期的なアカウント価値を向上させる",
+        "step3Description": "構造化された召喚計画は、ローンチ週以降も着実な進行をサポートします。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべての建築ガイド"
+      "featured": "注目＆必須",
+      "all": "すべてのガチャ記事"
     },
-    "support": {
-      "title": "Lucid Blocks サポート",
-      "description": "テクニカルサポート、プラットフォームの互換性、パフォーマンスの最適化、一般的な問題のトラブルシューティング。",
-      "metaTitle": "Lucid Blocks サポート - テクニカルヘルプと修正",
-      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Lucid Blocks のテクニカルサポートを受けられます。",
-      "categoryLabel": "テクニカルサポート",
-      "whatIs": "サポートとは？",
-      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題を網羅したテクニカルガイド。Steam Deck、マルチプレイヤーに関する質問、設定などのヘルプ。",
-      "why": "なぜサポートをチェックするのか？",
+    "reroll": {
+      "title": "All Firing リロール",
+      "description": "高速リセットフロー、ターゲットの優先順位、ローンチアカウントの選択に関するAll Firingリロールの網羅。",
+      "metaTitle": "All Firing リロール - 高速ルートと最適なターゲット",
+      "metaDescription": "効率的なリセットフロー、ターゲットの優先順位、アカウント保持基準については、このAll Firingリロールハブを使用してください。",
+      "categoryLabel": "リロール",
+      "whatIs": "リロールカテゴリとは？",
+      "whatIsDescription": "リロールカテゴリは、All Firingにおける初期のアカウントリセット戦略に焦点を当てており、高速セットアップループ、ターゲットのショートリスト、保持またはリセットのルールが含まれます。",
+      "why": "なぜリロールガイドを使用するのか？",
       "whySteps": {
-        "step1Title": "技術的な問題を解決",
-        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決しましょう",
-        "step2Title": "パフォーマンスを最適化",
-        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成しましょう",
-        "step3Title": "プラットフォームの互換性",
-        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学びましょう"
+        "step1Title": "リロールサイクルあたりの時間を節約する",
+        "step1Description": "最適化されたルートは、繰り返しのセットアップ手順を減らし、実行を一定に保ちます。",
+        "step2Title": "影響の大きい開始を優先する",
+        "step2Description": "ターゲットガイダンスは、推測を減らしてより強力なオープニングチームを確保するのに役立ちます。",
+        "step3Title": "明確な保持基準を設定する",
+        "step3Description": "定義されたしきい値は、過剰なリロールを防ぎ、最終的なアカウント選択を迅速化します。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのサポート記事"
+      "featured": "注目＆必須",
+      "all": "すべてのリロール記事"
+    },
+    "tier": {
+      "title": "All Firing ティア",
+      "description": "ローンチメタ、役割の価値、実用的なチームフィットランキングに関するAll Firingティア評価。",
+      "metaTitle": "All Firing ティア - キャラクターの価値とメタランキング",
+      "metaDescription": "ローンチメタ、役割の影響、進行に焦点を当てたランキングに関するAll Firingティアの洞察を参照してください。",
+      "categoryLabel": "ティア",
+      "whatIs": "ティアカテゴリとは？",
+      "whatIsDescription": "ティアカテゴリは、All Firingのキャラクターとロスターの価値を、実用的な進行への影響、チームの柔軟性、ローンチ期間のパフォーマンスによってランク付けします。",
+      "why": "なぜティア分析をレビューするのか？",
+      "whySteps": {
+        "step1Title": "効率的なビルドターゲットを特定する",
+        "step1Description": "ティアのコンテキストは、低いセットアップコストで即座に価値を提供するユニットを強調します。",
+        "step2Title": "ランキングを自分のロスターに合わせる",
+        "step2Description": "役割ベースの比較を使用して、現在のアカウントパスに合ったアップグレードを選択します。",
+        "step3Title": "ステージの要求に合わせて調整する",
+        "step3Description": "ティアのリファレンスは、コンテンツのプレッシャーや敵のプロファイルが変化したときにチームを適応させるのに役立ちます。"
+      },
+      "featured": "注目＆必須",
+      "all": "すべてのティア記事"
+    },
+    "characters": {
+      "title": "All Firing キャラクター",
+      "description": "役割のアイデンティティ、属性の適合性、および編成の相乗効果計画のためのAll Firingキャラクターの網羅。",
+      "metaTitle": "All Firing キャラクター - 役割、属性、チーム適合性",
+      "metaDescription": "All Firingのキャラクターを役割、属性、チームの相乗効果で探索し、より洗練された進行編成を計画します。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "キャラクターカテゴリとは？",
+      "whatIsDescription": "キャラクターカテゴリは、All Firingのロスターオプションをプロファイルし、役割の行動、属性の配置、およびチーム構築における実用的な使用例を示します。",
+      "why": "キャラクタープロファイルを比較する理由は何ですか？",
+      "whySteps": {
+        "step1Title": "より良い役割バランスを構築する",
+        "step1Description": "キャラクタープロファイルは、誰がキャリー、サポート、またはユーティリティの責任を果たすかを明確にします。",
+        "step2Title": "チームの相乗効果の選択を改善する",
+        "step2Description": "属性とキットのコンテキストは、より強力なスワップとバーストフローでユニットを組み合わせるのに役立ちます。",
+        "step3Title": "アップグレード投資を計画する",
+        "step3Description": "優先順位の比較により、限られた素材を最も有用なコアユニットに集中させることができます。"
+      },
+      "featured": "注目＆必須",
+      "all": "すべてのキャラクター記事"
     }
   }
 }
