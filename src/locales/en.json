@@ -10,7 +10,16 @@
       "twitterDescription": "All Firing Wiki with active codes, beginner tips, reroll priorities, and character team guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "release": "Release",
+    "platforms": "Platforms",
+    "gacha": "Gacha",
+    "reroll": "Reroll",
+    "tier": "Tier",
+    "characters": "Characters"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -376,125 +385,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "All Firing Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "All Firing Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete All Firing guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "All Firing Guide",
+      "description": "All Firing guide coverage for gameplay basics, progression pacing, and launch-week priorities.",
+      "metaTitle": "All Firing Guide - Beginner Tips, Progression & Launch Basics",
+      "metaDescription": "Read the All Firing guide hub for beginner flow, progression checkpoints, and practical launch-week advice.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Guide category?",
+      "whatIsDescription": "The Guide category organizes practical All Firing walkthrough content, from first-session setup to steady progression habits and stage routing decisions.",
+      "why": "Why read this guide hub?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Start with a clean progression plan",
+        "step1Description": "Follow structured steps so early stamina, upgrade resources, and unlocks are used efficiently.",
+        "step2Title": "Reduce trial-and-error time",
+        "step2Description": "Use proven route and combat advice to clear core content faster with fewer dead ends.",
+        "step3Title": "Build reusable account habits",
+        "step3Description": "Apply repeatable routines that keep daily and weekly progression stable after launch."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Guide Articles"
     },
-    "crafting": {
-      "title": "All Firing Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "All Firing Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master All Firing Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "codes": {
+      "title": "All Firing Codes",
+      "description": "Track active All Firing codes for launch rewards, claim windows, and redemption notes.",
+      "metaTitle": "All Firing Codes - Active Rewards and Claim Notes",
+      "metaDescription": "Find active All Firing codes, redemption instructions, and reward details for faster early account growth.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are All Firing codes?",
+      "whatIsDescription": "All Firing codes are redeemable promo strings released through official channels that grant free rewards such as currency, upgrade items, or event resources.",
+      "why": "Why check codes regularly?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Claim time-limited rewards quickly",
+        "step1Description": "Many launch codes have short windows, so checking often prevents missed free value.",
+        "step2Title": "Boost early progression",
+        "step2Description": "Code rewards can accelerate summons, upgrades, and stamina planning during the first week.",
+        "step3Title": "Avoid expired or duplicate claims",
+        "step3Description": "Centralized tracking helps you focus only on valid, unclaimed redeem entries."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Codes"
     },
-    "items": {
-      "title": "All Firing Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "All Firing Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for All Firing including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "release": {
+      "title": "All Firing Release",
+      "description": "All Firing release timing references, launch windows, and region-facing availability notes.",
+      "metaTitle": "All Firing Release - Launch Date, Time and Region Notes",
+      "metaDescription": "Review All Firing release timing, launch windows, and region-based rollout context for planning your start.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Release category?",
+      "whatIsDescription": "The Release category tracks launch-date context, timing references, and availability updates so players can plan account starts around major rollout milestones.",
+      "why": "Why follow release updates?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Plan your first login window",
+        "step1Description": "Knowing launch timing helps you schedule reroll, event starts, and day-one progression.",
+        "step2Title": "Track rollout differences",
+        "step2Description": "Region or platform timing differences can affect when content or access opens.",
+        "step3Title": "Prepare for launch events",
+        "step3Description": "Release coverage helps you prioritize event entries and early reward collection."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Release Articles"
     },
-    "biomes": {
-      "title": "All Firing Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "All Firing Biomes - World Regions & Exploration",
-      "metaDescription": "Explore All Firing biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "platforms": {
+      "title": "All Firing Platforms",
+      "description": "All Firing platform and download guidance for Android, iOS, and compatible play routes.",
+      "metaTitle": "All Firing Platforms - Download and Device Access Guide",
+      "metaDescription": "Check All Firing platform options, official download routes, and device compatibility guidance.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What is the Platforms category?",
+      "whatIsDescription": "The Platforms category covers where All Firing can be installed, which devices are supported, and how to access official download channels safely.",
+      "why": "Why use platform guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Choose the right install route",
+        "step1Description": "Use platform-specific instructions for clean installs and account setup.",
+        "step2Title": "Confirm compatibility early",
+        "step2Description": "Device and OS checks reduce launch-day install failures or performance issues.",
+        "step3Title": "Compare play options",
+        "step3Description": "Platform coverage helps you decide between mobile-native or emulator-based play workflows."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Platform Articles"
     },
-    "building": {
-      "title": "All Firing Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "All Firing Building - Qualia & Base Construction",
-      "metaDescription": "Master All Firing building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "gacha": {
+      "title": "All Firing Gacha",
+      "description": "All Firing gacha references for banners, summon currencies, pity behavior, and reward planning.",
+      "metaTitle": "All Firing Gacha - Banners, Pity and Summon Planning",
+      "metaDescription": "Understand All Firing gacha systems, banner cycles, pity behavior, and summon currency priorities.",
+      "categoryLabel": "GACHA",
+      "whatIs": "What is the Gacha category?",
+      "whatIsDescription": "The Gacha category explains All Firing summon systems, banner value, and currency usage patterns so you can build stronger pull plans.",
+      "why": "Why study gacha planning?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Protect premium currency",
+        "step1Description": "System knowledge helps avoid inefficient pulls and preserves resources for priority targets.",
+        "step2Title": "Time banners around goals",
+        "step2Description": "Banner and pity context improves decision-making for roster growth and role coverage.",
+        "step3Title": "Improve long-term account value",
+        "step3Description": "Structured summon planning supports steadier progression beyond launch week."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Gacha Articles"
     },
-    "support": {
-      "title": "All Firing Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "All Firing Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for All Firing including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "reroll": {
+      "title": "All Firing Reroll",
+      "description": "All Firing reroll coverage for fast reset flow, target priorities, and launch account selection.",
+      "metaTitle": "All Firing Reroll - Fast Routes and Best Targets",
+      "metaDescription": "Use this All Firing reroll hub for efficient reset flow, target priorities, and account keep criteria.",
+      "categoryLabel": "REROLL",
+      "whatIs": "What is the Reroll category?",
+      "whatIsDescription": "The Reroll category focuses on early account-reset strategies in All Firing, including fast setup loops, target shortlists, and keep-or-reset rules.",
+      "why": "Why use reroll guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Save time per reroll cycle",
+        "step1Description": "Optimized routes reduce repeated setup steps and keep runs consistent.",
+        "step2Title": "Prioritize high-impact starts",
+        "step2Description": "Target guidance helps secure stronger opening teams with less guesswork.",
+        "step3Title": "Set clear keep criteria",
+        "step3Description": "Defined thresholds prevent over-rerolling and speed up your final account choice."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Reroll Articles"
+    },
+    "tier": {
+      "title": "All Firing Tier",
+      "description": "All Firing tier evaluations for launch meta, role value, and practical team-fit rankings.",
+      "metaTitle": "All Firing Tier - Character Value and Meta Rankings",
+      "metaDescription": "Browse All Firing tier insights for launch meta, role impact, and progression-focused rankings.",
+      "categoryLabel": "TIER",
+      "whatIs": "What is the Tier category?",
+      "whatIsDescription": "The Tier category ranks All Firing character and roster value by practical progression impact, team flexibility, and launch-period performance.",
+      "why": "Why review tier analysis?",
+      "whySteps": {
+        "step1Title": "Identify efficient build targets",
+        "step1Description": "Tier context highlights units that provide immediate value with lower setup cost.",
+        "step2Title": "Match rankings to your roster",
+        "step2Description": "Use role-based comparisons to pick upgrades that fit your current account path.",
+        "step3Title": "Adjust for stage demands",
+        "step3Description": "Tier references help adapt teams when content pressure or enemy profiles shift."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier Articles"
+    },
+    "characters": {
+      "title": "All Firing Characters",
+      "description": "All Firing character coverage for role identity, element fit, and lineup synergy planning.",
+      "metaTitle": "All Firing Characters - Roles, Elements and Team Fit",
+      "metaDescription": "Explore All Firing characters by role, element, and team synergy to plan cleaner progression lineups.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What is the Characters category?",
+      "whatIsDescription": "The Characters category profiles All Firing roster options, showing role behavior, element alignment, and practical use cases in team construction.",
+      "why": "Why compare character profiles?",
+      "whySteps": {
+        "step1Title": "Build better role balance",
+        "step1Description": "Character profiles clarify who fills carry, support, or utility responsibilities.",
+        "step2Title": "Improve team synergy choices",
+        "step2Description": "Element and kit context helps pair units with stronger swap and burst flow.",
+        "step3Title": "Plan upgrade investment",
+        "step3Description": "Priority comparisons keep limited materials focused on your most useful core units."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Character Articles"
     }
   }
 }

@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Guide",
+    "codes": "Codes",
+    "release": "Release",
+    "platforms": "Platforms",
+    "gacha": "Gacha",
+    "reroll": "Reroll",
+    "tier": "Tier",
+    "characters": "Characters"
   },
   "common": {
     "home": "Ana Sayfa",

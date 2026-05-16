@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "Guide",
+    "codes": "Codes",
+    "release": "Release",
+    "platforms": "Platforms",
+    "gacha": "Gacha",
+    "reroll": "Reroll",
+    "tier": "Tier",
+    "characters": "Characters"
   },
   "common": {
     "home": "ホーム",

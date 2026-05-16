@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "guide": "Guide",
+    "codes": "Codes",
+    "release": "Release",
+    "platforms": "Platforms",
+    "gacha": "Gacha",
+    "reroll": "Reroll",
+    "tier": "Tier",
+    "characters": "Characters"
   },
   "common": {
     "home": "Startseite",
