@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
-import { HeroStats } from '@/components/home/HeroStats'
+import HeroStats from '@/components/home/HeroStats'
 import { NativeBannerAd, AdBanner } from '@/components/ads'
 import { SidebarAd } from '@/components/ads/SidebarAd'
 
