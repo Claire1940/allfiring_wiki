@@ -17,138 +17,147 @@ export const metadata = {
 }
 
 <Callout type="info" title="Quick Guide">
-- **All Firing Lyra**: Focuses on troubleshooting shooting animation issues within the Lyra starter project.
-- **Replication importance**: Understand how animations are replicated across clients and servers.
-- **Gameplay Abilities**: The `GA_Weapon_Fire` ability is key to triggering firing animations.
-- **Auto Rate**: Adjusting the animation `Auto Rate` can fix broken firing animations.
-- **Debugging strategy**: Systematically compare pistol and shotgun implementations to find discrepancies.
+- **All Firing Lyra** weapon animations often face replication challenges in multiplayer.
+- The `GA_Weapon_Fire` Gameplay Ability and `PlayMontageAndWait` are key to animation triggering.
+- Shotgun firing animations can appear broken for non-instigating clients due to `Auto Rate` settings.
+- Adjusting the **animation `Auto Rate` to 1** can resolve replication issues for shotgun animations.
+- Understanding Lyra's **Gameplay Ability System (GAS)** is crucial for debugging animation behavior.
 </Callout>
 
-Welcome to the ultimate guide for "all firing Lyra" animation issues in Unreal Engine 5. The Lyra Starter Game is a fantastic resource for learning, but developers often encounter perplexing problems, especially concerning weapon firing animations. This article delves into the common pitfalls and provides solutions to ensure your weapon animations replicate correctly across all clients in 2026. Whether you're debugging a pistol or a shotgun, understanding the underlying mechanics of gameplay abilities and replication is crucial for a smooth multiplayer experience.
+Unreal Engine's Lyra Starter Game provides a robust framework for developing shooter experiences, but developers often encounter intricate challenges, particularly concerning weapon firing animations in a networked environment. Ensuring that **All Firing Lyra** animations are consistently replicated across all clients is fundamental for a smooth and immersive multiplayer experience. This guide delves into common issues, specifically focusing on discrepancies between weapon types like pistols and shotguns, and offers practical solutions to achieve reliable animation synchronization in Lyra for 2026.
 
-<Section icon={Swords} title="Understanding Lyra Firing Animations">
-Lyra's weapon firing animations can be a source of frustration, particularly when they don't replicate as expected across different players in a multiplayer environment. The core of these animations often lies within the Gameplay Ability System (GAS). Specifically, the `GA_Weapon_Fire` ability is responsible for initiating the firing sequence, which includes playing the associated animation montage. However, developers frequently report inconsistencies, such as only the instigating player or the server observing the animation, while other clients see nothing.
+<Section icon={Swords} title="Understanding Lyra's Firing Animation Mechanics">
 
-<Callout type="warning" title="Common Replication Pitfall">
-A common issue is that firing animations for certain weapons (like the shotgun in the Lyra starter project) might not replicate to all clients, appearing broken to non-instigating players. This often stems from subtle differences in how replication is handled for different weapon types or incorrect animation rate settings.
+Lyra's animation system, especially for weapon firing, leverages the Gameplay Ability System (GAS) for its core functionality. While simple actions might seem straightforward, the intricacies of network replication can lead to unexpected behaviors. The `GA_Weapon_Fire` Gameplay Ability is central to triggering weapon animations, often utilizing the `PlayMontageAndWait` function. However, the way these animations replicate to different clients can vary significantly between weapon types.
+
+<Callout type="tip" title="Key Components">
+Lyra's weapon firing animations primarily rely on two GAS components:
+- **Gameplay Abilities (GA)**: Specifically `GA_Weapon_Fire`, which initiates the firing sequence.
+- **Gameplay Cues**: Handle visual and audio effects like decals, tracers, and shell ejections, and are multicast to all clients.
 </Callout>
 
-To effectively troubleshoot, it's essential to understand the distinction between how a pistol's firing animation might replicate flawlessly, while a shotgun's does not. This often points to specific configuration differences or replication logic within the weapon's associated Gameplay Ability.
+### Pistol vs. Shotgun: A Replication Mystery
 
-### Pistol vs. Shotgun Animation Differences
-
-| Feature                 | Pistol Firing Animation (Typical)                 | Shotgun Firing Animation (Reported Issues)           |
-| :---------------------- | :------------------------------------------------ | :--------------------------------------------------- |
-| **Replication**         | **Works for all clients**                         | **Often broken for non-instigating clients**         |
-| **Trigger Mechanism**   | `GA_Weapon_Fire` calling `PlayMontageAndWait`     | `GA_Weapon_Fire` calling `PlayMontageAndWait`        |
-| **Gameplay Cue**        | Handles audio, decals, tracers, shell ejections   | Handles audio, decals, tracers, shell ejections      |
-| **Animation Rate**      | Typically set to `1` (default or adjusted)        | Can be `2.2` or higher, causing replication issues   |
-| **Visibility**          | Observed by all players consistently              | Only observed by instigator and server               |
-
-</Section>
-
-<Section icon={Target} title="Troubleshooting Firing Animation Replication">
-When facing issues with "all firing Lyra" animations, a systematic approach is key. The problem often boils down to how the Gameplay Ability System (GAS) handles replication, especially for montages. While gameplay cues multicast to everyone for effects like audio and particle systems, the animation itself needs to be triggered correctly on all relevant clients.
-
-<Callout type="tip">
-The `PlayMontageAndWait` function within the `GA_Weapon_Fire` gameplay ability is often the culprit or the solution. Understanding its replication behavior is paramount for fixing animation discrepancies.
-</Callout>
-
-### Step-by-Step Debugging Process
-
-<Steps>
-  <Step num="1" title="Verify Gameplay Ability Execution">
-    First, confirm that the `GA_Weapon_Fire` ability is indeed running on the instigating client and the server. For multiplayer, it's crucial to understand that the ability might not run directly on non-instigating clients.
-  </Step>
-  <Step num="2" title="Inspect `PlayMontageAndWait` Calls">
-    Locate where `PlayMontageAndWait` is called within your weapon's `GA_Weapon_Fire` ability. This function is responsible for playing the animation montage. Ensure it's configured to replicate correctly.
-  </Step>
-  <Step num="3" title="Check Animation Auto Rate">
-    A common fix for the shotgun animation issue is to adjust the `Auto Rate` parameter. If it's set too high (e.g., `2.2`), the animation might play too fast for some clients to register, leading to it appearing broken.
-  </Step>
-  <Step num="4" title="Compare Working vs. Broken Weapon Abilities">
-    If one weapon's firing animation works (e.g., pistol) and another's doesn't (e.g., shotgun), carefully compare their respective `GA_Weapon_Fire` abilities and associated animation assets. Look for any subtle differences in settings, replication flags, or montage configurations.
-  </Step>
-</Steps>
-
-</Section>
-
-<Section icon={Shield} title="Key Components for Replication Success">
-Achieving consistent "all firing Lyra" animations across a multiplayer game requires a solid understanding of several interconnected Unreal Engine systems. These include the Gameplay Ability System, animation montages, and network replication. Ensuring these components are correctly configured will prevent animation glitches.
-
-<Callout type="success" title="Replication Checklist">
-Successfully replicating weapon firing animations means all clients see the same action at the same time. This requires careful attention to the animation montage settings and the network parameters within the Gameplay Ability.
-</Callout>
-
-### Essential Replication Elements
-
-| Component                     | Role in Firing Animation Replication                                                                | Best Practices                                                                                                |
-| :---------------------------- | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
-| **Gameplay Ability (`GA_Weapon_Fire`)** | Triggers the animation montage and handles the logic for playing it across the network.             | Ensure `PlayMontageAndWait` is used correctly, and consider its replication settings.                          |
-| **Animation Montage**         | Contains the actual firing animation sequence.                                                      | Verify montage settings, especially for notify states that might trigger replicated events.                     |
-| **Network Replication**       | Ensures that the animation state is synchronized between the server and all connected clients.      | Check that the character's skeletal mesh or relevant components are set to replicate.                           |
-| **Animation Auto Rate**       | Controls the playback speed of the animation montage.                                               | Keep `Auto Rate` at `1` unless specific fast-paced animations are required and tested across the network.      |
-| **Gameplay Cues**             | Primarily handles visual and audio effects (tracers, shell ejections, sounds) that are multicast.   | While not directly for character animation, ensure cues are consistent with the firing action.                 |
-
-</Section>
-
-<Section icon={Sparkles} title="Advanced Tips for Lyra Animations">
-Beyond the basic troubleshooting, there are advanced considerations that can help optimize and perfect "all firing Lyra" animations. These tips focus on fine-tuning your setup and leveraging Unreal Engine's capabilities for robust animation replication.
-
-<Callout type="info" title="External Resource">
-For deeper insights into Lyra's ability system, refer to the official Unreal Engine documentation on Abilities in Lyra. This resource can provide a foundational understanding of how abilities are structured and replicated. [Abilities in Lyra in Unreal Engine](https://dev.epicgames.com/documentation/unreal-engine/abilities-in-lyra-in-unreal-engine?lang=en-US)
-</Callout>
-
-**Video Highlights:**
-- Demonstrates a performance art piece, not directly related to Lyra game engine.
-- Focuses on fire and movement aesthetics.
-- Provides a creative, albeit unrelated, visual experience.
-
-<YouTubeEmbed videoId="9yvgjr8RM5Q" title="Fire Lollipop Lyra performance by Trillium Entertainment" />
-
-### Animation Optimization Checklist
-
-<Checklist
-  id="lyra-animation-optimization"
-  title="Animation Refinement Goals:"
-  items={[
-    "Profile network performance during firing to identify bottlenecks.",
-    "Ensure animation notifies are correctly synchronized across the network.",
-    "Experiment with different replication strategies for complex animations.",
-    "Regularly test animation replication with multiple clients and server setups.",
-    "Utilize Lyra's debugging tools to visualize animation states and network events."
-  ]}
-/>
+Developers often observe a puzzling discrepancy: pistol firing animations replicate flawlessly to all players, while shotgun animations may only be visible to the instigating player and the server, leaving other clients without visual feedback. This suggests a subtle difference in how these animations are handled or configured within Lyra's framework.
 
 <CardGrid cols={2}>
-  <Card title="Montage Blending">
-    Properly configure blend in/out times in your animation montages to ensure smooth transitions between firing and idle states. This enhances the visual quality and responsiveness of "all firing Lyra" actions.
+  <Card title="Pistol Animation Behavior">
+    - **Replicates to all clients**: All players observe the firing animation.
+    - Logic seems to ensure widespread visibility.
+    - Likely uses a robust replication method for the `PlayMontageAndWait` call.
   </Card>
-  <Card title="Client-Side Prediction">
-    Implement client-side prediction for firing actions to reduce perceived latency. While the server remains authoritative, client prediction can make the firing experience feel more immediate to the player.
+  <Card title="Shotgun Animation Behavior">
+    - **Limited replication**: Only instigator and server see the animation.
+    - Non-instigating clients often miss the visual feedback.
+    - Points to potential configuration or timing issues.
   </Card>
 </CardGrid>
 
 </Section>
 
-<Section icon={Map} title="FAQ: Lyra Firing Animation Issues">
+<Section icon={Target} title="Troubleshooting Lyra Firing Animation Issues">
+
+When facing replication problems with weapon animations in Lyra, a systematic approach to debugging is essential. The core issue often lies within the `GA_Weapon_Fire` ability and how its animation playback is configured, particularly concerning `Auto Rate` settings.
+
+<Callout type="warning" title="Replication Complexity">
+The Lyra project's networking can be "gnarly." Understanding how Gameplay Abilities and Montages replicate requires deep dives into Unreal Engine's networking documentation and careful observation of existing Lyra examples.
+</Callout>
+
+### Identifying the Root Cause
+
+The primary mechanism for playing weapon animations is the `GA_Weapon_Fire` ability calling `PlayMontageAndWait`. While Gameplay Cues handle many replicated effects like sound and particles, the animation itself needs careful replication. The key difference observed between the pistol and shotgun often boils down to a specific setting within the respective `GA_Weapon_Fire` abilities.
+
+<Steps>
+  <Step num="1" title="Examine GA_Weapon_Fire">
+    Locate the `GA_Weapon_Fire` ability for both the pistol and shotgun. Pay close attention to how `PlayMontageAndWait` is called and any parameters passed to it. This function is crucial for playing skeletal mesh animations and handling their replication.
+  </Step>
+  <Step num="2" title="Inspect Animation Montage Auto Rate">
+    Within the shotgun's `GA_Weapon_Fire` ability (e.g., `GA_Weapon_Fire_Shotgun`), look for the `Auto Rate` setting for the animation montage being played. This value dictates the playback speed of the animation.
+  </Step>
+  <Step num="3" title="Compare Auto Rate Values">
+    Compare the `Auto Rate` of the shotgun's firing animation montage with that of the pistol. A common scenario is that the shotgun's `Auto Rate` might be set too high (e.g., 2.2), making the animation play too quickly for non-instigating clients to observe it correctly.
+  </Step>
+  <Step num="4" title="Adjust Auto Rate for Replication">
+    Change the `Auto Rate` of the shotgun's firing animation montage to `1`. This ensures the animation plays at its normal speed, which often resolves the replication issue where other clients fail to observe the animation.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Implementing Reliable Firing Animations for All Firing Lyra">
+
+Achieving consistent **All Firing Lyra** animations across all clients requires meticulous attention to detail in your Gameplay Abilities and animation assets. The `Auto Rate` adjustment is a common fix, but understanding the underlying replication principles is vital for long-term stability.
+
+<Callout type="success" title="Solution Confirmed">
+Adjusting the `Auto Rate` of the animation montage within the `GA_Weapon_Fire_Shotgun` ability to `1` has been confirmed to resolve the issue of shotgun firing animations not replicating to all clients.
+</Callout>
+
+### Best Practices for Animation Replication
+
+Here's a checklist of best practices to ensure your weapon firing animations replicate correctly in Lyra:
+
+<Checklist
+  id="animation-replication-bp"
+  title="Animation Replication Best Practices:"
+  items={[
+    "Always use `PlayMontageAndWait` within Gameplay Abilities for weapon firing.",
+    "Ensure `Auto Rate` settings for weapon animation montages are appropriate (defaulting to 1 is often safe).",
+    "Verify that the Gameplay Ability itself is set to replicate correctly (though `PlayMontageAndWait` handles much of this).",
+    "Utilize Gameplay Cues for non-critical visual and audio effects that need to be multicast to all clients.",
+    "Thoroughly test animation replication in a multiplayer environment with multiple clients to catch edge cases."
+  ]}
+/>
+
+### Weapon Animation Configuration Comparison
+
+| Feature/Weapon | Pistol | Shotgun (Before Fix) | Shotgun (After Fix) |
+|---|---|---|---|
+| **Animation Trigger** | `GA_Weapon_Fire` | `GA_Weapon_Fire_Shotgun` | `GA_Weapon_Fire_Shotgun` |
+| **Replication to Clients** | All Clients | Instigator + Server Only | All Clients |
+| **Primary Mechanism** | `PlayMontageAndWait` | `PlayMontageAndWait` | `PlayMontageAndWait` |
+| **Animation `Auto Rate`** | 1 (assumed) | 2.2 (or similar high value) | **1** |
+| **Observed Behavior** | Flawless | Broken for remote clients | Flawless |
+
+</Section>
+
+<Section icon={Map} title="Further Considerations for Lyra Development">
+
+Beyond just animation replication, working with Lyra and its complex Gameplay Ability System often presents a steep learning curve. While solutions like adjusting `Auto Rate` can fix specific issues, a deeper understanding of Lyra's architecture is invaluable.
+
+<Callout type="info" title="Learning Lyra">
+"Every day I learn more about Lyra and every day my goals feel less achievable and I feel stupider. This thing is gnarly." This sentiment from the Epic Developer Community Forums highlights the challenging yet rewarding nature of Lyra development. Persistence and community engagement are key.
+</Callout>
+
+### Troubleshooting Table for Common Lyra Firing Issues
+
+| Issue | Potential Cause | Recommended Action |
+|---|---|---|
+| **Animation not playing** | Montage not assigned, `PlayMontageAndWait` not called, `Auto Rate` too low. | Verify montage asset, check GA execution flow, adjust `Auto Rate`. |
+| **Animation plays only locally** | Replication issue with `PlayMontageAndWait` or owning client. | Ensure `Auto Rate` is 1, check ability replication settings, test on listen server vs dedicated. |
+| **Animation plays too fast/slow** | Incorrect `Auto Rate` setting in montage or GA. | Adjust `Auto Rate` to `1` for normal speed, or desired value for effect. |
+| **Missing effects (audio/particles)** | Gameplay Cues not configured or not multicast. | Review Gameplay Cue setup, ensure `Multicast` is enabled for relevant effects. |
+| **Weapon seems to fire without animation** | Animation montage issue or GA execution timing. | Re-evaluate `PlayMontageAndWait` call, check for conflicting animations. |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: All Firing Lyra Animation Replication">
 
 <FAQ items={[
   {
-    question: "Why do some Lyra weapon firing animations not replicate to all clients?",
-    answer: "This often happens due to incorrect 'Auto Rate' settings in the animation montage or subtle differences in the `GA_Weapon_Fire` ability's replication logic between different weapons. The `PlayMontageAndWait` function is key to this replication."
+    question: "Why do pistol animations replicate but shotgun animations don't in All Firing Lyra?",
+    answer: "The primary reason is often an incorrect `Auto Rate` setting for the shotgun's animation montage within its `GA_Weapon_Fire_Shotgun` ability. A high `Auto Rate` can cause the animation to play too quickly for remote clients to observe."
   },
   {
-    question: "What is the 'Auto Rate' and how does it affect firing animations in Lyra?",
-    answer: "The 'Auto Rate' controls the playback speed of an animation montage. If it's set too high (e.g., 2.2), the animation might play too quickly for some clients to process and replicate, leading to it appearing broken or not playing at all for non-instigating players."
+    question: "How can I fix shotgun firing animations not replicating to all clients?",
+    answer: "The most common solution is to locate the shotgun's firing animation montage and set its `Auto Rate` to `1`. This ensures the animation plays at a normal speed, allowing it to replicate correctly across the network."
   },
   {
-    question: "Where can I find the logic for pistol firing animations in Lyra?",
-    answer: "The core logic for pistol firing, like other weapons, resides within the `GA_Weapon_Fire` gameplay ability. This ability calls `PlayMontageAndWait` to trigger the animation. Comparing its setup with a problematic weapon like the shotgun can reveal discrepancies."
+    question: "What is `PlayMontageAndWait` and why is it important for weapon animations in Lyra?",
+    answer: "`PlayMontageAndWait` is a function called within a Gameplay Ability that plays an animation montage and waits for it to complete. It's crucial because it handles the replication of the animation playback to other clients, ensuring synchronization in a multiplayer environment."
   },
   {
-    question: "Does Lyra's Gameplay Cue handle animation replication?",
-    answer: "Gameplay Cues in Lyra primarily handle audio, visual effects like decals, tracers, and shell ejections, and are multicast to all clients. However, they typically do not directly handle the replication of the character's main firing animation montage; that's usually managed by the Gameplay Ability itself."
+    question: "Are Gameplay Cues involved in replicating weapon firing animations?",
+    answer: "Gameplay Cues are typically used to replicate audio, visual effects like decals, tracers, and shell ejections, and other cosmetic elements. While they are multicast to everyone, the actual character animation itself is usually handled by `PlayMontageAndWait` within the Gameplay Ability for **All Firing Lyra**."
   }
 ]} />
 

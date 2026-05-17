@@ -1,5 +1,4 @@
-jsx
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem, Hourglass, ScrollText, Binary, Hammer } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
 import { Checklist } from '@/components/mdx/Checklist'
@@ -18,231 +17,205 @@ export const metadata = {
 }
 
 <Callout type="info" title="Quick Guide">
-- **ALLfiring walkthroughs** focus on efficient progression and combat strategies.
-- Prioritize **main story chapters** for early rewards and foundational mechanics.
-- Master **real-time character switching** to maintain combos and adapt to enemy patterns.
-- **Reroll effectively** for strong starting characters, targeting rate-up banners.
-- Explore **voxel environments** thoroughly for hidden chests and valuable materials.
+- The **ALLfiring walkthrough** is crucial for mastering game mechanics and progression.
+- Prioritize **pre-registering** before May 14, 2026, for exclusive rewards like a 6-star Familiar.
+- Master **character switching** in combat to maintain combos and dodge enemy attacks.
+- Focus on upgrading your **top three characters** first to optimize resource allocation.
+- **Explore every voxel corner** to uncover hidden chests and rare materials for faster progression.
 </Callout>
 
-Welcome, Fire Keeper! Dive into the captivating world of ALLfiring, a unique mobile action RPG that blends voxel sandbox environments with real-time combat and anime-style characters. As the last Fire Keeper, your mission is to explore ruined lands, battle Shadow Beasts, and restore hope with your growing roster of companions. This comprehensive ALLfiring walkthrough will guide you through the essentials, from initial setup and combat mechanics to character progression and advanced tips, ensuring a smooth and enjoyable journey in 2026.
+Welcome, Fire Keeper, to the world of ALLfiring! As the last beacon of hope against the encroaching Shadows, your journey will be filled with exploration, intense real-time combat, and the gathering of powerful companions. This comprehensive ALLfiring walkthrough is designed to equip you with all the knowledge needed to navigate this unique mobile game, combining voxel sandbox environments with anime-style characters. Whether you're just starting or looking to optimize your early game, this guide covers everything from basic gameplay and character roles to common mistakes and advanced tips for success in 2026. Prepare to rebuild hope, one companion at a time.
 
-<Section icon={Map} title="Understanding ALLfiring's Unique World">
-
-ALLfiring, also known by its working title Prometheus, offers a truly distinct gaming experience. It uniquely combines 2D anime characters within fully interactive 3D voxel environments, setting it apart from many other mobile gacha titles. The game is a side-scroller, but with an added layer of depth that allows players to break blocks, climb through layers, and discover hidden paths, enhancing exploration significantly.
-
-Your journey begins as the last Fire Keeper, tasked with navigating a world overrun by Shadows. Recruiting companions and strategically building your team are crucial to overcoming the challenges presented by the Shadow Beasts. The game's gacha system is designed to be free-to-play friendly, allowing dedicated players to acquire powerful companions without excessive spending.
+<Section icon={ScrollText} title="Understanding ALLfiring: The Basics">
+ALLfiring, also known by its working title Prometheus, presents a fresh take on mobile gaming. It blends interactive 3D voxel environments with classic 2D side-scrolling anime combat, offering a depth rarely seen in the genre. As the last Fire Keeper, your mission is clear: explore ruined lands, battle Shadow Beasts, and recruit allies to restore light to the world.
 
 <Callout type="tip">
-Don't underestimate the interactive voxel environment. Many secrets, hidden chests, and rare materials are tucked away in non-obvious locations. Take the time to explore every corner!
+ALLfiring uniquely combines **voxel sandbox exploration** with **real-time anime-style combat** and a **gacha companion system**. This innovative mix sets it apart from many other mobile titles.
 </Callout>
 
-### Core Gameplay Mechanics
+The game's world is fully interactive, allowing you to break blocks, climb structures, and uncover hidden paths. This adds a significant layer to exploration that traditional mobile action RPGs often lack. Combat emphasizes real-time character switching, letting you build a dynamic team of three and swap between them mid-fight to maintain combos and adapt to enemy patterns.
 
-The tutorial in ALLfiring is designed to gently introduce new players to its mechanics. Movement is primarily left and right, with jumping across voxel platforms. A key combat feature is the ability to switch between three characters in real-time with a single tap. This dynamic switching allows for continuous combos and effective dodging, which is vital as enemies grow tougher.
-
-Normal attacks chain into combos, skills unleash visually impressive damage, and your Ultimate abilities are essential for overcoming challenging bosses. The camera remains mostly steady, letting you focus on the action without control distractions.
-
-**Video Highlights:**
-- Demonstrates initial character designs and aesthetic.
-- Shows early gameplay combat and character switching.
-- Highlights the manual gameplay style, without auto-play.
-
-<YouTubeEmbed videoId="rVtT-H4j5Gs" title="All Firing Is ACTUALLY FUN? Reroll Guide Reaction + F2P First Impressions at Global Launch" />
-
-<Callout type="warning">
-While the game features a gacha system, it's crucial to save your premium currency (gems) for specific rate-up banners or character selectors that align with your long-term team goals. Avoid spending on every banner that appears.
-</Callout>
-
-</Section>
-
-<Section icon={Swords} title="Combat and Character Strategy">
-
-Combat in ALLfiring is active and engaging, requiring players to understand enemy attack patterns and react accordingly. While early Shadow Beasts are forgiving, later encounters demand strategic character switching and precise execution. The game's core combat rule emphasizes focusing your resources.
-
-Your team consists of three characters, and the ability to swap between them mid-fight is not just a gimmick—it's a necessity. This allows you to maintain offensive pressure, avoid incoming damage, and utilize different character abilities to their full potential.
-
-### Character Roles and Affinities
-
-Each companion in ALLfiring possesses a unique affinity and role, which are crucial for team synergy. Understanding these roles will help you build a balanced and effective team.
-
-| Character | Affinity | Role / Specialty             |
-| :-------- | :------- | :--------------------------- |
-| **Rozeul**    | Thunder  | Information Broker / Tactical Intel |
-| **Kirika**    | Fire     | Vanguard / Heavy Hammer Specialist |
-| **Nayeh**     | Ice      | Striker / Precision Katana Master |
-| **Herfwin**   | Dark     | Pastry Chef / Shadow Manipulation |
-| **Felgia**    | Wind     | High Priestess / Church Utility |
-| **Sion**      | Wind     | Messenger / Forest Guardian |
-| **Ilscha**    | Ice      | Frost Lily / House Head & Strategy |
-| **Lyra**      | Wind     | Scholar / Archaic Researcher |
-
-<Callout type="info">
-When building your team, consider the elemental affinities and how they interact with different enemy types. A well-rounded team with diverse roles (DPS, Support, Tank) will perform better in various scenarios.
-</Callout>
-
-### Mastering Real-Time Switching
-
-Effective character switching is the backbone of ALLfiring's combat system. It allows you to extend combos, mitigate damage, and deploy specific skills when needed.
-
-<Steps>
-  <Step num="1" title="Observe Enemy Patterns">
-    Before engaging aggressively, take a moment to watch enemy attack animations and telegraphs. This helps you anticipate their moves and plan your switches.
-  </Step>
-  <Step num="2" title="Chain Abilities Seamlessly">
-    Switch between characters to use their skills back-to-back, creating longer combo chains and maximizing damage output. For example, use a crowd control ability with one character, then switch to a high-DPS character for burst damage.
-  </Step>
-  <Step num="3" title="Utilize Dodges and Ultimates">
-    If a character is about to take heavy damage, switch them out and use another character to dodge or absorb the hit. Save Ultimates for boss encounters or when you need to clear multiple enemies quickly.
-  </Step>
-  <Step num="4" title="Resource Management">
-    Keep an eye on each character's skill cooldowns and energy. Switch to characters with available abilities while others are on cooldown, ensuring continuous combat flow.
-  </Step>
-</Steps>
-
-</Section>
-
-<Section icon={Trophy} title="Progression, Leveling, and Rerolling">
-
-Efficient progression in ALLfiring involves more than just fighting. It's about smart resource management, strategic leveling, and understanding the gacha system for optimal character acquisition. Daily login rewards, quest completions, and map clearing are your primary sources for progression materials.
-
-### Character Progression Priorities
-
-The most critical advice for progression is to **upgrade your best three characters first**. Spreading resources too thin across many characters will significantly slow down your overall progress.
-
-| Progression Aspect | Priority | Description                                            |
-| :----------------- | :------- | :----------------------------------------------------- |
-| **Main Story**     | High     | Unlocks content, provides strong early rewards.        |
-| **Top 3 Characters** | Critical | Focus all upgrade materials here for efficiency.       |
-| **Daily Quests**   | High     | Consistent source of experience and materials.         |
-| **Event Participation** | High     | Often provides unique and valuable rewards.            |
-| **Voxel Exploration** | Medium   | Discover hidden resources and chests for extra boosts. |
-| **Other Characters** | Low      | Only upgrade after your main team is solidified.       |
-
-<Callout type="success">
-Pre-registering for ALLfiring before its global launch on May 14, 2026, guarantees significant rewards, including a free 6-star Familiar companion. This gives you a massive head start!
-</Callout>
-
-### Rerolling for a Strong Start
-
-Rerolling in ALLfiring can provide a significant advantage, especially for free-to-play players. The process is relatively quick, taking about 8 minutes per attempt thanks to guest accounts and a data deletion option.
-
-**Reroll Process Checklist:**
-
-<Checklist
-  id="reroll-guide"
-  title="ALLfiring Reroll Steps:"
-  items={[
-    "Log in as a Guest account (controller icon on the far left).",
-    "Play through the initial tutorial until summons are unlocked.",
-    "Skip all dialogue using the top-right skip button to save time.",
-    "Claim all mail rewards for initial summon currency.",
-    "Perform summons, targeting the current rate-up character.",
-    "If desired character is not obtained, delete guest account data via Settings > Account > Account Deletion.",
-    "Repeat the process until satisfied with your starting characters."
-  ]}
-/>
-
-### Summoning and Pity System
-
-ALLfiring features a standard gacha summoning system with a pity mechanic. Understanding these rates and how to utilize them is key to successful rerolling and character acquisition.
-
-| Banner Type     | Base Drop Rate (6-star) | Pity System                                  | Notes                                                        |
-| :-------------- | :---------------------- | :------------------------------------------- | :----------------------------------------------------------- |
-| **Rate-Up Banner** | 1.2%                    | 80 pulls for character selector              | Features a specific rate-up character, often a DPS.          |
-| **Standard Banner** | 1.2%                    | 80 pulls for character selector              | Contains a wider pool of 6-star characters.                  |
-| **Beginner Selector** | N/A                     | 50 pulls for one-time character selector     | Available during the beginner period, highly recommended.    |
-| **Companion Select** | N/A                     | Every 300 standard draws for character selector | Long-term pity for specific character acquisition.           |
-
-<Callout type="tip">
-Your primary reroll target should be the current rate-up character, as they often provide strong early-game DPS. Aim to get them, and ideally, an additional desirable 6-star unit. The beginner 50-pull selector is also a crucial opportunity to secure a strong character.
-</Callout>
-
-</Section>
-
-<Section icon={Target} title="Top Beginner Tips and Common Mistakes">
-
-Navigating the early hours of ALLfiring effectively can set you up for long-term success. Here are some essential tips and common pitfalls to avoid.
-
-### Essential Beginner Tips
-
-These tips will help you optimize your initial experience and accelerate your progress in ALLfiring:
-
-| Tip Category    | Action                                                | Benefit                                                  |
-| :-------------- | :---------------------------------------------------- | :------------------------------------------------------- |
-| **Pre-registration** | Sign up before May 14, 2026.                        | Free 6-star Familiar and other launch rewards.           |
-| **Story Progression** | Follow main story chapters initially.               | Learn mechanics, unlock features, gain rewards.          |
-| **Combat Practice** | Actively switch characters during fights.             | Maintain combos, dodge attacks, maximize damage.         |
-| **Exploration** | Check every voxel corner and hidden path.             | Find hidden chests, rare materials, and resources.       |
-| **Gem Management** | Save gems for strategic rate-up banners.             | Efficiently acquire desired strong characters.           |
-| **Daily Activities** | Complete login bonuses and daily quests.             | Consistent flow of experience, currency, and materials.  |
-| **Resource Focus** | Upgrade only your top three characters first.       | Prevents resource waste, builds a strong core team.      |
-| **Boss Tactics** | Observe enemy attack patterns before engaging.        | Develop effective strategies, minimize damage taken.     |
-| **Community Engagement** | Follow @ALLfiring2026 for updates.                  | Stay informed on events, codes, and community tips.      |
-
-### Common Mistakes to Avoid
-
-New players often make certain mistakes that can hinder their progress. Avoiding these will ensure a smoother ALLfiring experience:
-
-<CardGrid cols={2}>
-  <Card title="Ignoring Character Switching">
-    Sticking to one character in combat limits your potential. ALLfiring is designed for dynamic team play; neglecting switches means losing out on combo potential and defensive options.
+<CardGrid cols={3}>
+  <Card title="Voxel Exploration">
+    - **Fully interactive environments**
+    - Break blocks, climb layers
+    - Find hidden paths and secrets
   </Card>
-  <Card title="Spreading Resources Too Thin">
-    Upgrading every character you acquire will quickly deplete your valuable resources. Focus on your core three units until they are strong and self-sufficient.
+  <Card title="Real-time Combat">
+    - **Switch between 3 characters**
+    - Maintain combos and dodge attacks
+    - Strategic team building is key
   </Card>
-  <Card title="Skipping Story Chapters">
-    While tempting to rush, skipping story chapters means missing out on crucial free rewards and the game's built-in mechanical lessons. The story serves as an extended tutorial.
-  </Card>
-  <Card title="Neglecting Voxel Exploration">
-    The interactive voxel maps are not just aesthetic. Failing to explore them thoroughly will cause you to miss valuable materials, hidden chests, and progression-speeding loot.
+  <Card title="Anime Aesthetics">
+    - **2D anime characters**
+    - Visually appealing art style
+    - Engaging character designs
   </Card>
 </CardGrid>
 
 </Section>
 
-<Section icon={Shield} title="Playing ALLfiring on PC with MuMuPlayer">
+<Section icon={Swords} title="Character Roster and Roles">
+In ALLfiring, your success hinges on understanding your companions. Each of the eight primary guardians brings unique affinities and roles to your team, making strategic selection vital for overcoming challenges. Building a balanced team that complements each other's strengths is crucial for an effective ALLfiring walkthrough.
 
-For those who prefer a larger screen and more precise controls, playing ALLfiring on PC or Mac using an emulator like MuMuPlayer is an excellent option. This offers enhanced graphics, performance, and customizable controls.
+<Callout type="info" title="Team Composition">
+A balanced team typically includes characters with varied roles such as **Vanguard (DPS/Tank)**, **Striker (Precision DPS)**, and **Utility (Support/Healer)**. Experiment to find synergies.
+</Callout>
+
+Here's a breakdown of the initial characters and their specialties:
+
+| Character | Affinity | Role / Specialty             |
+| :-------- | :------- | :--------------------------- |
+| **Rozeul**  | Thunder  | Information Broker / Tactical Intel |
+| **Kirika**  | Fire     | Vanguard / Heavy Hammer Specialist |
+| **Nayeh**   | Ice      | Striker / Precision Katana Master |
+| **Herfwin** | Dark     | Pastry Chef / Shadow Manipulation |
+| **Felgia**  | Wind     | High Priestess / Church Utility |
+| **Sion**    | Wind     | Messenger / Forest Guardian  |
+| **Ilscha**  | Ice      | Frost Lily / House Head & Strategy |
+| **Lyra**    | Wind     | Scholar / Archaic Researcher |
+
+</Section>
+
+<Section icon={Target} title="Essential Gameplay Mechanics">
+The tutorial in ALLfiring gently guides new players through the core mechanics. Movement is straightforward, involving left/right navigation and jumping across voxel platforms. The key to dynamic combat lies in mastering character switching, which can be done with a single tap.
+
+**Video Highlights:**
+- Demonstrates basic movement and platforming.
+- Shows real-time character switching in action.
+- Explains the combo system and ultimate skills.
+
+<YouTubeEmbed videoId="NO_RELATED_VIDEO_FOUND" title="ALLfiring Gameplay Overview" />
+
+<Callout type="warning" title="Don't Ignore Tutorials">
+Skipping the main story chapters and tutorials means missing out on **free rewards** and crucial mechanical lessons built into each one. These are foundational for your ALLfiring walkthrough.
+</Callout>
+
+Combat revolves around chaining normal attacks into combos, utilizing skills for burst damage, and deploying powerful Ultimates against tough bosses. The camera remains steady, allowing you to focus entirely on the action without control distractions. Early Shadow Beasts are designed to teach you the ropes without being overly punishing, emphasizing the importance of observing enemy attack patterns.
+
+<Checklist
+  id="basic-gameplay"
+  title="Fundamental Gameplay Actions:"
+  items={[
+    "Master left and right movement",
+    "Practice jumping across voxel platforms",
+    "Utilize one-tap character switching",
+    "Chain normal attacks into combos",
+    "Deploy skills for visual damage bursts",
+    "Save Ultimates for boss encounters"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression and Resource Management">
+Efficient progression is vital in ALLfiring. Daily login rewards, quest completions, and map clears are your primary sources of materials and experience. Understanding the game's reward mechanisms will significantly accelerate your journey.
+
+<Callout type="success" title="Pre-registration Bonus">
+Make sure to **pre-register before May 14, 2026**! Reaching 200,000 pre-registrations unlocks a **free 6-star Familiar companion** from day one, giving you a massive head start.
+</Callout>
+
+A common pitfall for new players is spreading upgrade resources too thin. Instead, focus on your core team.
+
+<Steps>
+  <Step num="1" title="Prioritize Your Core Team">
+    Select your **best three characters** and commit to upgrading them first. This ensures your main squad is always combat-ready and powerful.
+  </Step>
+  <Step num="2" title="Daily Rewards & Quests">
+    Complete **daily login bonuses and quests** every session. The rewards accumulate rapidly and are crucial for consistent progression.
+  </Step>
+  <Step num="3" title="Strategic Gem Usage">
+    **Save your gems**! Avoid spending them on every banner you see. Wait for banners featuring characters or items that truly benefit your core team.
+  </Step>
+  <Step num="4" title="Thorough Exploration">
+    **Look into every voxel corner**. Hidden chests and rare materials are often tucked away in non-obvious locations, providing valuable resources.
+  </Step>
+</Steps>
+
+| Progression Method    | Key Rewards                      | Priority Level |
+| :-------------------- | :------------------------------- | :------------- |
+| **Main Story Chapters** | Emberite, Stardust, Character EXP | High           |
+| **Daily Quests**      | Gold, Upgrade Materials, Gems    | High           |
+| **Login Bonuses**     | Emberite, Stardust, Special Items | High           |
+| **Map Exploration**   | Hidden Chests, Rare Materials    | Medium         |
+| **Event Participation** | Exclusive Companions, Resources  | High (Seasonal)|
+
+</Section>
+
+<Section icon={Hammer} title="Common Mistakes and How to Avoid Them">
+Even experienced mobile gamers can fall into common traps in ALLfiring. Avoiding these mistakes will ensure a smoother and more enjoyable ALLfiring walkthrough experience.
+
+<Callout type="warning" title="Biggest Mistake: Ignoring Character Switching">
+Many players stick to a single character in combat, severely limiting their potential. **Always switch between your three characters** to keep combos going and adapt to changing battle conditions.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Mistake: Spreading Resources Too Thin">
+    - **Symptom**: Upgrading too many characters at once.
+    - **Consequence**: Weakens your overall team, slows progression.
+    - **Solution**: Focus on your top three characters first.
+  </Card>
+  <Card title="Mistake: Skipping Story Chapters">
+    - **Symptom**: Rushing through content without engaging.
+    - **Consequence**: Misses free rewards, crucial gameplay lessons.
+    - **Solution**: Follow the main story to learn mechanics and earn rewards.
+  </Card>
+  <Card title="Mistake: Neglecting Voxel Exploration">
+    - **Symptom**: Only following the direct path.
+    - **Consequence**: Misses valuable materials and chest loot.
+    - **Solution**: Actively search every corner of the voxel maps.
+  </Card>
+  <Card title="Mistake: Pulling on Every Banner">
+    - **Symptom**: Spending gems impulsively on gacha banners.
+    - **Consequence**: Wastes precious gems on non-optimal units.
+    - **Solution**: Save gems for specific, highly beneficial banners.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Binary} title="Playing ALLfiring on PC or Mac with MuMuPlayer">
+For those who prefer a larger screen and optimized controls, playing ALLfiring on PC or Mac using an emulator like MuMuPlayer is an excellent option. This can enhance your ALLfiring walkthrough experience with better graphics and performance.
+
+<Callout type="info">
+Using an emulator like MuMuPlayer can provide a superior gaming experience with **better controls, graphics, and performance** for ALLfiring on PC or Mac.
+</Callout>
 
 <Steps>
   <Step num="1" title="Download MuMuPlayer">
-    Download and install the MuMuPlayer client for your PC or Mac from their official website.
+    Download and install **MuMuPlayer** for your PC or Mac from its official website.
   </Step>
-  <Step num="2" title="Complete Google Sign-in">
-    Launch MuMuPlayer and complete the Google Sign-in process within the emulator. This allows access to the Google Play Store.
+  <Step num="2" title="Google Sign-in">
+    Complete the Google Sign-in process within MuMuPlayer to access the App Center.
   </Step>
   <Step num="3" title="Search for ALLfiring">
-    Open the App Center or Google Play Store within MuMuPlayer and search for "ALLfiring."
+    In the App Center, search for "ALLfiring". If not found, you can download the game's APK file and install it locally.
   </Step>
-  <Step num="4" title="Install the Game">
-    Click to download and install ALLfiring from the search results. If the game isn't available on the Play Store, you can download its APK file and install it locally on MuMuPlayer.
-  </Step>
-  <Step num="5" title="Start Playing">
-    Once installed, click the ALLfiring icon on the MuMuPlayer home screen to launch the game and begin your adventure with optimized controls and performance.
+  <Step num="4" title="Launch and Play">
+    Click the ALLfiring icon on the MuMuPlayer home screen to start playing the game with optimized PC controls and performance.
   </Step>
 </Steps>
 
 </Section>
 
-<Section icon={Sparkles} title="FAQ: Your ALLfiring Questions Answered">
+<Section icon={Gem} title="FAQ">
 
 <FAQ items={[
   {
-    question: "What makes ALLfiring unique compared to other mobile RPGs?",
-    answer: "ALLfiring stands out with its combination of 2D anime characters in interactive 3D voxel environments, real-time combat with character switching, and a free-to-play friendly gacha system. The exploration aspect within the voxel world adds significant depth."
+    question: "What is ALLfiring about?",
+    answer: "ALLfiring is a mobile game where you play as the last Fire Keeper, exploring ruined voxel lands, fighting Shadow Beasts, and gathering anime-style companions to rebuild hope. It combines voxel sandbox, real-time combat, and gacha mechanics."
   },
   {
-    question: "Is rerolling necessary for a good start in ALLfiring?",
-    answer: "While not strictly 'necessary,' rerolling for a strong rate-up character can provide a significant advantage and make early progression much smoother, especially for free-to-play players. The process is relatively quick."
+    question: "How does combat work in ALLfiring?",
+    answer: "Combat is real-time and involves switching between three characters in your team. You chain normal attacks into combos, use skills for damage bursts, and deploy Ultimates against bosses. Reading enemy attack patterns is key."
   },
   {
-    question: "How important is character switching in ALLfiring's combat?",
-    answer: "Character switching is a core mechanic in ALLfiring. It's crucial for maintaining combos, dodging enemy attacks, and strategically deploying different skills to maximize damage and survivability. Ignoring it will make fights much harder."
+    question: "Why should I pre-register for ALLfiring?",
+    answer: "Pre-registering before May 14, 2026, costs nothing and grants scaling rewards, including a free 6-star Familiar companion if enough players sign up. This gives you a significant head start in your ALLfiring walkthrough."
   },
   {
-    question: "Where can I find more information and updates for ALLfiring?",
-    answer: "You can follow the official ALLfiring community on platforms like @ALLfiring2026 for event news, tips, and updates. Additionally, community wikis and guides often provide valuable insights."
+    question: "What are the most common mistakes new ALLfiring players make?",
+    answer: "New players often ignore character switching, spread upgrade resources too thin, skip story chapters, and neglect thorough voxel map exploration. Avoiding these will greatly improve your experience."
   }
 ]} />
 

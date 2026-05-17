@@ -1,4 +1,4 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles, User } from 'lucide-react'
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
 import { Checklist } from '@/components/mdx/Checklist'
@@ -17,159 +17,186 @@ export const metadata = {
 }
 
 <Callout type="info" title="Quick Guide">
-- **ALLfiring characters** are central to team building and combat strategy.
-- **Rozeul** is a top-tier Thunder Main DPS, highly recommended for early game.
-- **Sion** provides excellent Wind support and sub-DPS, fitting into most teams.
-- **Elemental affinities** (Thunder, Fire, Ice, Dark, Wind) dictate team synergy.
-- **Focus resources** on 3-4 core characters for efficient progression.
+- **All Firing characters** are defined by unique elemental types and combat roles.
+- **Elemental affinities** (Fire, Ice, Wind, Thunder, Dark) are crucial for strategic advantage.
+- **Team composition** should balance roles like Assault, Support, and Coordinated Attack.
+- **Familiar pairing** matching elements with characters significantly boosts damage.
+- **Relics and Engravings** offer powerful stat bonuses and unique abilities for character progression.
 </Callout>
 
-In ALLfiring, your success hinges on understanding and utilizing its diverse cast of characters. As an anime side-scroller action RPG, the game emphasizes real-time three-character switching, making character synergy and individual strengths paramount. This comprehensive guide will delve into the launch roster, their unique roles, elemental affinities, and how to effectively build teams to conquer the challenges of 2026. Whether you're a new player looking for a strong start or a seasoned veteran optimizing your lineup, mastering each ALLfiring character is key to progression.
+Welcome, adventurer, to the dark fantasy world of All Firing, where the fate of a fading flame rests on your shoulders. To navigate its dangerous lands and restore hope, you'll need to master the diverse cast of **All Firing characters**. Each companion brings unique personalities, stories, and, most importantly, distinct elemental powers and combat roles that are vital for building a formidable team. Understanding these intricacies is key to overcoming challenging foes and progressing smoothly through this anime-style action RPG. This guide will delve into everything you need to know about your characters, from their elemental strengths to optimal team setups.
 
-<Section icon={User} title="Understanding ALLfiring Characters & Roles">
-ALLfiring features a vibrant cast of companions, each with distinct elemental affinities and combat roles. These characters are the cornerstone of your three-character switching system, allowing for dynamic combat and strategic team compositions. The initial roster covers Thunder, Fire, Ice, Dark, and Wind elements, offering a variety of playstyles for damage, support, utility, and survival.
+<Section icon={Sparkles} title="Understanding Character Elements and Roles">
+
+In All Firing, combat is dynamic and strategic, heavily influenced by the elemental system and the assigned roles of your characters. There are five primary elements, each with its own focus, and various combat roles that dictate a character's playstyle. A balanced team that leverages these aspects will ensure fluid combo rotations and maximum effectiveness against diverse enemy types.
+
+**Video Highlights:**
+- Demonstrates fast-paced action combat with character switching.
+- Shows flashy anime effects and smooth animations during battles.
+- Highlights the unique voxel-style open world exploration.
+
+<YouTubeEmbed videoId="rO34CXwjfdw" title="ALLfiring - RPG Official Launch Gameplay (Android/iOS)" />
 
 <Callout type="tip" title="Elemental Advantage">
-Always consider elemental advantages when forming your team. Matching your characters' elements to enemy weaknesses can significantly boost your damage and overall combat effectiveness.
+Always aim to match your character's elemental damage type with enemies weak to that element. This can significantly increase your damage output and provide a crucial combat advantage, especially in tougher encounters.
 </Callout>
 
-Here's a breakdown of the launch characters, their primary roles, and playstyle insights:
+### Elemental Affinities
 
-| Character Name | Affinity | Primary Role           | Specialty                      | Playstyle Overview                                                                                                                              |
-| :------------- | :------- | :--------------------- | :----------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Rozeul**     | Thunder  | Main DPS               | Information Broker             | A strong Thunder damage pick, ideal as a safe main carry for early progression teams and AoE clearing.                                  |
-| **Kirika**     | Fire     | DPS                    | Vanguard / Heavy Hammer        | Straightforward Fire damage with stable output, useful for Fire coverage in mixed teams.                                                |
-| **Nayeh**      | Ice      | Ice Support / Striker  | Precision Katana Master        | Practical early Ice unit, good for supporting Ice-focused teams before stronger premium options.                                        |
-| **Herfwin**    | Dark     | Tank / Bruiser         | Pastry Chef / Shadow Manipulation | Dark survivability option for a sturdier frontline, useful when more safety is needed over pure damage.                                |
-| **Felgia**     | Wind     | Sustained DPS / Utility | High Priestess                 | Wind character focused on steady pressure in longer fights, pairs well with Wind support.                                               |
-| **Sion**       | Wind     | Sub DPS / Support      | Messenger / Forest Guardian    | Flexible Wind support, helps maintain combat flow and contributes damage, especially valuable for beginner teams.                       |
-| **Ilscha**     | Ice      | Burst DPS              | Frost Lily / House Head        | Ice burst damage option for strong burst windows, best with focused investment and Ice-focused setups.                                  |
-| **Lyra**       | Wind     | Scholar / Researcher   | Archaic Researcher             | A Wind companion with a scholar-style identity, rounding out the launch character collection.                                           |
+The elemental system in All Firing adds a layer of strategy, making combat engaging rather than repetitive. Each element has distinct characteristics:
+
+| Element | General Focus          | Damage Type | Strategic Use                                |
+| :------ | :--------------------- | :---------- | :------------------------------------------- |
+| **Fire**    | Explosive, High Damage | Fire        | Burst damage, AoE, aggressive play           |
+| **Ice**     | Slowing, Control       | Ice         | Crowd control, debuffs, defensive tactics    |
+| **Wind**    | Swift, Flexible        | Wind        | Rapid attacks, mobility, combo extension     |
+| **Thunder** | Rapid Burst, Flashy    | Thunder     | Quick damage, stunning, high impact skills   |
+| **Dark**    | Mysterious, Powerful   | Dark        | Unique effects, turning tide of battle, debuffs |
+
+### Combat Roles
+
+Beyond elements, each character fulfills a specific combat role, vital for creating synergistic teams. These roles influence their abilities and how they contribute to your overall strategy.
+
+| Role               | Description                                    | Example Contribution                 |
+| :----------------- | :--------------------------------------------- | :----------------------------------- |
+| **Assault**        | Focuses on dealing heavy damage to enemies.    | Main DPS, high burst damage          |
+| **Support**        | Provides buffs, heals, or debuffs to allies.   | Healing, shields, enemy weakening    |
+| **Coordinated Attack** | Synergizes with other characters for combined attacks. | Chain attacks, combo extenders       |
+| **Tank**           | Absorbs damage, protects allies on the front lines. | Taunts, damage reduction, high HP    |
+| **Tactical/Strategy** | Utilizes unique mechanics or battlefield control. | Environmental manipulation, unique buffs |
+| **Utility**        | Offers versatile skills for various situations. | Minor buffs, debuffs, small damage   |
 
 </Section>
 
-<Section icon={Trophy} title="ALLfiring Character Tier List - Best Picks 2026">
-Deciding which ALLfiring character to invest in can be daunting. This tier list focuses on early progression value, damage output, support utility, team flexibility, and the setup required for a character to shine. Use this to prioritize your upgrade materials and banner pulls.
+<Section icon={Swords} title="Building Your Optimal All Firing Character Team">
 
-<Callout type="warning" title="Tier List Dynamics">
-Tier lists are dynamic and can change with game updates and new character releases. Always cross-reference with community discussions and your own playstyle preferences.
+Team building is at the core of All Firing's combat system. With a three-character switching system, you can swap between teammates in real-time, combining attacks to create powerful combos. The goal is to balance elemental coverage with complementary combat roles to tackle any challenge.
+
+<Callout type="warning" title="Resource Management">
+Early in the game, it's better to focus your resources on a main team of three strong characters. Spreading resources too thin can hinder your progression, as upgrade materials can run out quickly.
 </Callout>
 
-| Tier | Character Name | Affinity | Rarity | Role           | Best For                                           | Build Note                                                                                                    |
-| :--- | :------------- | :------- | :----- | :------------- | :------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
-| **T0** | **Rozeul**     | Thunder  | 6★     | Main DPS       | Safe first carry, AoE clearing, boss damage        | Prioritize Rozeul for reliable early DPS.                                                                     |
-|      | **Sion**       | Wind     | 6★     | Sub DPS / Support | Free early support, team flow, steady pressure     | Build Sion early; she performs well even without heavy investment.                                            |
-| **T1** | **Ilscha**     | Ice      | 6★     | Burst DPS      | Ice teams, burst windows, high-investment setups   | Strong long-term damage, but requires more setup than Rozeul.                                                 |
-|      | **Felgia**     | Wind     | 6★     | Sustained DPS  | Long fights, Wind teams, Sion synergy              | Safe DPS choice for steady pressure over burst-only damage.                                                   |
-|      | **Kirika**     | Fire     | 6★     | DPS            | Fire coverage, mixed teams, simple rotations       | Useful when Fire advantage is key and easy to slot into normal teams.                                         |
-| **T2** | Nayeh          | Ice      | 5★     | Support        | Budget Ice support, early team stabilization       | Good early utility, but likely replaceable by stronger supports later.                                        |
-|      | Herfwin        | Dark     | 5★     | Tank / Bruiser | Survivability, frontline pressure, safer fights    | Useful if you need more defense, but can slow down damage-focused teams.                                      |
-|      | Main Character | Adaptive | Starter| Flexible Starter| Early story clear, basic utility                   | Keep investment moderate; transition to stronger units later.                                                 |
+### Core Team Building Principles
 
-</Section>
+| Principle                 | Description                                    | Benefit                                  |
+| :------------------------ | :--------------------------------------------- | :--------------------------------------- |
+| **Elemental Coverage**    | Include characters with different elements.    | Adaptability against varied enemy types  |
+| **Role Balance**          | Mix Assault, Support, and Coordinated Attack.  | Sustained damage, survivability, combo potential |
+| **Synergy**               | Choose characters whose skills complement each other. | Enhanced combo potential, stronger chain attacks |
+| **Main Team Focus**       | Prioritize upgrading 3 core characters initially. | Efficient resource use, faster progress  |
 
-<Section icon={Swords} title="Team Building with ALLfiring Characters">
-Effective team building in ALLfiring involves combining characters with complementary roles and elemental affinities. The real-time three-character switching system allows for dynamic combat, where a well-balanced team can overcome various challenges.
+### Character Progression and Enhancement
 
-<Callout type="success" title="Synergy is Key">
-A strong team isn't just about individual powerful characters, but how well they work together through their skills and elemental reactions. Experiment to find combinations that suit your playstyle.
-</Callout>
-
-<CardGrid cols={2}>
-  <Card title="Basic Three-Character Core">
-    - **Main DPS**: Your primary damage dealer.
-    - **Sub DPS or Support**: Provides additional damage or crucial buffs/heals.
-    - **Flexible Slot**: Tank, utility, or elemental counter based on the stage.
-    *Best For*: New players learning combat flow and early boss patterns.
-  </Card>
-  <Card title="Rozeul + Sion Starter Core">
-    - **Rozeul** (Thunder Main DPS)
-    - **Sion** (Wind Sub DPS / Support)
-    - **Flex** (Kirika, Felgia, Herfwin, or Nayeh)
-    *Best For*: Reliable early team with strong damage and smooth switching. Rozeul handles main damage while Sion maintains pressure.
-  </Card>
-  <Card title="Dual-Wind Progression Setup">
-    - **Felgia** (Sustained Wind DPS)
-    - **Sion** (Wind Support / Sub DPS)
-    - **Flex** (Rozeul or another strong carry)
-    *Best For*: Players who prefer steady damage over short burst windows, creating a comfortable Wind-focused base for longer fights.
-  </Card>
-  <Card title="Ice Burst Setup">
-    - **Ilscha** (Ice Burst DPS)
-    - **Nayeh** (Ice Support)
-    - **Flexible** (Safety or extra damage)
-    *Best For*: High burst damage and players willing to invest heavily into Ice characters for powerful damage windows.
-  </Card>
-</CardGrid>
-
-</Section>
-
-<Section icon={Target} title="Optimizing Your ALLfiring Character Roster">
-Efficiently managing your ALLfiring characters involves strategic rerolling, focused upgrades, and understanding the core progression loop.
+To maximize your **All Firing character** potential, you'll need to invest in their growth through various systems. This includes leveling, upgrading talents, equipping Familiars, and utilizing Relics and Engravings.
 
 <Steps>
-  <Step num="1" title="Initial Reroll Strategy">
-    Aim for a strong 6★ carry like **Rozeul** right after the tutorial. Claim all launch rewards and codes (**allfiring0515, vip777, dc0515**) before pulling to maximize your chances. Rozeul is a safe reroll target due to his reliable Thunder DPS.
+  <Step num="1" title="Leveling Up Characters">
+    Gain experience through combat and story progression. Use experience materials to quickly boost character levels, unlocking higher stats and access to new talents.
   </Step>
-  <Step num="2" title="Focus on a Core Team">
-    Concentrate your upgrade materials on your best three characters first. Spreading resources too thin across your entire roster will slow down your progression significantly. A strong core team makes clearing story stages and daily missions much easier.
+  <Step num="2" title="Talent Tree Upgrades">
+    Each character has a unique talent tree. Spend materials (obtainable from the Sanctum) to upgrade abilities, enhancing their combat effectiveness and unlocking new skills.
   </Step>
-  <Step num="3" title="Explore Voxel Maps Thoroughly">
-    ALLfiring's voxel maps are rich with hidden paths, treasures, and environmental puzzles. Don't rush; exploring carefully yields extra upgrade materials and rewards that accelerate character development.
+  <Step num="3" title="Equipping Familiars">
+    Familiars act as pets, assisting in battles. Crucially, pair Familiars with characters of the **same elemental type** to maximize damage and gain elemental advantage. For example, an Ice Familiar with an Ice character.
   </Step>
-  <Step num="4" title="Save Premium Currency (Stardust)">
-    Resist the urge to spend all your Stardust on the first banner. Save it for strong banners featuring characters you truly desire or those that fill a critical gap in your team composition. This ensures you have enough currency for impactful pulls later on.
+  <Step num="4" title="Relics (Gear) Acquisition">
+    Relics are your character's gear, providing stats and set bonuses. Always aim for Relic sets that match your character's element to activate powerful bonuses, such as increased Wind damage for a Wind character.
   </Step>
-  <Step num="5" title="Utilize Login and Event Rewards">
-    Regularly check event tabs and your in-game mailbox for login bonuses, event rewards (like seven-day logins or Jallest unlock rewards), and Felgia banner activities. These free resources are crucial for boosting your early account and character value.
+  <Step num="5" title="Engravings (Awakening)">
+    When you obtain duplicate characters from the gacha system, you can use them for Engravings. These provide significant bonuses, such as automatic strength resonance stacks upon entering battle, further enhancing character power.
   </Step>
 </Steps>
 
-</Section>
-
-<Section icon={Shield} title="ALLfiring Character Progression Checklist">
-To ensure you're making the most of your ALLfiring character development, follow this essential checklist.
-
-<Callout type="info" title="Prioritize & Adapt">
-While this checklist provides a solid framework, remember to adapt your strategy based on your specific character pulls and current game challenges.
+<Callout type="success" title="Smart Summoning">
+While tempting to summon immediately, saving your premium currency (Stardust and Infinite Stardust) for stronger characters or banners you truly desire can be a more effective long-term strategy for acquiring powerful characters.
 </Callout>
 
+</Section>
+
+<Section icon={Target} title="Optimizing Combat with Character Switching">
+
+The side-scrolling action combat in All Firing thrives on seamless character switching. Mastering this mechanic is crucial for dealing maximum damage, avoiding attacks, and creating spectacular combos.
+
+<Callout type="info">
+The combat system emphasizes switching characters in and out. When characters glow in the right corner, it's an indicator to chain them for powerful combo attacks, similar to other action RPGs that feature character swapping for extra damage.
+</Callout>
+
+### Effective Switching Strategies
+
+| Strategy                  | Description                                    | Outcome                                 |
+| :------------------------ | :--------------------------------------------- | :-------------------------------------- |
+| **Chain Attacks**         | Switch characters when they glow to activate chain attacks. | Maximized damage, extended combos       |
+| **Elemental Burst**       | Rotate characters to exploit elemental weaknesses. | Rapid enemy takedowns, higher efficiency |
+| **Dodge and Counter**     | Switch to a character with invincibility frames or a quick dodge. | Avoid damage, set up counter-attacks    |
+| **Role Rotation**         | Use Support characters for buffs, then switch to Assault for damage. | Sustained combat, increased survivability |
+| **Stamina Management**    | Switch out characters whose skills are on cooldown or low on stamina. | Maintain combat pressure, skill uptime  |
+
+### Daily Missions and Resource Gathering
+
+To continuously power up your **All Firing characters**, engaging in daily activities and resource gathering is essential. This provides the necessary materials for leveling, talent upgrades, and equipment enhancements.
+
 <Checklist
-  id="character-progression"
-  title="Essential Character Milestones:"
+  id="daily-character-progression"
+  title="Daily Character Progression Checklist:"
   items={[
-    "Complete the tutorial and unlock all core menus.",
-    "Claim all available launch codes and mailbox rewards.",
-    "Secure a strong 6★ DPS character (e.g., Rozeul) through rerolling or initial pulls.",
-    "Form a balanced three-character main team (DPS, Sub-DPS/Support, Flex).",
-    "Focus all initial upgrade materials on your main three characters.",
-    "Thoroughly explore each voxel map for hidden treasures and materials.",
-    "Participate in all active launch events for bonus rewards.",
-    "Save premium currency for targeted banners and valuable character acquisitions.",
-    "Bind your account once satisfied with your starting roster."
+    "Complete Daily Missions for rewards and currency",
+    "Clear Story Chapters to unlock new mechanics and earn rewards",
+    "Participate in Dungeon runs for material grinding (requires stamina)",
+    "Explore the voxel sandbox maps for hidden treasures and upgrade materials",
+    "Utilize redeem codes for early resource boosts (check official channels for new codes)"
   ]}
 />
 
 </Section>
 
-<Section icon={Sparkles} title="ALLfiring Character FAQ">
+<Section icon={Shield} title="Advanced Character Customization">
+
+Beyond core progression, All Firing offers deeper customization through Familiars and Relics, allowing you to fine-tune your characters for specific challenges.
+
+<Callout type="tip" title="Familiar Synergy">
+Ensure your Familiars' elemental damage types match the character they are equipped to. A Wind character with a Wind-damage Familiar will significantly outperform one paired with an Ice-damage Familiar, as it maintains elemental consistency.
+</Callout>
+
+### Familiar Customization
+
+Familiars are powerful allies that can drastically impact your character's performance.
+
+| Familiar Aspect | Detail                                        | Impact                                   |
+| :-------------- | :-------------------------------------------- | :--------------------------------------- |
+| **Elemental Match** | Pair Familiars with characters of the same element. | Maximizes elemental damage and advantage |
+| **Damage Type** | Familiars inflict their own elemental damage. | Adds an extra layer of offensive power   |
+| **Assistance**  | Actively assist in battles.                   | Provides continuous support and damage   |
+
+### Relic and Gear Optimization
+
+Relics are your primary source of gear and stat bonuses. Strategic selection and upgrading are key.
+
+| Relic Aspect    | Detail                                           | Importance                               |
+| :-------------- | :----------------------------------------------- | :--------------------------------------- |
+| **Gear Stats**  | Each Relic piece provides various stat bonuses.  | Directly enhances character attributes   |
+| **Set Bonuses** | Equipping multiple pieces from the same set grants powerful bonuses. | Crucial for specialized builds (e.g., +Wind Damage) |
+| **Elemental Focus** | Prioritize Relics that boost your character's primary element. | Synergistic power increase, build specialization |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions About All Firing Characters">
 
 <FAQ items={[
   {
-    question: "Which ALLfiring character is best for beginners?",
-    answer: "For beginners, Rozeul is highly recommended. As a Thunder Main DPS, he offers reliable damage, strong AoE clearing, and is effective against bosses with minimal setup, making him a safe first investment."
+    question: "How do I get new All Firing characters?",
+    answer: "New characters are primarily obtained through the gacha system (summons) in the game. You can use Stardust or Infinite Stardust to pull for new companions, with higher rarity characters offering more power."
   },
   {
-    question: "How important is elemental affinity for ALLfiring characters?",
-    answer: "Elemental affinity is crucial. Matching your characters' elements to exploit enemy weaknesses provides significant damage bonuses and can turn the tide of difficult battles. Building teams with diverse elements or focusing on one for specific encounters is key."
+    question: "What is the best way to upgrade my characters quickly?",
+    answer: "Focusing resources on your main three characters, completing daily missions and story chapters, and grinding dungeons for materials are the most efficient ways to upgrade characters quickly. Don't forget to match Familiars and Relics to their elements!"
   },
   {
-    question: "Should I reroll for a specific ALLfiring character?",
-    answer: "Rerolling can be beneficial, especially if you aim for a strong 6★ DPS character like Rozeul at the start. This gives your account a significant boost in early progression. If you pull a T0 or T1 character along with Sion, it's generally a good start."
+    question: "Can I reset a character's talents or levels?",
+    answer: "The game typically offers reset options, sometimes for a cost or during specific events. Always check the in-game mechanics or official announcements for the latest information on character resets to reallocate resources."
   },
   {
-    question: "Can I use the Main Character in my team long-term?",
-    answer: "The Main Character is a flexible starter unit, useful for early story progression and basic utility. However, their long-term potential is often outshined by other 6★ characters. It's advisable to keep their investment moderate and transition to stronger units as you acquire them."
+    question: "Is it important to have diverse elemental All Firing characters?",
+    answer: "Yes, having a diverse elemental team is highly important. Many enemies and bosses in All Firing have elemental weaknesses, and exploiting these weaknesses with a varied team will make combat significantly easier and more efficient."
   }
 ]} />
 
