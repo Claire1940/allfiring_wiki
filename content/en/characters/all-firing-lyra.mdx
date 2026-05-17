@@ -1,4 +1,4 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles, BookText } from 'lucide-react'
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
 import { Checklist } from '@/components/mdx/Checklist'
@@ -17,141 +17,138 @@ export const metadata = {
 }
 
 <Callout type="info" title="Quick Guide">
-- **Lyra** is a **Wind-affinity Scholar/Researcher** in ALLfiring.
-- Her primary role is a **support-style companion** focused on research.
-- Lyra fits into the launch character collection as a research-themed entry.
-- She offers **utility** but is not a primary damage dealer or burst unit.
-- Consider Lyra for teams needing **Wind synergy** or scholarly utility.
+- **All Firing Lyra**: Focuses on troubleshooting shooting animation issues within the Lyra starter project.
+- **Replication importance**: Understand how animations are replicated across clients and servers.
+- **Gameplay Abilities**: The `GA_Weapon_Fire` ability is key to triggering firing animations.
+- **Auto Rate**: Adjusting the animation `Auto Rate` can fix broken firing animations.
+- **Debugging strategy**: Systematically compare pistol and shotgun implementations to find discrepancies.
 </Callout>
 
-In the vibrant world of ALLfiring, selecting the right companions is crucial for navigating its challenging battles and intricate voxel maps. Among the initial roster of characters, Lyra stands out as a unique Wind-affinity Scholar/Researcher. Understanding Lyra's role, playstyle, and potential team synergies is key to effectively integrating her into your ALLfiring lineup. This guide will delve into everything you need to know about ALLfiring Lyra, ensuring you maximize her contributions to your adventuring party in 2026.
+Welcome to the ultimate guide for "all firing Lyra" animation issues in Unreal Engine 5. The Lyra Starter Game is a fantastic resource for learning, but developers often encounter perplexing problems, especially concerning weapon firing animations. This article delves into the common pitfalls and provides solutions to ensure your weapon animations replicate correctly across all clients in 2026. Whether you're debugging a pistol or a shotgun, understanding the underlying mechanics of gameplay abilities and replication is crucial for a smooth multiplayer experience.
 
-<Section icon={BookText} title="Understanding Lyra: Scholar & Researcher">
+<Section icon={Swords} title="Understanding Lyra Firing Animations">
+Lyra's weapon firing animations can be a source of frustration, particularly when they don't replicate as expected across different players in a multiplayer environment. The core of these animations often lies within the Gameplay Ability System (GAS). Specifically, the `GA_Weapon_Fire` ability is responsible for initiating the firing sequence, which includes playing the associated animation montage. However, developers frequently report inconsistencies, such as only the instigating player or the server observing the animation, while other clients see nothing.
 
-Lyra is introduced as a Wind-affinity companion with the distinct role of a Scholar/Archaic Researcher. Unlike some of the more combat-focused characters like Rozeul or Ilscha, Lyra's identity is rooted in her scholarly pursuits. This suggests a playstyle that leans more towards utility, support, or perhaps providing unique buffs and debuffs rather than raw damage output. As a Wind character, she can naturally synergize with other Wind companions like Sion and Felgia, creating elemental resonance within a team.
+<Callout type="warning" title="Common Replication Pitfall">
+A common issue is that firing animations for certain weapons (like the shotgun in the Lyra starter project) might not replicate to all clients, appearing broken to non-instigating players. This often stems from subtle differences in how replication is handled for different weapon types or incorrect animation rate settings.
+</Callout>
+
+To effectively troubleshoot, it's essential to understand the distinction between how a pistol's firing animation might replicate flawlessly, while a shotgun's does not. This often points to specific configuration differences or replication logic within the weapon's associated Gameplay Ability.
+
+### Pistol vs. Shotgun Animation Differences
+
+| Feature                 | Pistol Firing Animation (Typical)                 | Shotgun Firing Animation (Reported Issues)           |
+| :---------------------- | :------------------------------------------------ | :--------------------------------------------------- |
+| **Replication**         | **Works for all clients**                         | **Often broken for non-instigating clients**         |
+| **Trigger Mechanism**   | `GA_Weapon_Fire` calling `PlayMontageAndWait`     | `GA_Weapon_Fire` calling `PlayMontageAndWait`        |
+| **Gameplay Cue**        | Handles audio, decals, tracers, shell ejections   | Handles audio, decals, tracers, shell ejections      |
+| **Animation Rate**      | Typically set to `1` (default or adjusted)        | Can be `2.2` or higher, causing replication issues   |
+| **Visibility**          | Observed by all players consistently              | Only observed by instigator and server               |
+
+</Section>
+
+<Section icon={Target} title="Troubleshooting Firing Animation Replication">
+When facing issues with "all firing Lyra" animations, a systematic approach is key. The problem often boils down to how the Gameplay Ability System (GAS) handles replication, especially for montages. While gameplay cues multicast to everyone for effects like audio and particle systems, the animation itself needs to be triggered correctly on all relevant clients.
 
 <Callout type="tip">
-Lyra's "Scholar/Researcher" role implies she might excel in providing unique utility, such as buffs, debuffs, or even environmental interaction bonuses, rather than direct combat prowess. Keep an eye on her specific skills for these potential benefits.
+The `PlayMontageAndWait` function within the `GA_Weapon_Fire` gameplay ability is often the culprit or the solution. Understanding its replication behavior is paramount for fixing animation discrepancies.
 </Callout>
 
-### Lyra's Core Identity
-
-Lyra's presence in the launch character collection as a research-themed companion entry highlights her potential to offer something beyond conventional combat roles. While details on her specific abilities are still emerging, her archetype suggests an emphasis on strategic depth. Players looking for a character to enhance team intelligence, provide long-term benefits, or uncover hidden secrets within the voxel environments might find Lyra an invaluable asset.
-
-</Section>
-
-<Section icon={Target} title="Lyra's Role and Playstyle">
-
-As a Scholar/Researcher, Lyra's playstyle in ALLfiring is likely to be distinct from typical DPS or tank units. She is designed to be a utility-focused character, potentially offering support, crowd control, or unique debuffs to enemies. Her Wind affinity also positions her well within Wind-centric teams, where she can contribute to elemental reactions and provide consistent support.
-
-<CardGrid cols={2}>
-  <Card title="Role Focus">
-    - **Scholar/Researcher**: Emphasizes utility and strategic advantage.
-    - **Wind Affinity**: Synergizes with other Wind characters for elemental combos.
-    - **Support-Oriented**: Likely provides buffs, debuffs, or unique mechanics.
-  </Card>
-  <Card title="Playstyle Considerations">
-    - **Not a Main DPS**: Players should not expect high burst damage from Lyra.
-    - **Strategic Positioning**: May require careful placement to maximize her utility.
-    - **Team Enabler**: Designed to enhance the performance of other characters.
-  </Card>
-</CardGrid>
-
-<Callout type="warning">
-Do not expect Lyra to be a primary damage dealer. Her value lies in her unique utility and potential to amplify the strengths of her teammates. Focusing on her combat stats over her support capabilities might lead to suboptimal team performance.
-</Callout>
-
-</Section>
-
-<Section icon={Swords} title="Team Building with Lyra">
-
-Integrating Lyra into a team requires understanding her potential synergies with other characters, especially those with Wind affinity or those who can benefit greatly from her scholarly support. Building a balanced team around Lyra means pairing her with reliable damage dealers and potentially a frontline character.
-
-### Suggested Team Compositions
-
-| Team Type                | Main DPS            | Sub DPS / Support | Utility / Flex Slot | Lyra's Contribution                               |
-| :----------------------- | :------------------ | :---------------- | :------------------ | :------------------------------------------------ |
-| **Dual-Wind Core**       | Felgia (Wind DPS)   | Sion (Wind Support)| Lyra (Wind Utility) | Enhances Wind synergy, provides scholarly support. |
-| **Mixed Element Support**| Rozeul (Thunder DPS)| Sion (Wind Support)| Lyra (Wind Utility) | Offers Wind coverage, potential debuffs, utility.   |
-| **Exploration Team**     | Any reliable DPS    | Any reliable Support| Lyra (Wind Utility) | May provide exploration buffs or puzzle solutions.  |
-
-<Callout type="info">
-Lyra's Wind affinity makes her a natural fit for teams built around Wind element characters like Felgia and Sion, maximizing elemental resonance and overall team effectiveness.
-</Callout>
-
-### Character Synergy Table
-
-| Character | Affinity | Role                  | Synergy with Lyra                                       |
-| :-------- | :------- | :-------------------- | :------------------------------------------------------ |
-| **Sion**  | Wind     | Sub DPS / Support     | Strong Wind synergy, smooth combat flow, shared element. |
-| **Felgia**| Wind     | Sustained DPS / Utility| Excellent Wind synergy, benefits from potential buffs.   |
-| **Rozeul**| Thunder  | Main DPS              | Lyra can provide utility/debuffs to amplify Rozeul's damage. |
-| **Ilscha**| Ice      | Burst DPS             | Lyra's utility could set up Ilscha's burst windows.      |
-
-</Section>
-
-<Section icon={Shield} title="Optimizing Lyra's Progression">
-
-To get the most out of Lyra, focus on upgrading aspects that enhance her utility and support capabilities. Early progression should prioritize unlocking her key skills and ensuring she has enough survivability to stay on the field.
+### Step-by-Step Debugging Process
 
 <Steps>
-  <Step num="1" title="Prioritize Skill Unlocks">
-    Focus on leveling Lyra's skills, especially any that provide buffs, debuffs, or unique utility. These will be her primary contributions to the team.
+  <Step num="1" title="Verify Gameplay Ability Execution">
+    First, confirm that the `GA_Weapon_Fire` ability is indeed running on the instigating client and the server. For multiplayer, it's crucial to understand that the ability might not run directly on non-instigating clients.
   </Step>
-  <Step num="2" title="Equip Supportive Gear">
-    Choose equipment that boosts her survivability (HP, Defense) or enhances her utility (e.g., skill cooldown reduction, energy generation).
+  <Step num="2" title="Inspect `PlayMontageAndWait` Calls">
+    Locate where `PlayMontageAndWait` is called within your weapon's `GA_Weapon_Fire` ability. This function is responsible for playing the animation montage. Ensure it's configured to replicate correctly.
   </Step>
-  <Step num="3" title="Elemental Resonance">
-    If pairing Lyra with other Wind characters, ensure their elemental resonance is maximized through character levels and equipment.
+  <Step num="3" title="Check Animation Auto Rate">
+    A common fix for the shotgun animation issue is to adjust the `Auto Rate` parameter. If it's set too high (e.g., `2.2`), the animation might play too fast for some clients to register, leading to it appearing broken.
   </Step>
-  <Step num="4" title="Strategic Positioning">
-    Learn to position Lyra safely during combat to allow her to cast her abilities without being interrupted or taking unnecessary damage.
+  <Step num="4" title="Compare Working vs. Broken Weapon Abilities">
+    If one weapon's firing animation works (e.g., pistol) and another's doesn't (e.g., shotgun), carefully compare their respective `GA_Weapon_Fire` abilities and associated animation assets. Look for any subtle differences in settings, replication flags, or montage configurations.
   </Step>
 </Steps>
 
-<Callout type="success">
-A well-developed Lyra can be the linchpin of a strategic team, providing invaluable support that enables your main damage dealers to shine. Don't underestimate the power of good utility!
+</Section>
+
+<Section icon={Shield} title="Key Components for Replication Success">
+Achieving consistent "all firing Lyra" animations across a multiplayer game requires a solid understanding of several interconnected Unreal Engine systems. These include the Gameplay Ability System, animation montages, and network replication. Ensuring these components are correctly configured will prevent animation glitches.
+
+<Callout type="success" title="Replication Checklist">
+Successfully replicating weapon firing animations means all clients see the same action at the same time. This requires careful attention to the animation montage settings and the network parameters within the Gameplay Ability.
 </Callout>
+
+### Essential Replication Elements
+
+| Component                     | Role in Firing Animation Replication                                                                | Best Practices                                                                                                |
+| :---------------------------- | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| **Gameplay Ability (`GA_Weapon_Fire`)** | Triggers the animation montage and handles the logic for playing it across the network.             | Ensure `PlayMontageAndWait` is used correctly, and consider its replication settings.                          |
+| **Animation Montage**         | Contains the actual firing animation sequence.                                                      | Verify montage settings, especially for notify states that might trigger replicated events.                     |
+| **Network Replication**       | Ensures that the animation state is synchronized between the server and all connected clients.      | Check that the character's skeletal mesh or relevant components are set to replicate.                           |
+| **Animation Auto Rate**       | Controls the playback speed of the animation montage.                                               | Keep `Auto Rate` at `1` unless specific fast-paced animations are required and tested across the network.      |
+| **Gameplay Cues**             | Primarily handles visual and audio effects (tracers, shell ejections, sounds) that are multicast.   | While not directly for character animation, ensure cues are consistent with the firing action.                 |
 
 </Section>
 
-<Section icon={Sparkles} title="Lyra in Exploration and Puzzles">
+<Section icon={Sparkles} title="Advanced Tips for Lyra Animations">
+Beyond the basic troubleshooting, there are advanced considerations that can help optimize and perfect "all firing Lyra" animations. These tips focus on fine-tuning your setup and leveraging Unreal Engine's capabilities for robust animation replication.
 
-Given Lyra's background as a Scholar/Researcher, it's plausible that she might have unique abilities or passive traits that benefit voxel map exploration, hidden path discovery, or environmental puzzle-solving. Players should experiment with Lyra in different exploration scenarios.
+<Callout type="info" title="External Resource">
+For deeper insights into Lyra's ability system, refer to the official Unreal Engine documentation on Abilities in Lyra. This resource can provide a foundational understanding of how abilities are structured and replicated. [Abilities in Lyra in Unreal Engine](https://dev.epicgames.com/documentation/unreal-engine/abilities-in-lyra-in-unreal-engine?lang=en-US)
+</Callout>
+
+**Video Highlights:**
+- Demonstrates a performance art piece, not directly related to Lyra game engine.
+- Focuses on fire and movement aesthetics.
+- Provides a creative, albeit unrelated, visual experience.
+
+<YouTubeEmbed videoId="9yvgjr8RM5Q" title="Fire Lollipop Lyra performance by Trillium Entertainment" />
+
+### Animation Optimization Checklist
 
 <Checklist
-  id="lyra-exploration"
-  title="Potential Lyra Exploration Benefits:"
+  id="lyra-animation-optimization"
+  title="Animation Refinement Goals:"
   items={[
-    "Increased chance to find hidden paths or treasures.",
-    "Interaction with specific environmental puzzles.",
-    "Enhanced perception for hidden objects.",
-    "Passive buffs for exploration speed or resource gathering."
+    "Profile network performance during firing to identify bottlenecks.",
+    "Ensure animation notifies are correctly synchronized across the network.",
+    "Experiment with different replication strategies for complex animations.",
+    "Regularly test animation replication with multiple clients and server setups.",
+    "Utilize Lyra's debugging tools to visualize animation states and network events."
   ]}
 />
 
-These are speculative benefits based on her lore, but they are worth investigating as you progress through ALLfiring's rich world. Her research specialty could translate into tangible advantages outside of direct combat.
+<CardGrid cols={2}>
+  <Card title="Montage Blending">
+    Properly configure blend in/out times in your animation montages to ensure smooth transitions between firing and idle states. This enhances the visual quality and responsiveness of "all firing Lyra" actions.
+  </Card>
+  <Card title="Client-Side Prediction">
+    Implement client-side prediction for firing actions to reduce perceived latency. While the server remains authoritative, client prediction can make the firing experience feel more immediate to the player.
+  </Card>
+</CardGrid>
 
 </Section>
 
-<Section icon={BookText} title="ALLfiring Lyra FAQ">
+<Section icon={Map} title="FAQ: Lyra Firing Animation Issues">
 
 <FAQ items={[
   {
-    question: "What is Lyra's primary role in ALLfiring?",
-    answer: "Lyra is a Wind-affinity Scholar/Researcher, indicating her primary role is likely focused on utility, support, buffs, or debuffs rather than being a main damage dealer. She provides strategic depth to a team."
+    question: "Why do some Lyra weapon firing animations not replicate to all clients?",
+    answer: "This often happens due to incorrect 'Auto Rate' settings in the animation montage or subtle differences in the `GA_Weapon_Fire` ability's replication logic between different weapons. The `PlayMontageAndWait` function is key to this replication."
   },
   {
-    question: "Can Lyra be a main DPS character?",
-    answer: "Based on her 'Scholar/Researcher' identity, it is unlikely that Lyra is designed to be a main DPS. Players should focus on her utility and support capabilities to maximize her effectiveness rather than raw damage output."
+    question: "What is the 'Auto Rate' and how does it affect firing animations in Lyra?",
+    answer: "The 'Auto Rate' controls the playback speed of an animation montage. If it's set too high (e.g., 2.2), the animation might play too quickly for some clients to process and replicate, leading to it appearing broken or not playing at all for non-instigating players."
   },
   {
-    question: "Which characters synergize well with Lyra?",
-    answer: "Lyra, being a Wind character, synergizes well with other Wind-affinity companions such as Sion and Felgia to maximize elemental resonance. She can also fit into mixed teams by providing crucial utility and debuffs for main DPS units like Rozeul or Ilscha."
+    question: "Where can I find the logic for pistol firing animations in Lyra?",
+    answer: "The core logic for pistol firing, like other weapons, resides within the `GA_Weapon_Fire` gameplay ability. This ability calls `PlayMontageAndWait` to trigger the animation. Comparing its setup with a problematic weapon like the shotgun can reveal discrepancies."
   },
   {
-    question: "Are there any exploration benefits associated with Lyra?",
-    answer: "While not explicitly detailed, Lyra's 'Researcher' specialty suggests she might offer unique advantages in voxel map exploration, discovering hidden paths, or solving environmental puzzles. Players are encouraged to test her in such scenarios."
+    question: "Does Lyra's Gameplay Cue handle animation replication?",
+    answer: "Gameplay Cues in Lyra primarily handle audio, visual effects like decals, tracers, and shell ejections, and are multicast to all clients. However, they typically do not directly handle the replication of the character's main firing animation montage; that's usually managed by the Gameplay Ability itself."
   }
 ]} />
 

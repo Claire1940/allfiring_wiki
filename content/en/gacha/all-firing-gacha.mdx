@@ -1,4 +1,4 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, RefreshCw, Settings } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
 import { Checklist } from '@/components/mdx/Checklist'
@@ -17,183 +17,178 @@ export const metadata = {
 }
 
 <Callout type="info" title="Quick Guide">
-- **ALLfiring Gacha** success hinges on smart **rerolling** for top-tier characters.
-- **Rozeul** is the safest and most reliable **early DPS** reroll target.
-- Prioritize building a balanced **three-character team** for smooth progression.
-- Save premium currency for **strong banner pulls** rather than early impulse summons.
-- Explore **voxel maps** thoroughly for hidden resources and rewards.
+- **All firing gacha** mechanics feature a 1.2% base rate for 6-star characters and a robust token-based pity system.
+- **Reroll efficiency** is high, taking approximately 8 minutes per cycle using the built-in account deletion feature.
+- **Pity threshold** is set at 80 pulls for a direct character exchange, with a special 50-pull beginner selector available.
+- **Top targets** for new players include the rate-up DPS Felgeia and any additional 6-star from the standard banner.
+- **Guest accounts** are recommended for initial pulls to avoid permanent binding before securing a top-tier start.
 </Callout>
 
-Embarking on your journey in the world of ALLfiring, a thrilling anime side-scrolling action RPG, means navigating its crucial gacha system. For new players, understanding which characters to prioritize and how to effectively reroll can make all the difference in early game progression. This guide will delve into the best gacha strategies, including a comprehensive tier list and a step-by-step reroll process, ensuring you start your adventure with the strongest possible team in 2026. Mastering the **ALLfiring gacha** system is key to unlocking your full potential.
+All Firing has officially entered its global launch phase, bringing its unique 2D pixel art action RPG mechanics to a wider audience. For many players, the journey begins not with the story, but with the **all firing gacha** system. Understanding how to navigate the initial summons can mean the difference between a struggling start and a dominant early-game experience. This guide provides a comprehensive breakdown of the summoning rates, the intricacies of the pity system, and the most efficient way to reroll your account. Whether you are a veteran of gacha games or a newcomer to the pixel-art genre, mastering these systems is essential for optimizing your resource management. We will explore the different banner types, explain the token exchange mechanics, and provide a step-by-step walkthrough for resetting your progress until you land the perfect team.
 
-<Section icon={Trophy} title="Understanding the ALLfiring Gacha System">
-The **ALLfiring gacha** system is where you'll acquire new companions to join your team. These characters come in various rarities, elements, and roles, each contributing uniquely to combat. A well-rounded team built from strong gacha pulls will significantly enhance your experience in the game's voxel exploration and challenging boss encounters.
+<Section icon={Map} title="Gacha System Overview and Rates">
 
-<Callout type="tip">
-Focus on the synergy between characters rather than just individual power. A balanced team composition often outperforms a team of individually strong characters who don't complement each other.
+The summoning system in All Firing revolves around two primary banners: the Rate-Up Banner and the Standard Banner. Each uses different tokens and has specific rules regarding character availability. The visual cues during the summoning animation are vital; a gold glow or "sparks" from the chessboard indicates a guaranteed 6-star character, while purple represents 5-star units.
+
+**Video Highlights:**
+- Detailed walkthrough of the 8-minute reroll process.
+- Explanation of the chessboard summoning animations and gold spark indicators.
+- Overview of the rate-up banner (Felgeia) versus the standard banner.
+- How to navigate the guest login and account deletion settings.
+
+<YouTubeEmbed videoId="GuWyfMp8C9s" title="ALLfiring REROLL GUIDE!!! [Global Launch]" />
+
+The base probability for high-tier units is competitive with modern mobile RPGs, but the real value lies in the "guaranteed" average rates provided by the pity system.
+
+| Rarity | Base Drop Rate | Rate with Guarantee | Note |
+| :--- | :--- | :--- | :--- |
+| **6-Star (Gold)** | 1.20% | 2.45% | The highest rarity targets |
+| **5-Star (Purple)** | 10.00% | 12.50% | Guaranteed every 10-pull |
+| **4-Star & Below** | 88.80% | 85.05% | Primarily upgrade materials |
+
+<Callout type="tip" title="Animation Tip">
+If you don't see gold sparks when the chessboard rattles, it usually means no 6-star is present. However, always finish the animation as some games include "fake-out" transitions, though these are currently unconfirmed for the global version.
 </Callout>
-
-The game features different banners, including standard draws and limited-time event banners. Knowing when and where to spend your hard-earned premium currency, like Stardust and Infinite Stardust, is vital. Early on, it's generally recommended to save for banners featuring top-tier characters that can carry your team through the initial stages.
-
-| Gacha Type | Description | Recommended Use | Key Currency |
-| :--------- | :---------- | :---------------- | :----------- |
-| **Standard Banner** | Permanent pool of characters. | Occasional pulls, not primary focus. | Stardust |
-| **Limited-Time Banner** | Features new or rate-up characters for a duration. | **High priority** for specific top-tier units. | Infinite Stardust |
-| **Beginner Banner** | Discounted pulls for new players. | **Mandatory** for early character acquisition. | Stardust |
 
 </Section>
 
-<Section icon={Target} title="ALLfiring Reroll Guide: Best Starting Account Targets">
-Rerolling is a common strategy in gacha games to secure a powerful start. In ALLfiring, a successful reroll can set you up with a strong 6★ DPS character, making early progression much smoother. The process involves creating new accounts until you pull a desirable character from your initial summons.
+<Section icon={Sparkles} title="Pity Mechanics and Token Exchange">
 
-<Callout type="warning" title="Rerolling Considerations">
-Rerolling can be time-consuming. Decide if the time investment is worth the potential advantage for your playstyle. If you prefer immediate gameplay, a decent start might be sufficient.
+All Firing utilizes a token-based pity system rather than a traditional "soft pity" that increases rates after a certain number of pulls. Every single summon grants you one specific token related to the banner you are pulling on. These tokens are the primary way to guarantee your desired characters.
+
+| Feature | Rate-Up Banner | Standard Banner |
+| :--- | :--- | :--- |
+| **Pity Currency** | Rate-up Tokens | Standard Tokens |
+| **Exchange Cost** | 80 Tokens for Rate-up Hero | 80 Tokens for Choice |
+| **Beginner Bonus** | N/A | Selector at 50 Pulls |
+| **Long-term Pity** | N/A | Selector every 300 Pulls |
+
+<Callout type="warning" title="Token Expiration">
+Rate-up tokens and Standard tokens are separate. Ensure you commit to one banner type if you are close to the 80-pull threshold to avoid splitting your pity progress.
 </Callout>
 
+The beginner period offers a significant advantage: a one-time special benefit where you can select a companion after just 50 plays. This is separate from the standard 300-pull selector, making the early game much more accessible for F2P players.
+
+</Section>
+
+<Section icon={Target} title="The Ultimate Reroll Strategy">
+
+Rerolling in the **all firing gacha** is remarkably player-friendly. The developers have included a "Delete Account" button within the settings, eliminating the need to clear cache or redownload massive game files. A standard cycle takes about 8 minutes, but can be shortened by skipping dialogue and running past non-essential enemies.
+
 <Steps>
-  <Step num="1" title="Start the Game & Complete Tutorial">
-    Begin your ALLfiring adventure and clear the introductory tutorial. This will unlock essential game menus, including the summon system, mailbox, and account settings. You need to reach this point to access your initial rewards and perform summons.
+  <Step num="1" title="Guest Login">
+    Launch the game and select the controller icon on the far left of the login screen. This is the Guest Login. Do not link your Google or Apple account yet.
   </Step>
-  <Step num="2" title="Claim All Launch Rewards & Codes">
-    Before pulling, collect all available rewards from your in-game mailbox, login bonuses, and any active event rewards. Redeem any active codes like **allfiring0515**, **vip777**, and **dc0515** to maximize your initial currency and pull opportunities.
+  <Step num="2" title="Speed Through Tutorial">
+    Play through the initial stages. Use the 'Skip' button in the top right for dialogue. In combat zones, if there is no invisible wall, you can run straight past enemies to reach the boss faster.
   </Step>
-  <Step num="3" title="Perform Initial Summons">
-    Use the currency obtained from step 2 to perform your first summons. Focus on the beginner banner first, then any limited-time banners if you have enough currency.
+  <Step num="3" title="Claim Mail Rewards">
+    Once you unlock the summon menu, go to the mail icon in the top left. 'Claim All' to receive your 10-pull for the standard banner and premium currency for roughly two additional 10-pulls.
   </Step>
-  <Step num="4" title="Evaluate Your Pulls">
-    Check if you've acquired any of the top-tier reroll targets, especially a strong 6★ DPS unit like **Rozeul**. Also, consider if you pulled supporting characters like Sion, who pairs well with many DPS units.
+  <Step num="4" title="Perform Summons">
+    Spend your tickets on the Standard banner first, then use your premium currency on the Rate-Up banner (currently featuring Felgeia).
   </Step>
-  <Step num="5" title="Reroll or Keep">
-    If your pulls are unsatisfactory (no top-tier DPS or a generally weak roster), do not bind your account. Instead, clear game data or reinstall to start fresh, returning to Step 1. If you get a strong start, proceed to bind your account.
-  </Step>
-  <Step num="6" title="Bind Your Account">
-    Once you achieve a desirable reroll result, immediately bind your account to a Google, Apple, or social media account to save your progress. This prevents loss of your valuable early characters.
+  <Step num="5" title="Evaluate or Reset">
+    If you didn't get a 6-star, go to Settings > Account > Account Linking > Account Deletion. Type "Confirm Delete Account" to reset and start over instantly.
   </Step>
 </Steps>
 
-<Checklist
-  id="reroll-checklist"
-  title="Reroll Target Priority:"
-  items={[
-    "**Rozeul (Thunder, 6★ Main DPS)**: Safest and most reliable early carry.",
-    "**Sion (Wind, 6★ Sub DPS/Support)**: Excellent support, good even without heavy investment.",
-    "**Ilscha (Ice, 6★ Burst DPS)**: Strong long-term option, but requires more setup.",
-    "**Felgia (Wind, 6★ Sustained DPS)**: Solid sustained damage, pairs well with Sion.",
-    "**Kirika (Fire, 6★ DPS)**: Good for elemental coverage and simple rotations."
-  ]}
-/>
-
-</Section>
-
-<Section icon={Swords} title="ALLfiring Tier List: Best Characters to Build First">
-Choosing which characters to invest in is crucial for efficient progression. Our ALLfiring tier list for 2026 evaluates characters based on their early game impact, damage potential, support utility, and team flexibility. This will help you decide where to allocate your precious upgrade materials.
-
-| Tier | Character | Element | Role | Best For | Build Note |
-| :--- | :-------- | :------ | :--- | :------- | :--------- |
-| **T0** | **Rozeul** | Thunder | Main DPS | Safe first carry, AoE, boss damage. | Prioritize for reliable early DPS investment. |
-|      | **Sion** | Wind | Sub DPS / Support | Free early support, team flow, Rozeul pairing. | Performs well even without heavy investment. |
-| **T1** | **Ilscha** | Ice | Burst DPS | Ice teams, burst windows, high-investment setups. | Strong long-term damage, needs more setup than Rozeul. |
-|      | **Felgia** | Wind | Sustained DPS | Long fights, Wind teams, Sion synergy. | Safe DPS choice for steady pressure. |
-|      | **Kirika** | Fire | DPS | Fire coverage, mixed teams, simple rotations. | Useful when Fire advantage matters. |
-| **T2** | **Nayeh** | Ice | Support | Budget Ice support, early team stabilization. | Good early utility, replaceable by stronger supports later. |
-|      | **Herfwin** | Dark | Tank / Bruiser | Survivability, frontline pressure, safer fights. | Useful if you struggle with survivability. |
-|      | **Main Character** | Adaptive | Flexible Starter | Early story clear, basic utility. | Keep investment moderate, transition to stronger units. |
-
-<Callout type="success" title="Optimizing Your Early Team">
-Aim for a core team with one T0/T1 main DPS, a strong support (like Sion), and a flexible third slot for elemental coverage or additional utility. This balanced approach will serve you well through early and mid-game content.
+<Callout type="success" title="Ideal Start">
+Aim for the Rate-up character (Felgeia) plus at least one additional 6-star from your free standard pulls. This sets a very strong foundation for late-game content.
 </Callout>
 
 </Section>
 
-<Section icon={Shield} title="Team Building Strategies for ALLfiring">
-ALLfiring's real-time three-character switching system emphasizes strategic team composition. Building a synergistic team is more important than simply fielding your strongest individual units. Consider roles, elemental affinities, and how characters' skills complement each other.
+<Section icon={Swords} title="Character Priorities and Banners">
 
-<CardGrid cols={2}>
-  <Card title="Rozeul + Sion Core">
-    - **Rozeul (Main DPS)**: Primary damage dealer.
-    - **Sion (Sub DPS/Support)**: Provides consistent pressure and smooth combat flow.
-    - **Flex Slot**: Add Kirika for Fire coverage, Herfwin for survivability, or Nayeh for Ice support.
-    This combination offers a reliable foundation for most early game content.
+When engaging with the **all firing gacha**, knowing who to pull for is just as important as knowing how. Currently, the meta is focused on high-damage output to clear early story chapters quickly.
+
+<CardGrid cols={3}>
+  <Card title="Felgeia (Rate-Up)">
+    - **Role**: Main DPS
+    - **Strength**: High AOE damage
+    - **Verdict**: Top reroll target for global launch.
   </Card>
-  <Card title="Ice Burst Setup">
-    - **Ilscha (Burst DPS)**: Focuses on high damage during specific windows.
-    - **Nayeh (Ice Support)**: Enhances Ilscha's damage and provides utility.
-    - **Flex Slot**: A sturdy tank or another DPS to fill gaps.
-    Ideal for players who enjoy setting up powerful burst combos.
+  <Card title="Standard 6-Stars">
+    - **Role**: Support/Sub-DPS
+    - **Strength**: Versatility
+    - **Verdict**: Great secondary pulls to support your lead.
   </Card>
-  <Card title="Sustained Wind Pressure">
-    - **Felgia (Sustained DPS)**: Consistent damage over longer fights.
-    - **Sion (Wind Support)**: Synergizes perfectly with Felgia for elemental resonance.
-    - **Flex Slot**: Rozeul for additional raw damage or a utility character.
-    Great for players who prefer steady damage output and comfortable rotations.
-  </Card>
-  <Card title="Beginner Survival Team">
-    - **Main DPS**: Your strongest damage dealer.
-    - **Sion or Nayeh (Support)**: Provides healing or shields.
-    - **Herfwin (Tank/Bruiser)**: Absorbs damage and protects the team.
-    Recommended for players struggling with survivability or learning enemy attack patterns.
+  <Card title="5-Star Slimes">
+    - **Role**: Upgrade Fodder
+    - **Strength**: Rapid leveling
+    - **Verdict**: Common pulls used to boost your main units.
   </Card>
 </CardGrid>
 
-<Callout type="info">
-Remember to upgrade only your main team first. Spreading materials too thin across many characters will slow down your overall progression.
+While DPS characters like Felgeia are often replaceable in the long run as power creep occurs, they provide the smoothest progression experience for new accounts. The 5-star characters (SR equivalents) are guaranteed every 10 pulls and serve as solid placeholders while you build your 6-star roster.
+
+| Banner Type | Best For | Recommendation |
+| :--- | :--- | :--- |
+| **Rate-Up Banner** | Specific Meta Units | Spend all Premium Gems here |
+| **Standard Banner** | Building Roster | Use free tickets only |
+| **Beginner Selector** | Filling Gaps | Use after your initial gacha luck |
+
+<Callout type="info" title="Future Proofing">
+Keep an eye on the official Discord for gift codes. While none are active at this exact moment, they are expected to be released shortly after the launch window to help players reach their pity targets.
 </Callout>
 
 </Section>
 
-<Section icon={Map} title="Exploration and Combat Tips">
-ALLfiring isn't just about gacha and character builds; its voxel-based maps offer rich exploration opportunities and engaging side-scrolling combat. Mastering these elements will further enhance your gameplay experience.
+<Section icon={Shield} title="Account Security and Management">
 
-**Video Highlights:**
-- Demonstrates three-character real-time switching mechanics.
-- Shows basic movement, normal attacks, and skill usage.
-- Highlights environmental puzzles and hidden paths in voxel maps.
+Once you are satisfied with your **all firing gacha** results, it is imperative to secure your account. Guest accounts are stored locally; if you delete the app or lose your phone, your progress is gone forever.
 
-<YouTubeEmbed videoId="vYvdpE_X-eI" title="ALLfiring Official Trailer" />
+**Account Linking Steps:**
+1. Click the profile/settings icon in the top left.
+2. Navigate to the 'Account' tab.
+3. Select 'Account Linking'.
+4. Choose between Google, Apple, or other available 3rd party providers.
 
-<Callout type="tip">
-Don't rush through maps! Hidden paths, treasure chests, and environmental puzzles often contain valuable resources that can significantly boost your early game.
+<Callout type="warning" title="Deletion Warning">
+The "Delete Account" button is permanent. Do not confuse it with "Log Out." Once deleted, the data cannot be recovered by customer support.
 </Callout>
 
-Combat in ALLfiring requires active engagement. Switching between your three characters allows for continuous combos, dodging enemy attacks, and utilizing specific character abilities at optimal moments. Pay attention to enemy attack patterns to effectively use your movement and defensive skills.
-
-| Combat Mechanic | Description | Strategy |
-| :-------------- | :---------- | :------- |
-| **Character Switching** | Swap between 3 teammates in real-time. | Use to extend combos, avoid damage, or bring in appropriate elemental advantage. |
-| **Normal Attacks** | Basic attacks to build meter and apply pressure. | Chain into skills for higher damage output. |
-| **Skills** | Unique character abilities with cooldowns. | Use strategically against groups or strong enemies. |
-| **Ultimate Skills** | Powerful abilities with long cooldowns. | Save for boss encounters or critical moments to clear waves quickly. |
-| **Voxel Exploration** | Layered maps with hidden routes and interactive objects. | Look for glowing spots, breakable walls, and levers to uncover secrets. |
+| Action | Result | Recommended When |
+| :--- | :--- | :--- |
+| **Link Account** | Saves progress to cloud | You get a 6-star you like |
+| **Delete Account** | Wipes all data instantly | You get a "dead" reroll |
+| **Switch Account** | Logs into a different ID | Managing multiple alts |
 
 </Section>
 
-<Section icon={Sparkles} title="Future of ALLfiring Gacha in 2026">
-As ALLfiring continues to evolve in 2026, expect new characters, banners, and events to keep the gacha system fresh. Staying updated with official announcements via Discord, X (Twitter), and Facebook will be crucial for planning your pulls and maximizing your resources. The developers at GENMUGAME CO., LTD. are committed to expanding the game's roster and content, offering new meta-defining units and exciting challenges.
+<Section icon={Trophy} title="Final Checklist and FAQ">
 
-<Callout type="success">
-Always check official game channels for upcoming character banners and events. This allows you to plan your Stardust and Infinite Stardust spending more effectively for future **ALLfiring gacha** pulls.
-</Callout>
+To ensure you maximize your efficiency in All Firing, follow this final checklist before settling into the long-term grind.
 
-</Section>
-
-<Section icon={Trophy} title="Frequently Asked Questions about ALLfiring Gacha">
+<Checklist
+  id="gacha-checklist"
+  title="New Player Essentials:"
+  items={[
+    "Complete the 8-minute reroll to secure Felgeia",
+    "Claim all pre-registration rewards from the mailbox",
+    "Reach the 50-pull milestone on Standard for the free selector",
+    "Save tokens for the 80-pull exchange if luck is poor",
+    "Link your account to prevent data loss"
+  ]}
+/>
 
 <FAQ items={[
   {
-    question: "Is rerolling necessary for ALLfiring?",
-    answer: "While not strictly necessary, rerolling for a strong starting 6★ DPS like **Rozeul** can significantly ease your early game progression and resource management. It's a strategic choice for optimal starts."
+    question: "Is there a soft pity in the All Firing gacha?",
+    answer: "Based on current game data and descriptions, there is no soft pity. The system relies on a flat 1.2% rate with a 100% guarantee via token exchange at 80 pulls."
   },
   {
-    question: "How often should I pull on gacha banners in ALLfiring?",
-    answer: "It's generally recommended to save your premium currency for limited-time banners featuring top-tier characters that fit your team's needs. Avoid pulling on standard banners too frequently unless you need specific 5★ units."
+    question: "Can I skip the tutorial to reroll faster?",
+    answer: "You cannot skip the gameplay portions, but you can skip all dialogue and run past many non-boss enemies to reduce the reroll time to under 8 minutes."
   },
   {
-    question: "Which characters are best for a free-to-play ALLfiring player?",
-    answer: "For free-to-play players, focusing on **Rozeul** and **Sion** is highly recommended. Rozeul provides strong DPS, and Sion is an excellent free support who scales well. Utilize event rewards to strengthen your roster."
+    question: "Are the tokens shared between banners?",
+    answer: "No. Rate-up banners and standard banners use different tokens. You cannot use tokens earned on the Felgeia banner to buy a character from the standard pool."
   },
   {
-    question: "Can I play ALLfiring on PC?",
-    answer: "ALLfiring is officially available on iOS and Android. However, PC players can use Android emulators like MuMuPlayer to enjoy the game on desktop, often with improved controls and performance."
+    question: "What is the best use of premium currency?",
+    answer: "Generally, it is best to spend premium currency on the Rate-Up banner to secure the featured 6-star, while using free tickets for the Standard banner."
   }
 ]} />
 
