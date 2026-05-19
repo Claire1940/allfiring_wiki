@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from '@/config/navigation'
-import type { Locale } from '@/i18n/routing'
+import { routing, type Locale } from '@/i18n/routing'
 
 function fileNameToSlug(fileName: string): string {
   return fileName
@@ -195,8 +195,7 @@ export function isValidContentType(type: string): type is ContentType {
 }
 
 export function isValidLanguage(lang: string): lang is Language {
-  const validLanguages: Language[] = ['en', 'ja', 'es', 'de']
-  return validLanguages.includes(lang as Language)
+  return routing.locales.includes(lang as Language)
 }
 
 export function getDefaultLanguage(): Language {
