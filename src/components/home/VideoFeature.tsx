@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Play } from "lucide-react";
 
@@ -16,13 +16,25 @@ export function VideoFeature({
   posterImage,
 }: VideoFeatureProps) {
   const [isPlaying, setIsPlaying] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  const handlePlay = () => {
-    setIsPlaying(true);
-  };
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsPlaying(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.5 },
+    );
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+    <div ref={containerRef} className="relative w-full" style={{ paddingBottom: "56.25%" }}>
       {!isPlaying ? (
         <>
           {/* 占位图片 */}
@@ -36,7 +48,7 @@ export function VideoFeature({
           {/* 播放按钮覆盖层 */}
           <div
             className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors cursor-pointer rounded-lg"
-            onClick={handlePlay}
+            onClick={() => setIsPlaying(true)}
           >
             <div className="w-16 h-16 md:w-20 md:h-20 bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme-light))] rounded-full flex items-center justify-center transition-colors">
               <Play
@@ -47,10 +59,10 @@ export function VideoFeature({
           </div>
         </>
       ) : (
-        /* YouTube iframe */
+        /* YouTube iframe - autoplay + muted for browser policy */
         <iframe
           className="absolute top-0 left-0 w-full h-full rounded-lg"
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}`}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
