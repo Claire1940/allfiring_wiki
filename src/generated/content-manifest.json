@@ -1,0 +1,1178 @@
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "all-firing-character",
+        "file": "all-firing-character"
+      },
+      {
+        "slug": "all-firing-characters",
+        "file": "all-firing-characters"
+      },
+      {
+        "slug": "all-firing-chibi",
+        "file": "all-firing-chibi"
+      },
+      {
+        "slug": "all-firing-companions",
+        "file": "all-firing-companions"
+      },
+      {
+        "slug": "all-firing-felgia",
+        "file": "all-firing-felgia"
+      },
+      {
+        "slug": "all-firing-herfwin",
+        "file": "all-firing-herfwin"
+      },
+      {
+        "slug": "all-firing-ilscha",
+        "file": "all-firing-ilscha"
+      },
+      {
+        "slug": "all-firing-kirika",
+        "file": "all-firing-kirika"
+      },
+      {
+        "slug": "all-firing-lyra",
+        "file": "all-firing-lyra"
+      },
+      {
+        "slug": "all-firing-nayeh",
+        "file": "all-firing-nayeh"
+      },
+      {
+        "slug": "all-firing-prometheus",
+        "file": "all-firing-prometheus"
+      },
+      {
+        "slug": "all-firing-romance",
+        "file": "all-firing-romance"
+      },
+      {
+        "slug": "all-firing-rozeul",
+        "file": "all-firing-rozeul"
+      },
+      {
+        "slug": "all-firing-sion",
+        "file": "all-firing-sion"
+      },
+      {
+        "slug": "allfiring-nightseer-vine",
+        "file": "allfiring-nightseer-vine"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "all-firing-codes",
+        "file": "all-firing-codes"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "all-firing-banners",
+        "file": "all-firing-banners"
+      },
+      {
+        "slug": "all-firing-currency",
+        "file": "all-firing-currency"
+      },
+      {
+        "slug": "all-firing-gacha-game",
+        "file": "all-firing-gacha-game"
+      },
+      {
+        "slug": "all-firing-gacha",
+        "file": "all-firing-gacha"
+      },
+      {
+        "slug": "all-firing-pity",
+        "file": "all-firing-pity"
+      },
+      {
+        "slug": "all-firing-rewards",
+        "file": "all-firing-rewards"
+      },
+      {
+        "slug": "all-firing-summons",
+        "file": "all-firing-summons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "all-firing-beginner-guide",
+        "file": "all-firing-beginner-guide"
+      },
+      {
+        "slug": "all-firing-cn",
+        "file": "all-firing-cn"
+      },
+      {
+        "slug": "all-firing-commands",
+        "file": "all-firing-commands"
+      },
+      {
+        "slug": "all-firing-elemental-resonance",
+        "file": "all-firing-elemental-resonance"
+      },
+      {
+        "slug": "all-firing-f2p-guide",
+        "file": "all-firing-f2p-guide"
+      },
+      {
+        "slug": "all-firing-first-impressions",
+        "file": "all-firing-first-impressions"
+      },
+      {
+        "slug": "all-firing-game",
+        "file": "all-firing-game"
+      },
+      {
+        "slug": "all-firing-gameplay",
+        "file": "all-firing-gameplay"
+      },
+      {
+        "slug": "all-firing-global-launch-guide",
+        "file": "all-firing-global-launch-guide"
+      },
+      {
+        "slug": "all-firing-guide",
+        "file": "all-firing-guide"
+      },
+      {
+        "slug": "all-firing-how-to-play",
+        "file": "all-firing-how-to-play"
+      },
+      {
+        "slug": "all-firing-map",
+        "file": "all-firing-map"
+      },
+      {
+        "slug": "all-firing-modes",
+        "file": "all-firing-modes"
+      },
+      {
+        "slug": "all-firing-relics",
+        "file": "all-firing-relics"
+      },
+      {
+        "slug": "all-firing-tips",
+        "file": "all-firing-tips"
+      },
+      {
+        "slug": "all-firing-walkthrough",
+        "file": "all-firing-walkthrough"
+      },
+      {
+        "slug": "allfiring-ascension-materials",
+        "file": "allfiring-ascension-materials"
+      },
+      {
+        "slug": "allfiring-map",
+        "file": "allfiring-map"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "all-firing-android",
+        "file": "all-firing-android"
+      },
+      {
+        "slug": "all-firing-download",
+        "file": "all-firing-download"
+      },
+      {
+        "slug": "all-firing-googleplay",
+        "file": "all-firing-googleplay"
+      },
+      {
+        "slug": "all-firing-ios",
+        "file": "all-firing-ios"
+      },
+      {
+        "slug": "all-firing-mobile",
+        "file": "all-firing-mobile"
+      },
+      {
+        "slug": "all-firing-pc",
+        "file": "all-firing-pc"
+      },
+      {
+        "slug": "all-firing-play-store",
+        "file": "all-firing-play-store"
+      },
+      {
+        "slug": "all-firing-steam",
+        "file": "all-firing-steam"
+      }
+    ],
+    "release": [
+      {
+        "slug": "all-firing-game-release",
+        "file": "all-firing-game-release"
+      },
+      {
+        "slug": "all-firing-global-launch",
+        "file": "all-firing-global-launch"
+      },
+      {
+        "slug": "all-firing-launch-date",
+        "file": "all-firing-launch-date"
+      },
+      {
+        "slug": "all-firing-pre-register",
+        "file": "all-firing-pre-register"
+      },
+      {
+        "slug": "all-firing-release-date",
+        "file": "all-firing-release-date"
+      },
+      {
+        "slug": "all-firing-release-time-utc",
+        "file": "all-firing-release-time-utc"
+      },
+      {
+        "slug": "all-firing-release-time",
+        "file": "all-firing-release-time"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "all-firing-best-reroll-target",
+        "file": "all-firing-best-reroll-target"
+      },
+      {
+        "slug": "all-firing-fast-reroll-guide",
+        "file": "all-firing-fast-reroll-guide"
+      },
+      {
+        "slug": "all-firing-launch-reroll",
+        "file": "all-firing-launch-reroll"
+      },
+      {
+        "slug": "all-firing-reroll-account",
+        "file": "all-firing-reroll-account"
+      },
+      {
+        "slug": "all-firing-reroll-guide",
+        "file": "all-firing-reroll-guide"
+      },
+      {
+        "slug": "all-firing-reroll-tier-list",
+        "file": "all-firing-reroll-tier-list"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "all-firing-best-build",
+        "file": "all-firing-best-build"
+      },
+      {
+        "slug": "all-firing-best-characters",
+        "file": "all-firing-best-characters"
+      },
+      {
+        "slug": "all-firing-best-team",
+        "file": "all-firing-best-team"
+      },
+      {
+        "slug": "all-firing-best-weapons",
+        "file": "all-firing-best-weapons"
+      },
+      {
+        "slug": "all-firing-cn-tier-list",
+        "file": "all-firing-cn-tier-list"
+      },
+      {
+        "slug": "all-firing-meta",
+        "file": "all-firing-meta"
+      },
+      {
+        "slug": "all-firing-tier-list",
+        "file": "all-firing-tier-list"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "all-firing-character",
+        "file": "all-firing-character"
+      },
+      {
+        "slug": "all-firing-characters",
+        "file": "all-firing-characters"
+      },
+      {
+        "slug": "all-firing-chibi",
+        "file": "all-firing-chibi"
+      },
+      {
+        "slug": "all-firing-companions",
+        "file": "all-firing-companions"
+      },
+      {
+        "slug": "all-firing-felgia",
+        "file": "all-firing-felgia"
+      },
+      {
+        "slug": "all-firing-herfwin",
+        "file": "all-firing-herfwin"
+      },
+      {
+        "slug": "all-firing-ilscha",
+        "file": "all-firing-ilscha"
+      },
+      {
+        "slug": "all-firing-kirika",
+        "file": "all-firing-kirika"
+      },
+      {
+        "slug": "all-firing-lyra",
+        "file": "all-firing-lyra"
+      },
+      {
+        "slug": "all-firing-nayeh",
+        "file": "all-firing-nayeh"
+      },
+      {
+        "slug": "all-firing-prometheus",
+        "file": "all-firing-prometheus"
+      },
+      {
+        "slug": "all-firing-romance",
+        "file": "all-firing-romance"
+      },
+      {
+        "slug": "all-firing-rozeul",
+        "file": "all-firing-rozeul"
+      },
+      {
+        "slug": "all-firing-sion",
+        "file": "all-firing-sion"
+      },
+      {
+        "slug": "allfiring-nightseer-vine",
+        "file": "allfiring-nightseer-vine"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "all-firing-codes",
+        "file": "all-firing-codes"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "all-firing-banners",
+        "file": "all-firing-banners"
+      },
+      {
+        "slug": "all-firing-currency",
+        "file": "all-firing-currency"
+      },
+      {
+        "slug": "all-firing-gacha-game",
+        "file": "all-firing-gacha-game"
+      },
+      {
+        "slug": "all-firing-gacha",
+        "file": "all-firing-gacha"
+      },
+      {
+        "slug": "all-firing-pity",
+        "file": "all-firing-pity"
+      },
+      {
+        "slug": "all-firing-rewards",
+        "file": "all-firing-rewards"
+      },
+      {
+        "slug": "all-firing-summons",
+        "file": "all-firing-summons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "all-firing-beginner-guide",
+        "file": "all-firing-beginner-guide"
+      },
+      {
+        "slug": "all-firing-cn",
+        "file": "all-firing-cn"
+      },
+      {
+        "slug": "all-firing-commands",
+        "file": "all-firing-commands"
+      },
+      {
+        "slug": "all-firing-elemental-resonance",
+        "file": "all-firing-elemental-resonance"
+      },
+      {
+        "slug": "all-firing-f2p-guide",
+        "file": "all-firing-f2p-guide"
+      },
+      {
+        "slug": "all-firing-first-impressions",
+        "file": "all-firing-first-impressions"
+      },
+      {
+        "slug": "all-firing-game",
+        "file": "all-firing-game"
+      },
+      {
+        "slug": "all-firing-gameplay",
+        "file": "all-firing-gameplay"
+      },
+      {
+        "slug": "all-firing-global-launch-guide",
+        "file": "all-firing-global-launch-guide"
+      },
+      {
+        "slug": "all-firing-guide",
+        "file": "all-firing-guide"
+      },
+      {
+        "slug": "all-firing-how-to-play",
+        "file": "all-firing-how-to-play"
+      },
+      {
+        "slug": "all-firing-map",
+        "file": "all-firing-map"
+      },
+      {
+        "slug": "all-firing-modes",
+        "file": "all-firing-modes"
+      },
+      {
+        "slug": "all-firing-relics",
+        "file": "all-firing-relics"
+      },
+      {
+        "slug": "all-firing-tips",
+        "file": "all-firing-tips"
+      },
+      {
+        "slug": "all-firing-walkthrough",
+        "file": "all-firing-walkthrough"
+      },
+      {
+        "slug": "allfiring-ascension-materials",
+        "file": "allfiring-ascension-materials"
+      },
+      {
+        "slug": "allfiring-map",
+        "file": "allfiring-map"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "all-firing-android",
+        "file": "all-firing-android"
+      },
+      {
+        "slug": "all-firing-download",
+        "file": "all-firing-download"
+      },
+      {
+        "slug": "all-firing-googleplay",
+        "file": "all-firing-googleplay"
+      },
+      {
+        "slug": "all-firing-ios",
+        "file": "all-firing-ios"
+      },
+      {
+        "slug": "all-firing-mobile",
+        "file": "all-firing-mobile"
+      },
+      {
+        "slug": "all-firing-pc",
+        "file": "all-firing-pc"
+      },
+      {
+        "slug": "all-firing-play-store",
+        "file": "all-firing-play-store"
+      },
+      {
+        "slug": "all-firing-steam",
+        "file": "all-firing-steam"
+      }
+    ],
+    "release": [
+      {
+        "slug": "all-firing-game-release",
+        "file": "all-firing-game-release"
+      },
+      {
+        "slug": "all-firing-global-launch",
+        "file": "all-firing-global-launch"
+      },
+      {
+        "slug": "all-firing-launch-date",
+        "file": "all-firing-launch-date"
+      },
+      {
+        "slug": "all-firing-pre-register",
+        "file": "all-firing-pre-register"
+      },
+      {
+        "slug": "all-firing-release-date",
+        "file": "all-firing-release-date"
+      },
+      {
+        "slug": "all-firing-release-time-utc",
+        "file": "all-firing-release-time-utc"
+      },
+      {
+        "slug": "all-firing-release-time",
+        "file": "all-firing-release-time"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "all-firing-best-reroll-target",
+        "file": "all-firing-best-reroll-target"
+      },
+      {
+        "slug": "all-firing-fast-reroll-guide",
+        "file": "all-firing-fast-reroll-guide"
+      },
+      {
+        "slug": "all-firing-launch-reroll",
+        "file": "all-firing-launch-reroll"
+      },
+      {
+        "slug": "all-firing-reroll-account",
+        "file": "all-firing-reroll-account"
+      },
+      {
+        "slug": "all-firing-reroll-guide",
+        "file": "all-firing-reroll-guide"
+      },
+      {
+        "slug": "all-firing-reroll-tier-list",
+        "file": "all-firing-reroll-tier-list"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "all-firing-best-build",
+        "file": "all-firing-best-build"
+      },
+      {
+        "slug": "all-firing-best-characters",
+        "file": "all-firing-best-characters"
+      },
+      {
+        "slug": "all-firing-best-team",
+        "file": "all-firing-best-team"
+      },
+      {
+        "slug": "all-firing-best-weapons",
+        "file": "all-firing-best-weapons"
+      },
+      {
+        "slug": "all-firing-cn-tier-list",
+        "file": "all-firing-cn-tier-list"
+      },
+      {
+        "slug": "all-firing-meta",
+        "file": "all-firing-meta"
+      },
+      {
+        "slug": "all-firing-tier-list",
+        "file": "all-firing-tier-list"
+      }
+    ]
+  },
+  "ko": {
+    "characters": [
+      {
+        "slug": "all-firing-character",
+        "file": "all-firing-character"
+      },
+      {
+        "slug": "all-firing-characters",
+        "file": "all-firing-characters"
+      },
+      {
+        "slug": "all-firing-chibi",
+        "file": "all-firing-chibi"
+      },
+      {
+        "slug": "all-firing-companions",
+        "file": "all-firing-companions"
+      },
+      {
+        "slug": "all-firing-felgia",
+        "file": "all-firing-felgia"
+      },
+      {
+        "slug": "all-firing-herfwin",
+        "file": "all-firing-herfwin"
+      },
+      {
+        "slug": "all-firing-ilscha",
+        "file": "all-firing-ilscha"
+      },
+      {
+        "slug": "all-firing-kirika",
+        "file": "all-firing-kirika"
+      },
+      {
+        "slug": "all-firing-lyra",
+        "file": "all-firing-lyra"
+      },
+      {
+        "slug": "all-firing-nayeh",
+        "file": "all-firing-nayeh"
+      },
+      {
+        "slug": "all-firing-prometheus",
+        "file": "all-firing-prometheus"
+      },
+      {
+        "slug": "all-firing-romance",
+        "file": "all-firing-romance"
+      },
+      {
+        "slug": "all-firing-rozeul",
+        "file": "all-firing-rozeul"
+      },
+      {
+        "slug": "all-firing-sion",
+        "file": "all-firing-sion"
+      },
+      {
+        "slug": "allfiring-nightseer-vine",
+        "file": "allfiring-nightseer-vine"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "all-firing-codes",
+        "file": "all-firing-codes"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "all-firing-banners",
+        "file": "all-firing-banners"
+      },
+      {
+        "slug": "all-firing-currency",
+        "file": "all-firing-currency"
+      },
+      {
+        "slug": "all-firing-gacha-game",
+        "file": "all-firing-gacha-game"
+      },
+      {
+        "slug": "all-firing-gacha",
+        "file": "all-firing-gacha"
+      },
+      {
+        "slug": "all-firing-pity",
+        "file": "all-firing-pity"
+      },
+      {
+        "slug": "all-firing-rewards",
+        "file": "all-firing-rewards"
+      },
+      {
+        "slug": "all-firing-summons",
+        "file": "all-firing-summons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "all-firing-beginner-guide",
+        "file": "all-firing-beginner-guide"
+      },
+      {
+        "slug": "all-firing-cn",
+        "file": "all-firing-cn"
+      },
+      {
+        "slug": "all-firing-commands",
+        "file": "all-firing-commands"
+      },
+      {
+        "slug": "all-firing-elemental-resonance",
+        "file": "all-firing-elemental-resonance"
+      },
+      {
+        "slug": "all-firing-f2p-guide",
+        "file": "all-firing-f2p-guide"
+      },
+      {
+        "slug": "all-firing-first-impressions",
+        "file": "all-firing-first-impressions"
+      },
+      {
+        "slug": "all-firing-game",
+        "file": "all-firing-game"
+      },
+      {
+        "slug": "all-firing-gameplay",
+        "file": "all-firing-gameplay"
+      },
+      {
+        "slug": "all-firing-global-launch-guide",
+        "file": "all-firing-global-launch-guide"
+      },
+      {
+        "slug": "all-firing-guide",
+        "file": "all-firing-guide"
+      },
+      {
+        "slug": "all-firing-how-to-play",
+        "file": "all-firing-how-to-play"
+      },
+      {
+        "slug": "all-firing-map",
+        "file": "all-firing-map"
+      },
+      {
+        "slug": "all-firing-modes",
+        "file": "all-firing-modes"
+      },
+      {
+        "slug": "all-firing-relics",
+        "file": "all-firing-relics"
+      },
+      {
+        "slug": "all-firing-tips",
+        "file": "all-firing-tips"
+      },
+      {
+        "slug": "all-firing-walkthrough",
+        "file": "all-firing-walkthrough"
+      },
+      {
+        "slug": "allfiring-ascension-materials",
+        "file": "allfiring-ascension-materials"
+      },
+      {
+        "slug": "allfiring-map",
+        "file": "allfiring-map"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "all-firing-android",
+        "file": "all-firing-android"
+      },
+      {
+        "slug": "all-firing-download",
+        "file": "all-firing-download"
+      },
+      {
+        "slug": "all-firing-googleplay",
+        "file": "all-firing-googleplay"
+      },
+      {
+        "slug": "all-firing-ios",
+        "file": "all-firing-ios"
+      },
+      {
+        "slug": "all-firing-mobile",
+        "file": "all-firing-mobile"
+      },
+      {
+        "slug": "all-firing-pc",
+        "file": "all-firing-pc"
+      },
+      {
+        "slug": "all-firing-play-store",
+        "file": "all-firing-play-store"
+      },
+      {
+        "slug": "all-firing-steam",
+        "file": "all-firing-steam"
+      }
+    ],
+    "release": [
+      {
+        "slug": "all-firing-game-release",
+        "file": "all-firing-game-release"
+      },
+      {
+        "slug": "all-firing-global-launch",
+        "file": "all-firing-global-launch"
+      },
+      {
+        "slug": "all-firing-launch-date",
+        "file": "all-firing-launch-date"
+      },
+      {
+        "slug": "all-firing-pre-register",
+        "file": "all-firing-pre-register"
+      },
+      {
+        "slug": "all-firing-release-date",
+        "file": "all-firing-release-date"
+      },
+      {
+        "slug": "all-firing-release-time-utc",
+        "file": "all-firing-release-time-utc"
+      },
+      {
+        "slug": "all-firing-release-time",
+        "file": "all-firing-release-time"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "all-firing-best-reroll-target",
+        "file": "all-firing-best-reroll-target"
+      },
+      {
+        "slug": "all-firing-fast-reroll-guide",
+        "file": "all-firing-fast-reroll-guide"
+      },
+      {
+        "slug": "all-firing-launch-reroll",
+        "file": "all-firing-launch-reroll"
+      },
+      {
+        "slug": "all-firing-reroll-account",
+        "file": "all-firing-reroll-account"
+      },
+      {
+        "slug": "all-firing-reroll-guide",
+        "file": "all-firing-reroll-guide"
+      },
+      {
+        "slug": "all-firing-reroll-tier-list",
+        "file": "all-firing-reroll-tier-list"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "all-firing-best-build",
+        "file": "all-firing-best-build"
+      },
+      {
+        "slug": "all-firing-best-characters",
+        "file": "all-firing-best-characters"
+      },
+      {
+        "slug": "all-firing-best-team",
+        "file": "all-firing-best-team"
+      },
+      {
+        "slug": "all-firing-best-weapons",
+        "file": "all-firing-best-weapons"
+      },
+      {
+        "slug": "all-firing-cn-tier-list",
+        "file": "all-firing-cn-tier-list"
+      },
+      {
+        "slug": "all-firing-meta",
+        "file": "all-firing-meta"
+      },
+      {
+        "slug": "all-firing-tier-list",
+        "file": "all-firing-tier-list"
+      }
+    ]
+  },
+  "th": {
+    "characters": [
+      {
+        "slug": "all-firing-character",
+        "file": "all-firing-character"
+      },
+      {
+        "slug": "all-firing-characters",
+        "file": "all-firing-characters"
+      },
+      {
+        "slug": "all-firing-chibi",
+        "file": "all-firing-chibi"
+      },
+      {
+        "slug": "all-firing-companions",
+        "file": "all-firing-companions"
+      },
+      {
+        "slug": "all-firing-felgia",
+        "file": "all-firing-felgia"
+      },
+      {
+        "slug": "all-firing-herfwin",
+        "file": "all-firing-herfwin"
+      },
+      {
+        "slug": "all-firing-ilscha",
+        "file": "all-firing-ilscha"
+      },
+      {
+        "slug": "all-firing-kirika",
+        "file": "all-firing-kirika"
+      },
+      {
+        "slug": "all-firing-lyra",
+        "file": "all-firing-lyra"
+      },
+      {
+        "slug": "all-firing-nayeh",
+        "file": "all-firing-nayeh"
+      },
+      {
+        "slug": "all-firing-prometheus",
+        "file": "all-firing-prometheus"
+      },
+      {
+        "slug": "all-firing-romance",
+        "file": "all-firing-romance"
+      },
+      {
+        "slug": "all-firing-rozeul",
+        "file": "all-firing-rozeul"
+      },
+      {
+        "slug": "all-firing-sion",
+        "file": "all-firing-sion"
+      },
+      {
+        "slug": "allfiring-nightseer-vine",
+        "file": "allfiring-nightseer-vine"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "all-firing-codes",
+        "file": "all-firing-codes"
+      }
+    ],
+    "gacha": [
+      {
+        "slug": "all-firing-banners",
+        "file": "all-firing-banners"
+      },
+      {
+        "slug": "all-firing-currency",
+        "file": "all-firing-currency"
+      },
+      {
+        "slug": "all-firing-gacha-game",
+        "file": "all-firing-gacha-game"
+      },
+      {
+        "slug": "all-firing-gacha",
+        "file": "all-firing-gacha"
+      },
+      {
+        "slug": "all-firing-pity",
+        "file": "all-firing-pity"
+      },
+      {
+        "slug": "all-firing-rewards",
+        "file": "all-firing-rewards"
+      },
+      {
+        "slug": "all-firing-summons",
+        "file": "all-firing-summons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "all-firing-beginner-guide",
+        "file": "all-firing-beginner-guide"
+      },
+      {
+        "slug": "all-firing-cn",
+        "file": "all-firing-cn"
+      },
+      {
+        "slug": "all-firing-commands",
+        "file": "all-firing-commands"
+      },
+      {
+        "slug": "all-firing-elemental-resonance",
+        "file": "all-firing-elemental-resonance"
+      },
+      {
+        "slug": "all-firing-f2p-guide",
+        "file": "all-firing-f2p-guide"
+      },
+      {
+        "slug": "all-firing-first-impressions",
+        "file": "all-firing-first-impressions"
+      },
+      {
+        "slug": "all-firing-game",
+        "file": "all-firing-game"
+      },
+      {
+        "slug": "all-firing-gameplay",
+        "file": "all-firing-gameplay"
+      },
+      {
+        "slug": "all-firing-global-launch-guide",
+        "file": "all-firing-global-launch-guide"
+      },
+      {
+        "slug": "all-firing-guide",
+        "file": "all-firing-guide"
+      },
+      {
+        "slug": "all-firing-how-to-play",
+        "file": "all-firing-how-to-play"
+      },
+      {
+        "slug": "all-firing-map",
+        "file": "all-firing-map"
+      },
+      {
+        "slug": "all-firing-modes",
+        "file": "all-firing-modes"
+      },
+      {
+        "slug": "all-firing-relics",
+        "file": "all-firing-relics"
+      },
+      {
+        "slug": "all-firing-tips",
+        "file": "all-firing-tips"
+      },
+      {
+        "slug": "all-firing-walkthrough",
+        "file": "all-firing-walkthrough"
+      },
+      {
+        "slug": "allfiring-ascension-materials",
+        "file": "allfiring-ascension-materials"
+      },
+      {
+        "slug": "allfiring-map",
+        "file": "allfiring-map"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "all-firing-android",
+        "file": "all-firing-android"
+      },
+      {
+        "slug": "all-firing-download",
+        "file": "all-firing-download"
+      },
+      {
+        "slug": "all-firing-googleplay",
+        "file": "all-firing-googleplay"
+      },
+      {
+        "slug": "all-firing-ios",
+        "file": "all-firing-ios"
+      },
+      {
+        "slug": "all-firing-mobile",
+        "file": "all-firing-mobile"
+      },
+      {
+        "slug": "all-firing-pc",
+        "file": "all-firing-pc"
+      },
+      {
+        "slug": "all-firing-play-store",
+        "file": "all-firing-play-store"
+      },
+      {
+        "slug": "all-firing-steam",
+        "file": "all-firing-steam"
+      }
+    ],
+    "release": [
+      {
+        "slug": "all-firing-game-release",
+        "file": "all-firing-game-release"
+      },
+      {
+        "slug": "all-firing-global-launch",
+        "file": "all-firing-global-launch"
+      },
+      {
+        "slug": "all-firing-launch-date",
+        "file": "all-firing-launch-date"
+      },
+      {
+        "slug": "all-firing-pre-register",
+        "file": "all-firing-pre-register"
+      },
+      {
+        "slug": "all-firing-release-date",
+        "file": "all-firing-release-date"
+      },
+      {
+        "slug": "all-firing-release-time-utc",
+        "file": "all-firing-release-time-utc"
+      },
+      {
+        "slug": "all-firing-release-time",
+        "file": "all-firing-release-time"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "all-firing-best-reroll-target",
+        "file": "all-firing-best-reroll-target"
+      },
+      {
+        "slug": "all-firing-fast-reroll-guide",
+        "file": "all-firing-fast-reroll-guide"
+      },
+      {
+        "slug": "all-firing-launch-reroll",
+        "file": "all-firing-launch-reroll"
+      },
+      {
+        "slug": "all-firing-reroll-account",
+        "file": "all-firing-reroll-account"
+      },
+      {
+        "slug": "all-firing-reroll-guide",
+        "file": "all-firing-reroll-guide"
+      },
+      {
+        "slug": "all-firing-reroll-tier-list",
+        "file": "all-firing-reroll-tier-list"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "all-firing-best-build",
+        "file": "all-firing-best-build"
+      },
+      {
+        "slug": "all-firing-best-characters",
+        "file": "all-firing-best-characters"
+      },
+      {
+        "slug": "all-firing-best-team",
+        "file": "all-firing-best-team"
+      },
+      {
+        "slug": "all-firing-best-weapons",
+        "file": "all-firing-best-weapons"
+      },
+      {
+        "slug": "all-firing-cn-tier-list",
+        "file": "all-firing-cn-tier-list"
+      },
+      {
+        "slug": "all-firing-meta",
+        "file": "all-firing-meta"
+      },
+      {
+        "slug": "all-firing-tier-list",
+        "file": "all-firing-tier-list"
+      }
+    ]
+  }
+}
