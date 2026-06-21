@@ -1,5 +1,5 @@
 import { BookOpen, Gift, Shield, RotateCcw, Users, Swords, Download, Trophy, Sparkles, ArrowRight, Check, Flame } from 'lucide-react'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
@@ -13,6 +13,7 @@ interface PageProps {
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations({ locale })
   const latestArticles = await getLatestArticles(locale as Language, 30)
 
